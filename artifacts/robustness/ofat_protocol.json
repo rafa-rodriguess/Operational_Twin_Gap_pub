@@ -1,0 +1,21 @@
+{
+  "arms": [
+    "R1_HGB",
+    "R2_AC",
+    "R3_POA20",
+    "R3_POA100",
+    "R4_CS3",
+    "R5_keep_all_valid",
+    "R6_O1",
+    "R6_O2",
+    "R6_O3"
+  ],
+  "design": "OFAT",
+  "note": "Primary RQ1\u2013RQ3 numbers come from stages 07\u201308. OFAT arm re-fits are optional follow-on compute.",
+  "r6_origins": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "r7_omitted": true
+}

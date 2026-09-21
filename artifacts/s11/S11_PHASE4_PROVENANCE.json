@@ -1,0 +1,47 @@
+{
+  "editorial_decision_only": true,
+  "generated_at_utc": "2026-09-21T01:20:07+00:00",
+  "helper_path": "src/lib/s11_phase4.py",
+  "manuscript": {
+    "paper/main.pdf": "241988426194d3224b5ab5211dc9c5aacd60c79c3a847bb14a1d2e11d4bcd942",
+    "paper/main.tex": "c974a83c82ec6608de38c58fd536d1be4b47740804d130639c965b1a90e0a843",
+    "pdf_pages": 7
+  },
+  "manuscript_files_not_edited": true,
+  "no_scientific_estimand_recomputed_or_changed": true,
+  "outputs": {
+    "artifacts/s11/S11_PHASE4_CONSOLIDATION.json": {
+      "bytes": 11329,
+      "sha256": "7d5c56efffe925a99b8dfe32ca53bdcfe0fc4b3e63208a77422b81f6549733aa"
+    },
+    "reports/scientific/S11_PHASE4_INCLUSION_DECISION.md": {
+      "bytes": 5325,
+      "sha256": "2d5cdb927936313a75ca3493855127532880523bf99d995b90d731138b5c7685"
+    }
+  },
+  "phase13_source_artifacts": {
+    "artifacts/s11/S11_A1_G3_ASYMMETRY.csv": "be0e3b6cd88a870a4a76c386a6a37519040c6eb03a4b77901fa2d29298b70987",
+    "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv": "f455e07004f706f3481a7affb119567bdec431effc5c308a168935b2adbed402",
+    "artifacts/s11/S11_A1_G3_PREFLIGHT.json": "8f682a467a2f936436771eecef818995fe4cea83db72373c87735e219164f877",
+    "artifacts/s11/S11_A1_G3_RQ1_TARGET.csv": "d76d8fc256506855ea92a75db5d13c52ce4de1c84cfd8613cae8ec7e06044a61",
+    "artifacts/s11/S11_A1_G3_RQ3_COMPARISONS.csv": "5e2a0170637f295aca633038fca2fd5db26b9d9a3e04d521fb2fced0a38e35ec",
+    "artifacts/s11/S11_A1_G3_RQ3_ELIGIBILITY.csv": "cdc494500f2597df391f8e9aae1f5f590fb161471b47889c06a23f821b619beb",
+    "artifacts/s11/S11_A1_G3_RQ3_TARGET_SUMMARY.csv": "2e2ec4ce33ecf7dcea652bc30f7f3e37b6fec2083e7420678fce34b732a462ef",
+    "artifacts/s11/S11_A1_G3_SUMMARY.json": "82640deefbd39ff40ad831e08397244791361cfaeb89826b9fee4c8a56855954",
+    "artifacts/s11/S11_A2_R8_COMPARISONS.csv": "1e1a17de41b302fb6b26e75f07f8762950b7da8c7bce5078410bacee87678b08",
+    "artifacts/s11/S11_A2_R8_ELIGIBILITY.csv": "038b2ef906e45235045c748cb3533bf31b783be4661df91f680e7b901acd65cc",
+    "artifacts/s11/S11_A2_R8_ELIGIBILITY_SUMMARY.json": "fed8ef3ef3924a4e6c15bed0820950bb101998ff2024cd0bc0f52c45be9b8b85",
+    "artifacts/s11/S11_A2_R8_SUMMARY.json": "5f47c58c1ba2df882e3ec2a5b0fa5786de79302215740bb2e9eb99379f6f48db",
+    "artifacts/s11/S11_A2_R8_TARGET_SUMMARY.csv": "709e417255ee4cf10e76dea708e4afae6fd87ddba8de13eeb6c98e7ac18348a8",
+    "artifacts/s11/S11_A3_SUMMARY.json": "2b5619df3731472c5686087ec472dcba1d1ebdb8ceca451c647aa17ddfb06002",
+    "artifacts/s11/S11_A3_TARGET_SPREAD.csv": "b3d28edd5e4fd261b9e443b578f811b318c37f5a44e7b8ae3c6377a50867b379",
+    "artifacts/s11/S11_A4_RQ1_BY_GROUP.csv": "3bb48b9b9a56242a99d1a9eed2089d4f1bd4a5f13a2b9222c78da7703b1e949e",
+    "artifacts/s11/S11_A4_TARGET_MEANS.csv": "dbccfa3c5b17a46d8fc8247d046b1bb33d0b412afe04a23b6c6a7fba4fcfe2c2",
+    "artifacts/s11/S11_PHASE1_PROVENANCE.json": "bc55bc255caf4e0042130312eb36cb405f1f9d4138fd06bae198f8dfb6d2a50c",
+    "artifacts/s11/S11_PHASE2_A2_PROVENANCE.json": "c376c9f11d1dba2a63e34ffb97dd2fb9fdd3e11699973f24ae53a6a94c872925",
+    "artifacts/s11/S11_PHASE3_A1_G3_PROVENANCE.json": "449e10d038b899eb072f159b9c43adbac63067329fbc30f610f2a86cca4569f9"
+  },
+  "repository_head": "36b290617edcfec5772d787cbf5d1768b67f2367",
+  "script_path": "src/run/18_s11_phase4.py",
+  "self_hash_registered_externally": true
+}

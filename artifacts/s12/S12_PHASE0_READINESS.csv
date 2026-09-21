@@ -1,0 +1,15 @@
+phase,dependency,status,source,refit,row_level,action,cost
+P1,canonical TRAIN membership + timestamps,PERSISTED_READY,artifacts/s04/S04_ANALYTIC_INDEX.parquet,False,True,split TRAIN chronologically into A/B and 7-day interleaved blocks from S04 index,low
+P1,half-history and placebo SplineRidge fits,REQUIRES_REFIT,artifacts/s04/models + panel,True,True,new comparable fits; do not overwrite S04 joblib,high
+P2,directional OTG and support_retention,PERSISTED_READY,artifacts/s07/S07_OTG_DIRECTIONAL.csv,False,False,associate |OTG| and relative OTG with retention; R7 = retention>=0.5 subset,low
+P2,row-level CS4 masks (optional strata),PERSISTED_READY,artifacts/s05/S05_SUPPORT_MASKS.parquet,False,True,use masks if stratum needs row recovery; transfer-level retention already in S07,low
+P3,source TRAIN features + CS4 engine,REQUIRES_REFIT,panel + protocol CS4; S05 threshold reconstructs current tau,True,True,R9 sensitivity: IQR→1.4826*MAD→omit degenerate feature; do not promote to primary,medium
+P4,TEST transfer/local predictions,PERSISTED_READY,artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet,False,True,MBE on persisted TEST rows,low
+P4,transfer predictions on target VALIDATION,REQUIRES_INSTRUMENTATION,S04 joblib + VAL index; S06 is TEST-only,False,True,score persisted models on VAL only; never estimate recalibration on TEST,medium
+P5,directional OTG matrix,PERSISTED_READY,artifacts/s07/S07_OTG_DIRECTIONAL.csv,False,False,leave-one-plant-out by dropping that plant as source and target; G2 vs non-G2 descriptive,trivial
+P6,TRAIN calendar spans,PERSISTED_READY,S04 analytic index,False,False,choose common recent TRAIN window from inventory,low
+P6,refit on truncated TRAIN (R10),REQUIRES_REFIT,panel + truncated index,True,True,new fits; keep R8 name for S11 control-set arm,high
+P7,RQ3 mapping and source contrasts,PERSISTED_READY,artifacts/rq3/mapping.csv + source_contrasts.csv,False,False,group by three matched controls; leave-one-control-out descriptive; no cluster-bootstrap as main output,trivial
+P8,pooled source models pool(-j)/pool(-G_j),REQUIRES_REFIT,panel + S04 splits,True,True,plant-balanced or equal-plant training weights; evaluate on twin-compatible S05/S06 TEST rows,high
+P8,twin-compatible evaluation rows,PERSISTED_READY,S05 CS4 ∩ S06 TEST keys,False,True,restrict pooled predictions to existing supported TEST rows,low
+P9,source TRAIN features and supported target features,DETERMINISTIC_RECONSTRUCTION_READY,panel + S04 train + S05 supported TEST,False,True,energy distance/MMD jointly with retention; exploratory only,medium

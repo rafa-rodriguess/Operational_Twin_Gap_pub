@@ -1,0 +1,23 @@
+{
+  "cs3_metrics": false,
+  "cs3_nested_in_cs4": true,
+  "cs4_computable": 85,
+  "cs4_noncomputable": 9,
+  "local_equals_s04": "PASS",
+  "mae_difference_computed": false,
+  "metric_row_count": 170,
+  "model_family_roles": {
+    "HistGradientBoosting": "r1_frozen_input",
+    "SplineRidge": "primary"
+  },
+  "n_supported_per_pair": "PASS",
+  "no_new_training": true,
+  "pair_universe": 94,
+  "prediction_row_count": 74330,
+  "s04_local_test_predictions": "PASS",
+  "s04_model_manifest_hashes": "PASS",
+  "s05_support_masks": "PASS",
+  "sr_per_pair": "PASS",
+  "timestamps_in_cs4_supported_mask": "PASS",
+  "y_true_reconciliation": "PASS"
+}

@@ -1,0 +1,70 @@
+{
+  "cs1_cs2_executed": false,
+  "cs3": {
+    "n_computable": 85,
+    "n_expected": 94,
+    "n_noncomputable": 9,
+    "n_zero_supported_among_computable": 0,
+    "noncomputable_identities": [
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_042"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_043"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_044"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_045"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_046"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_047"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_049"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_050"
+      },
+      {
+        "source_plant_id": "PS_048",
+        "target_plant_id": "PS_051"
+      }
+    ],
+    "sr_max": 0.8814463544754001,
+    "sr_median": 0.3563380281690141,
+    "sr_min": 0.0558858501783591,
+    "supported_row_total": 29291
+  },
+  "cs3_counts_match_corrected_s03": true,
+  "cs4": {
+    "n_computable": 85,
+    "n_expected": 94,
+    "n_noncomputable": 9,
+    "n_zero_supported_among_computable": 0,
+    "noncomputable_identities": [],
+    "sr_max": 0.9481327800829875,
+    "sr_median": 0.5408299866131191,
+    "sr_min": 0.08204518430439953,
+    "supported_row_total": 37165
+  },
+  "cs4_noncomputable_identities_match_scope": true,
+  "model_or_outcome_opened": false,
+  "pair_universe": 94,
+  "per_pair_threshold_count_sr": "PASS",
+  "primary_groups_ok": true,
+  "s04_prediction_artifacts_opened": false,
+  "tolerance_abs": 1e-12
+}

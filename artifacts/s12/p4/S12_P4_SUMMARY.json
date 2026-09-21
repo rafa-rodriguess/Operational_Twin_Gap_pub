@@ -1,0 +1,413 @@
+{
+  "bias": {
+    "abs_local_mbe": {
+      "max": 0.104111043944126,
+      "mean": 0.022722276027143187,
+      "median": 0.015686296875847824,
+      "min": 8.398127166817565e-05,
+      "n": 85,
+      "p25": 0.006943377065476016,
+      "p75": 0.0356131664952168,
+      "p95": 0.06461498856913302
+    },
+    "abs_mbe_reduction_offset": {
+      "max": 0.1818847311687452,
+      "mean": 0.017246567738084518,
+      "median": 0.005438149113352046,
+      "min": -0.04614036231869316,
+      "n": 85,
+      "p25": -0.005597870250208765,
+      "p75": 0.023270297170084747,
+      "p95": 0.11757000280427288
+    },
+    "abs_transfer_mbe_0": {
+      "max": 0.18399214451536902,
+      "mean": 0.03580977638220252,
+      "median": 0.02116583095090602,
+      "min": 0.0004245997613557836,
+      "n": 85,
+      "p25": 0.011644015602284404,
+      "p75": 0.04083450654821769,
+      "p95": 0.1447609443568922
+    },
+    "centered_mae_after_offset": {
+      "max": 0.11784230830362631,
+      "mean": 0.06626345279778961,
+      "median": 0.06439054175405559,
+      "min": 0.03127275133653346,
+      "n": 85,
+      "p25": 0.05486509653490771,
+      "p75": 0.07654715468003383,
+      "p95": 0.09450388374244358
+    },
+    "centered_mae_local": {
+      "max": 0.10879157177583043,
+      "mean": 0.060366940468836824,
+      "median": 0.059950484688840684,
+      "min": 0.026514077977380607,
+      "n": 85,
+      "p25": 0.0483485306945412,
+      "p75": 0.06745807376512612,
+      "p95": 0.08802744610782884
+    },
+    "centered_mae_transfer_0": {
+      "max": 0.1178423083036263,
+      "mean": 0.0662634527977896,
+      "median": 0.06439054175405559,
+      "min": 0.03127275133653346,
+      "n": 85,
+      "p25": 0.0548650965349077,
+      "p75": 0.0765471546800338,
+      "p95": 0.09450388374244358
+    },
+    "centered_rmse_transfer_0": {
+      "max": 0.16828949977886867,
+      "mean": 0.10160685862562266,
+      "median": 0.10310103320486036,
+      "min": 0.04865955496305465,
+      "n": 85,
+      "p25": 0.08503770490979903,
+      "p75": 0.11388916000966079,
+      "p95": 0.14010217163868724
+    },
+    "local_mbe": {
+      "max": 0.043099153705318465,
+      "mean": -0.011900673665713355,
+      "median": -0.0017906899415533982,
+      "min": -0.104111043944126,
+      "n": 85,
+      "p25": -0.03427133514784871,
+      "p75": 0.00851242151024364,
+      "p95": 0.019056683071131595
+    },
+    "mbe_after_offset": {
+      "max": 0.04916493193717096,
+      "mean": 0.0010716797452133323,
+      "median": 0.005246232705485072,
+      "min": -0.08263689648045927,
+      "n": 85,
+      "p25": -0.004551386725445896,
+      "p75": 0.016756916448611013,
+      "p95": 0.03149679014130433
+    },
+    "transfer_mbe_0": {
+      "max": 0.07505797109281796,
+      "mean": -0.008890992102870586,
+      "median": 0.0027249032115379073,
+      "min": -0.18399214451536902,
+      "n": 85,
+      "p25": -0.020326879093706996,
+      "p75": 0.022457953181092963,
+      "p95": 0.048003606350437024
+    }
+  },
+  "calibration_n": {
+    "max": 2607.0,
+    "mean": 452.47058823529414,
+    "median": 447.0,
+    "min": 73.0,
+    "n": 85,
+    "p25": 236.0,
+    "p75": 541.0,
+    "p95": 719.8
+  },
+  "centered_error_note": "centered MAE/RMSE are descriptive after removing mean residual; not an additive MAE decomposition",
+  "contextual_reduction_affine": 1.0973384137917999,
+  "contextual_reduction_note": "Optional fleet-level 1 - PB_OTG_k/PB_OTG_0; not a mean of per-direction percentages. When PB_OTG_k2 < 0 the k2 ratio overshoots 1 and is not a percent of penalty removed.",
+  "contextual_reduction_offset": 0.5760620105814402,
+  "delta_affine": {
+    "distribution": {
+      "max": 0.14328733634458224,
+      "mean": 0.014311144631713778,
+      "median": 0.0035730372019975795,
+      "min": -0.02955340125725915,
+      "n": 85,
+      "p25": -0.0005825037696642194,
+      "p75": 0.013232320102038203,
+      "p95": 0.1048823384397053
+    },
+    "frac_improved": 0.7176470588235294,
+    "frac_worsened": 0.2823529411764706,
+    "mean": 0.014311144631713778,
+    "median": 0.0035730372019975795,
+    "n": 85,
+    "n_improved": 61,
+    "n_targets": 14,
+    "n_unchanged": 0,
+    "n_worsened": 24,
+    "plant_balanced": 0.010670085130980736
+  },
+  "delta_distribution": {
+    "max": 0.19958169805512355,
+    "mean": 0.009962671848083917,
+    "median": 0.0025980492834418944,
+    "min": -0.14441475296998435,
+    "n": 85,
+    "p25": -0.01818332451852644,
+    "p75": 0.030758938500232643,
+    "p95": 0.16128839686597898
+  },
+  "delta_offset": {
+    "distribution": {
+      "max": 0.10406510352402362,
+      "mean": 0.008287875351486507,
+      "median": 0.0013052252609602813,
+      "min": -0.02383826584514248,
+      "n": 85,
+      "p25": -0.0009719569485611146,
+      "p75": 0.006808780584696222,
+      "p95": 0.06683143354060184
+    },
+    "frac_improved": 0.6235294117647059,
+    "frac_worsened": 0.3764705882352941,
+    "mean": 0.008287875351486507,
+    "median": 0.0013052252609602813,
+    "n": 85,
+    "n_improved": 53,
+    "n_targets": 14,
+    "n_unchanged": 0,
+    "n_worsened": 32,
+    "plant_balanced": 0.005601399364475456
+  },
+  "intercept_distribution": {
+    "max": 0.08654533525351396,
+    "mean": -0.005642947991248195,
+    "median": -0.00613630991389028,
+    "min": -0.11749356181656158,
+    "n": 85,
+    "p25": -0.03051527093691714,
+    "p75": 0.019144118293375485,
+    "p95": 0.07002727355537432
+  },
+  "interpretation": {
+    "contextual_ratio_k2_is_overshoot": true,
+    "descriptors": [
+      "offset correction removes a substantial portion of the fleet-level residual penalty",
+      "affine correction adds substantial reduction beyond offset and moves plant-balanced OTG slightly below zero",
+      "response remains heterogeneous because nontrivial sets of directions worsen under both corrections"
+    ],
+    "text": "Offset correction reduces plant-balanced OTG from 0.009723604857785641 to 0.0041222054933101855 (PB Delta_OTG 0.005601399364475456; 53/85 directions improve, 32/85 worsen). Affine correction reduces it further to -0.000946480273195094 (PB Delta_OTG 0.010670085130980736; 61/85 improve, 24/85 worsen), moving fleet-level plant-balanced OTG slightly below zero. RQ2 plant-balanced |A| is 0.026622430133826737 (k=0), 0.015496536535324687 (k=1), 0.01175731889409727 (k=2) on 38 same-level pairs. Median |delta| 0.027402493349015244; median |b-1| 0.061955366855692695. The ratio 1 - PB_OTG_k2/PB_OTG_k0 = 1.0973384137917999 is not a share of penalty removed: PB_OTG_k2 is negative, so the ratio overshoots 1. Headline comparisons use absolute plant-balanced OTG and Delta_OTG, not that ratio.",
+    "threshold_rules_used": false
+  },
+  "k0": {
+    "abs_transfer_mbe": {
+      "max": 0.18399214451536902,
+      "mean": 0.03580977638220252,
+      "median": 0.02116583095090602,
+      "min": 0.0004245997613557836,
+      "n": 85,
+      "p25": 0.011644015602284404,
+      "p75": 0.04083450654821769,
+      "p95": 0.1447609443568922
+    },
+    "directional_mean_otg": 0.014307448948508569,
+    "directional_median_otg": 0.005620504664835005,
+    "group_plant_balanced": {
+      "TW_04b9f5d95694": 0.0010783871471068823,
+      "TW_4467a039e00b": 0.015181496979951397,
+      "TW_88a108921af7": -0.008920638042364377
+    },
+    "n_planned": 85,
+    "n_targets": 14,
+    "n_test_evaluable": 85,
+    "otg": {
+      "max": 0.1186737048292433,
+      "mean": 0.014307448948508569,
+      "median": 0.005620504664835005,
+      "min": -0.0397182861422483,
+      "n": 85,
+      "p25": 0.000123874310040753,
+      "p75": 0.015195240447891868,
+      "p95": 0.10721155659753176
+    },
+    "plant_balanced_otg": 0.009723604857785641,
+    "plant_balanced_otg_iterate": 0.009723604857785643,
+    "rel_median": 0.09068350552690223,
+    "rel_p75": 0.2858920511133578,
+    "transfer_mae": {
+      "max": 0.19683393639506486,
+      "mean": 0.07780438825148162,
+      "median": 0.0684385128181217,
+      "min": 0.0316825504910523,
+      "n": 85,
+      "p25": 0.05927038499357897,
+      "p75": 0.08424368045986068,
+      "p95": 0.1531619611345721
+    }
+  },
+  "k1": {
+    "abs_transfer_mbe": {
+      "max": 0.08263689648045927,
+      "mean": 0.018563208644118,
+      "median": 0.013713637343971179,
+      "min": 0.00022394512844561742,
+      "n": 85,
+      "p25": 0.005018398641526953,
+      "p75": 0.02592474934391576,
+      "p95": 0.0529799555693607
+    },
+    "directional_mean_otg": 0.006019573597022062,
+    "directional_median_otg": 0.005016406165579745,
+    "group_plant_balanced": {
+      "TW_04b9f5d95694": 0.00813144573638716,
+      "TW_4467a039e00b": 0.0062860893715281614,
+      "TW_88a108921af7": -0.01070645414085667
+    },
+    "n_calibration_eligible": 85,
+    "n_planned": 85,
+    "n_targets": 14,
+    "n_test_evaluable": 85,
+    "otg": {
+      "max": 0.060710831183857394,
+      "mean": 0.006019573597022062,
+      "median": 0.005016406165579745,
+      "min": -0.022726170856680578,
+      "n": 85,
+      "p25": -0.0018238073392773807,
+      "p75": 0.01324504996429185,
+      "p95": 0.037921234587060024
+    },
+    "plant_balanced_otg": 0.0041222054933101855,
+    "plant_balanced_otg_iterate": 0.0041222054933101855,
+    "rel_median": 0.08553499991507366,
+    "rel_p75": 0.23869566581382246,
+    "transfer_mae": {
+      "max": 0.11948354228859494,
+      "mean": 0.06951651289999512,
+      "median": 0.06517822736312613,
+      "min": 0.034567882207328315,
+      "n": 85,
+      "p25": 0.05620254162324967,
+      "p75": 0.08139727925556982,
+      "p95": 0.10776059344679767
+    }
+  },
+  "k2": {
+    "abs_transfer_mbe": {
+      "max": 0.09157912544059876,
+      "mean": 0.01760174861622155,
+      "median": 0.010185509042938681,
+      "min": 5.2010125710120006e-05,
+      "n": 85,
+      "p25": 0.0055461425265933674,
+      "p75": 0.02324368971724619,
+      "p95": 0.05367796105175089
+    },
+    "directional_mean_otg": -3.6956832052082214e-06,
+    "directional_median_otg": 0.0013077508493280834,
+    "group_plant_balanced": {
+      "TW_04b9f5d95694": 0.007136496992284129,
+      "TW_4467a039e00b": -1.788304447562783e-06,
+      "TW_88a108921af7": -0.013752917382411974
+    },
+    "n_calibration_eligible": 85,
+    "n_planned": 85,
+    "n_targets": 14,
+    "n_test_evaluable": 85,
+    "otg": {
+      "max": 0.02953088873293297,
+      "mean": -3.6956832052082214e-06,
+      "median": 0.0013077508493280834,
+      "min": -0.025052478397950967,
+      "n": 85,
+      "p25": -0.008516477768681918,
+      "p75": 0.006742689537621652,
+      "p95": 0.018240004576317328
+    },
+    "plant_balanced_otg": -0.000946480273195094,
+    "plant_balanced_otg_iterate": -0.000946480273195094,
+    "rel_median": 0.02307913930291913,
+    "rel_p75": 0.12218048038303057,
+    "transfer_mae": {
+      "max": 0.11631789958990446,
+      "mean": 0.06349324361976784,
+      "median": 0.06202601343989847,
+      "min": 0.03416743728222213,
+      "n": 85,
+      "p25": 0.053278405698009165,
+      "p75": 0.06807865368136597,
+      "p95": 0.09874006039065071
+    }
+  },
+  "median_abs_b_minus_1": 0.061955366855692695,
+  "median_abs_delta": 0.027402493349015244,
+  "model_actions": {
+    "PS_002": "reused_p3",
+    "PS_003": "reused_p3",
+    "PS_035": "reused_p3",
+    "PS_039": "reused_p3",
+    "PS_042": "reused_p3",
+    "PS_043": "reused_p3",
+    "PS_044": "reused_p3",
+    "PS_045": "reused_p3",
+    "PS_046": "reused_p3",
+    "PS_047": "reused_p3",
+    "PS_048": "reused_p3",
+    "PS_049": "reused_p3",
+    "PS_050": "reused_p3",
+    "PS_051": "reused_p3"
+  },
+  "model_equivalence": {
+    "max_abs_prediction_difference": 4.393263530744207e-12,
+    "max_local_mae_difference": 1.1492751195163464e-11,
+    "max_otg_difference": 7.931155732165962e-14,
+    "max_transfer_mae_difference": 3.569367024169878e-14,
+    "n_directions_checked": 85,
+    "tolerance": 1e-10
+  },
+  "n_affine_eligible": 85,
+  "n_affine_ineligible": 0,
+  "n_directional_computable": 85,
+  "n_extreme_finite_slope": 0,
+  "n_offset_eligible": 85,
+  "n_planned": 85,
+  "n_primary": 85,
+  "no_test_in_calibration": true,
+  "r9_not_used": true,
+  "reconciliation_max_abs_discrepancy": 7.931155732165962e-14,
+  "reconciliation_ok": true,
+  "residual_sign": "prediction - y_true",
+  "rq2": {
+    "k0": {
+      "median_abs_asymmetry": 0.015586154208783561,
+      "n_pairs": 38,
+      "n_plants": 13,
+      "plant_balanced_abs_asymmetry": 0.026622430133826737
+    },
+    "k1": {
+      "median_abs_asymmetry": 0.010813044641286806,
+      "n_pairs": 38,
+      "n_plants": 13,
+      "plant_balanced_abs_asymmetry": 0.015496536535324687
+    },
+    "k2": {
+      "median_abs_asymmetry": 0.008663816826601004,
+      "n_pairs": 38,
+      "n_plants": 13,
+      "plant_balanced_abs_asymmetry": 0.01175731889409727
+    }
+  },
+  "rq3_reason": "RQ3 needs control-side CS4 scoring and pairwise TEST intersection; P4 does not rebuild that pipeline or invent a twin-only proxy.",
+  "rq3_status": "P4_RQ3_NOT_RUN_RECALIBRATION_SCOPE",
+  "sensitivity_only": true,
+  "slope_distribution": {
+    "max": 1.403222527536295,
+    "mean": 1.0342234467925429,
+    "median": 1.017983481555586,
+    "min": 0.7640263496664209,
+    "n": 85,
+    "p25": 0.9735438196139566,
+    "p75": 1.0887806491523004,
+    "p95": 1.3209118095792864
+  },
+  "spearman_abs_mbe_vs_otg": {
+    "ci95_high": 0.6331270574983107,
+    "ci95_low": 0.2182650297827801,
+    "n_boot_valid": 5000,
+    "reason": null,
+    "rho": 0.41229235880398674,
+    "seed": 20260921
+  },
+  "status": "S12_P4_RECALIBRATION_MATERIALIZED",
+  "universe": "accepted 85 SplineRidge+CS4 computable primary directions; R9/OTG_half/R7 not used"
+}

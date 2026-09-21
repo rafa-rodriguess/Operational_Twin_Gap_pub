@@ -1,0 +1,252 @@
+{
+  "delta_otg": {
+    "frac_negative": 0.5058823529411764,
+    "frac_positive": 0.49411764705882355,
+    "max": 0.014522414835097808,
+    "mean": -6.482976633232961e-06,
+    "median": -4.104134175057783e-06,
+    "min": -0.01411409903606916,
+    "n": 85,
+    "n_negative": 43,
+    "n_positive": 42,
+    "p25": -0.0006807510733212729,
+    "p75": 0.0005892808071753068,
+    "plant_balanced": -2.2905529820252197e-05
+  },
+  "duration": {
+    "d_pair_max": 266.3645833333333,
+    "d_pair_median": 52.947916666666664,
+    "d_pair_min": 39.916666666666664,
+    "equal_tolerance_days": 1.1574074074074073e-05,
+    "n_equal": 0,
+    "n_source_shorter": 47,
+    "n_target_shorter": 47,
+    "plant_max": 267.03125,
+    "plant_median": 61.453125,
+    "plant_min": 39.916666666666664
+  },
+  "duration_imbalance_planned": {
+    "max": 25.000000000000007,
+    "mean": 9.131648936170217,
+    "median": 6.062500000000007,
+    "min": 0.0729166666666714,
+    "n": 94,
+    "p25": 3.1848958333333375,
+    "p75": 15.132812500000002,
+    "p95": 23.01041666666667
+  },
+  "interpretation": {
+    "r10_is_sensitivity_only": true,
+    "text": "R10 computable 85/94 (primary 85); lost 0; newly computable 0. RQ1 PB primary 0.009723604857785641 vs R10 0.009746510387605893 (\u0394 2.2905529820252055e-05). Overlap n=85 PB primary 0.009723604857785641 vs R10 0.009746510387605893 (\u0394 2.2905529820252055e-05). Median Delta_OTG_duration -4.104134175057783e-06 (positive = R10 reduced penalty); 42/85 positive, 43/85 negative. Spearman |duration imbalance| vs Delta_OTG rho=0.08878920413824291 CI [-0.14563845222277977, 0.36962430120959006]. RQ2 PB |A| primary 0.026622430133826737 vs R10 0.026967526234026127 (overlap pairs 38). Spearman |duration imbalance| vs |A_primary| rho=0.1940037203195098 ; vs |A| change rho=-0.014990699201225517. R10 remains a sensitivity arm, not a new primary protocol.",
+    "threshold_rules_used": false
+  },
+  "lost_identities": [],
+  "n_cached_models": 58,
+  "n_lost": 0,
+  "n_new": 0,
+  "n_planned": 94,
+  "n_plants": 14,
+  "n_primary_computable": 85,
+  "n_r10_computable": 85,
+  "n_r10_noncomputable": 9,
+  "new_identities": [],
+  "no_p4": true,
+  "no_r9": true,
+  "noncomputable": [
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_042"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_043"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_044"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_045"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_046"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_047"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_049"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_050"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "ps048": [
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_042"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_043"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_044"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_045"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_046"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_047"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_049"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_050"
+    },
+    {
+      "computable": false,
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "r10_is_sensitivity_only": true,
+  "reconciliation_max_abs_discrepancy": 0,
+  "reconciliation_ok": true,
+  "reporting_correction": true,
+  "rq1_overlap": {
+    "difference": 2.2905529820252055e-05,
+    "n": 85,
+    "primary_pb": 0.009723604857785641,
+    "r10_pb": 0.009746510387605893
+  },
+  "rq1_primary": 0.009723604857785641,
+  "rq1_r10": {
+    "difference_vs_primary": 2.2905529820252055e-05,
+    "directional_mean": 0.014313931925141805,
+    "directional_median": 0.006615745630533881,
+    "group_plant_balanced": {
+      "TW_04b9f5d95694": 0.0010821144419115927,
+      "TW_4467a039e00b": 0.015183120902217231,
+      "TW_88a108921af7": -0.008772146239756494
+    },
+    "n": 85,
+    "n_sources": 13,
+    "n_targets": 14,
+    "plant_balanced": 0.009746510387605893,
+    "plant_balanced_iterate": 0.009746510387605893,
+    "primary": 0.009723604857785641,
+    "recon": 0.0,
+    "rel_median": 0.11948285730464124,
+    "rel_p75": 0.29479348443020925
+  },
+  "rq2_overlap": {
+    "difference": 0.00034509610019939005,
+    "n": 38,
+    "primary_pb": 0.026622430133826737,
+    "r10_pb": 0.026967526234026127
+  },
+  "rq2_primary": 0.026622430133826737,
+  "rq2_r10": {
+    "difference_vs_primary": 0.00034509610019939005,
+    "median_abs": 0.015614647490927756,
+    "n_planned_pairs": 47,
+    "n_plants": 13,
+    "n_primary_pairs": 38,
+    "n_r10_pairs": 38,
+    "plant_balanced": 0.026967526234026127
+  },
+  "rq2_r10_by_group": {
+    "G1": {
+      "estimable": true,
+      "group_id": "TW_04b9f5d95694",
+      "median_abs": 0.00036415743995248107,
+      "n_pairs": 1,
+      "n_plants": 2,
+      "plant_balanced": 0.00036415743995248107
+    },
+    "G2": {
+      "estimable": true,
+      "group_id": "TW_4467a039e00b",
+      "median_abs": 0.01838521271227312,
+      "n_pairs": 36,
+      "n_plants": 9,
+      "plant_balanced": 0.037071058697511414
+    },
+    "G4": {
+      "estimable": true,
+      "group_id": "TW_88a108921af7",
+      "median_abs": 0.008104998942415967,
+      "n_pairs": 1,
+      "n_plants": 2,
+      "plant_balanced": 0.008104998942415967
+    }
+  },
+  "rq3_status": "R10_RQ3_NOT_RUN_MATCHED_DURATION_SCOPE",
+  "spearman_imbalance_absA": {
+    "n": 38,
+    "reason": null,
+    "rho": 0.1940037203195098
+  },
+  "spearman_imbalance_absA_change": {
+    "n": 38,
+    "reason": null,
+    "rho": -0.014990699201225517
+  },
+  "spearman_imbalance_delta": {
+    "ci95_high": 0.36962430120959006,
+    "ci95_low": -0.14563845222277977,
+    "n_boot_valid": 5000,
+    "n_replicates": 5000,
+    "reason": null,
+    "rho": 0.08878920413824291,
+    "seed": 20260921
+  },
+  "status": "S12_P6_R10_MATCHED_DURATION_MATERIALIZED",
+  "support_retention_r10": {
+    "max": 0.9481327800829875,
+    "mean": 0.5031960484224973,
+    "median": 0.546875,
+    "min": 0.08204518430439953,
+    "n": 85,
+    "p25": 0.2570281124497992,
+    "p75": 0.6979785969084423,
+    "p95": 0.863859649122807
+  }
+}

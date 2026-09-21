@@ -1,0 +1,156 @@
+{
+  "artifacts": [
+    {
+      "bytes": 52613,
+      "path": "artifacts/rq4/RQ4_BOOTSTRAP_DRAWS.parquet",
+      "role": "RQ4_BOOTSTRAP_DRAWS.parquet",
+      "row_count": 60000,
+      "schema_fingerprint": "6e2398a62772db1d5ad859cd6891c5b4644f2b2d3b6d1e6ea2ed418760dad4ef",
+      "sha256": "1649bf7e877d52aca94dc51d75df21c15e0df8d355aee190f25d46f46864e3ca"
+    },
+    {
+      "bytes": 2355,
+      "path": "artifacts/rq4/RQ4_CANDIDATE_LOSSES.parquet",
+      "role": "RQ4_CANDIDATE_LOSSES.parquet",
+      "row_count": 13,
+      "schema_fingerprint": "9d24e088fcff3d6410ae8f438d39d7c2288ec10eee29f20ce4b829a334f6104c",
+      "sha256": "09c471f6878d5806f35436f775429fd82f71edfbcf29361287b8421b1a5a2a27"
+    },
+    {
+      "bytes": 7582,
+      "path": "artifacts/rq4/RQ4_DECISION_INSTANCES.parquet",
+      "role": "RQ4_DECISION_INSTANCES.parquet",
+      "row_count": 20,
+      "schema_fingerprint": "a36bd5ea715f561942444e79c2caca7431170e25653a1c086112bdb74ea012f7",
+      "sha256": "48f0efbb3b7d2026e6da70bc34bd8ae0cdac8f733a403317789abce3b76cd7b1"
+    },
+    {
+      "bytes": 1930,
+      "path": "artifacts/rq4/RQ4_HGB_SENSITIVITY.parquet",
+      "role": "RQ4_HGB_SENSITIVITY.parquet",
+      "row_count": 44,
+      "schema_fingerprint": "52808cf6ef592bc7da2e9231673b2864dbedf8d59b7a0c5c5acc0095235a44cf",
+      "sha256": "3bbad55dd4abf8494c5d2ecfa7a9fc5d56abe85a74517f6dc4f555e265c04938"
+    },
+    {
+      "bytes": 6249,
+      "path": "artifacts/rq4/RQ4_PREFLIGHT.json",
+      "role": "RQ4_PREFLIGHT.json",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "28bfb9d466e96b7bca46a06f8006b90e996b82662b98e41753d7b6f9de9cec5a"
+    },
+    {
+      "bytes": 6215,
+      "path": "artifacts/rq4/RQ4_PRIMARY_CURVE.parquet",
+      "role": "RQ4_PRIMARY_CURVE.parquet",
+      "row_count": 11,
+      "schema_fingerprint": "b0aa6ee28e7d67074c459b5dc682a35292a8ca39d5ebc978011a655f536a4a6a",
+      "sha256": "ad27e1d6d8ba557d7fe0a27a9d42c54b7ec93d4ddc6ca5718875dceb9e307df6"
+    },
+    {
+      "bytes": 90274,
+      "path": "artifacts/rq4/RQ4_PRIMARY_FIGURE.png",
+      "role": "RQ4_PRIMARY_FIGURE.png",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "97962fbdc408538ad302701c9429f862276b06700a582309ad540cce64f2b35b"
+    },
+    {
+      "bytes": 2023,
+      "path": "artifacts/rq4/RQ4_PRIMARY_TABLE.csv",
+      "role": "RQ4_PRIMARY_TABLE.csv",
+      "row_count": 14,
+      "schema_fingerprint": "4e27a33365225fda97e1e0b8a2444288ceb1d42a2cb185ac30a193dadef38965",
+      "sha256": "06125affda3146be3c9bcac88cb90673a4e021853e3194bc8b41cf296ed52ff6"
+    },
+    {
+      "bytes": 6536,
+      "path": "artifacts/rq4/RQ4_REGRET_BY_INSTANCE.parquet",
+      "role": "RQ4_REGRET_BY_INSTANCE.parquet",
+      "row_count": 44,
+      "schema_fingerprint": "4c974aad3d880849d1acf951badc9cd2d0867395774305d01e0a77f7492d327d",
+      "sha256": "95a142dc622d1ca69dcf1adb820daa95fc1e09931b157cbc0eb75c546dd51a35"
+    },
+    {
+      "bytes": 1040,
+      "path": "artifacts/rq4/RQ4_SECONDARY_RESULTS.parquet",
+      "role": "RQ4_SECONDARY_RESULTS.parquet",
+      "row_count": 11,
+      "schema_fingerprint": "7711105a90275eb0ab544677f99f5af835569d09ed854edf50c815123b6dd954",
+      "sha256": "d8dc55d0a10bdb8b95049550ddef577c1ed86ab5bbb678c5ff8ee4033efe2898"
+    },
+    {
+      "bytes": 760,
+      "path": "artifacts/rq4/RQ4_SOURCE_COHORT.json",
+      "role": "RQ4_SOURCE_COHORT.json",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "bf34c368bf0ef35bf93b27bbe5815d85feda83e9c13b97e2188d6a2443ba08eb"
+    },
+    {
+      "bytes": 5352,
+      "path": "artifacts/rq4/RQ4_SOURCE_MODELS.parquet",
+      "role": "RQ4_SOURCE_MODELS.parquet",
+      "row_count": 13,
+      "schema_fingerprint": "635418493de47be338862adb5c457f5fd2099f134bc8fb17fe9de43eca73c885",
+      "sha256": "6999889806a0679c7ebfabddfab24df177af9f30d99f14da3a093f5e2f8ccb6f"
+    },
+    {
+      "bytes": 3073,
+      "path": "artifacts/rq4/RQ4_SUPPORT_COVERAGE.parquet",
+      "role": "RQ4_SUPPORT_COVERAGE.parquet",
+      "row_count": 100,
+      "schema_fingerprint": "4e6334d8ac9668750bf990b7b8f603b6cbe0b877e7b0d62eba1180451f9f652e",
+      "sha256": "991970b3f8f73bc7d88016bfe794edae9119fcb0f4558eb4f05105d743d426bf"
+    },
+    {
+      "bytes": 334,
+      "path": "artifacts/rq4/RQ4_TARGET_COHORT.json",
+      "role": "RQ4_TARGET_COHORT.json",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "0b022d00a4be78fce9bc82ee9504171b514b024a8c732d37a2d320f8f6ad39af"
+    },
+    {
+      "bytes": 7546,
+      "path": "artifacts/rq4/RQ4_TEMPORAL_AUDIT.parquet",
+      "role": "RQ4_TEMPORAL_AUDIT.parquet",
+      "row_count": 4,
+      "schema_fingerprint": "c37b531300c87a53ed86c6255b208277d99d6d8190fa291b1f260069a8418193",
+      "sha256": "7623b02ce5ca74ba651d8d5891eab213e67e3f32120de85e58be58930f183fd4"
+    },
+    {
+      "bytes": 3898,
+      "path": "artifacts/rq4/RQ4_TEMPORAL_NOISE.parquet",
+      "role": "RQ4_TEMPORAL_NOISE.parquet",
+      "row_count": 4,
+      "schema_fingerprint": "7108eb10808d6e932fbdf1b6e86a07dd5cfc1b16e4f0ef22502b291f0c0e1b77",
+      "sha256": "670ef234cb927bea9c20154166727df91b902dbf842b37f915e22eae24564839"
+    },
+    {
+      "bytes": 23210,
+      "path": "docs/prompts/EXECUTE_RQ4_SOURCE_SELECTION_CONFIRMATORY.md",
+      "role": "EXECUTE_RQ4_SOURCE_SELECTION_CONFIRMATORY.md",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "0c1dcaa79b2a5015bb8e73d0f38f8b1f30801e28d98c75674b5e0bc6391b526f"
+    },
+    {
+      "bytes": 10465,
+      "path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "role": "RQ4_VALIDATION.json",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "97266ab478f70dba7e66e6ac58adaef7a7ad40d4070fc843e720ab2ebfc4a21f"
+    },
+    {
+      "bytes": 14589,
+      "path": "artifacts/rq4/RQ4_SUMMARY.json",
+      "role": "RQ4_SUMMARY.json",
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "da7bcfb5b8d1e1268313d236dae53fe7501710ed83635e8f74d2648fa1af66e8"
+    }
+  ]
+}

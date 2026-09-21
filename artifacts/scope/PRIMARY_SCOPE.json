@@ -1,0 +1,83 @@
+{
+  "gself_structural_executability": [
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_002"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_003"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_035"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_039"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_042"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_043"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_044"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_045"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_046"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_047"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_048"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_049"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_050"
+    },
+    {
+      "pathological_three_block": false,
+      "plant_id": "PS_051"
+    }
+  ],
+  "noncomputable_cs4_transfers": [],
+  "primary_exact_twin_groups": [
+    "TW_04b9f5d95694",
+    "TW_4467a039e00b",
+    "TW_88a108921af7"
+  ],
+  "primary_plants": [
+    "PS_002",
+    "PS_003",
+    "PS_035",
+    "PS_039",
+    "PS_042",
+    "PS_043",
+    "PS_044",
+    "PS_045",
+    "PS_046",
+    "PS_047",
+    "PS_048",
+    "PS_049",
+    "PS_050",
+    "PS_051"
+  ],
+  "primary_target_count": 14
+}

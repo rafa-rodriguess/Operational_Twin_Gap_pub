@@ -1,0 +1,6 @@
+exact_twin_group_id,p02b_member_count,members_with_any_panel_rows,members_with_dc_target_rows,members_with_target_and_meteorology_rows,members_with_core_candidate_complete_case_rows,min_member_dc_target_rows,min_member_target_plus_meteorology_rows,min_member_daylight_gt_20_rows,min_member_daylight_gt_50_rows,min_member_daylight_gt_100_rows,structural_member_loss_flag
+TW_04b9f5d95694,2,2,2,2,2,40870,40661,18920,17684,16172,false
+TW_4467a039e00b,10,10,10,10,10,8484,8484,4055,3711,3499,false
+TW_7b33a493697b,8,8,8,8,0,19315,15125,8923,8311,7526,false
+TW_88a108921af7,2,2,2,2,2,16172,16171,7844,7337,6699,false
+TW_f8e8375afe38,8,8,8,8,0,14332,12151,4376,4046,3610,false

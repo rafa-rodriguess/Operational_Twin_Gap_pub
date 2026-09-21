@@ -1,0 +1,20 @@
+{
+  "target_count": 14,
+  "target_ids": [
+    "PS_002",
+    "PS_003",
+    "PS_035",
+    "PS_039",
+    "PS_042",
+    "PS_043",
+    "PS_044",
+    "PS_045",
+    "PS_046",
+    "PS_047",
+    "PS_048",
+    "PS_049",
+    "PS_050",
+    "PS_051"
+  ],
+  "target_ids_sha256": "f0a5c4d07db0e8115abce8dc7265ddaf7e36863e14e096ae6abe03ccb1a3c2b6"
+}

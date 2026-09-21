@@ -1,0 +1,334 @@
+{
+  "broad_r8": {
+    "accepted_source_level_semantics": 0.038537039716828335,
+    "accepted_value": 0.038537039716828335,
+    "equal_control_within_target": 0.038537039716828335,
+    "numerically_identical": true,
+    "weighting_note": "identical"
+  },
+  "control_reuse": {
+    "n_controls": 12,
+    "rows": [
+      {
+        "control_id": "PS_001",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": -0.006518616049950847,
+        "mean_target_control_contrast": -0.010678515011481801,
+        "min_target_control_contrast": -0.014838413973012755,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_005",
+        "is_primary_matched_control": true,
+        "max_target_control_contrast": 0.06788980253415011,
+        "mean_target_control_contrast": 0.037319821906811594,
+        "min_target_control_contrast": 0.015169632590129342,
+        "n_rq3_targets_executable": 6,
+        "n_target_control_cells": 6,
+        "state": "GO"
+      },
+      {
+        "control_id": "PS_007",
+        "is_primary_matched_control": true,
+        "max_target_control_contrast": 0.03323180533205084,
+        "mean_target_control_contrast": 0.02970172406527209,
+        "min_target_control_contrast": 0.026171642798493336,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "RJ"
+      },
+      {
+        "control_id": "PS_008",
+        "is_primary_matched_control": true,
+        "max_target_control_contrast": -8.831502597680951e-05,
+        "mean_target_control_contrast": -0.010662591799153867,
+        "min_target_control_contrast": -0.021236868572330925,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_009",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": -0.00169013333176736,
+        "mean_target_control_contrast": -0.004984872499839144,
+        "min_target_control_contrast": -0.008279611667910927,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_010",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.09573042138608587,
+        "mean_target_control_contrast": 0.07704469022341874,
+        "min_target_control_contrast": 0.05835895906075161,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_011",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.03306372169935334,
+        "mean_target_control_contrast": 0.020827928138093574,
+        "min_target_control_contrast": 0.008592134576833804,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_012",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.09469673151319206,
+        "mean_target_control_contrast": 0.06757745629901228,
+        "min_target_control_contrast": 0.029241321189855236,
+        "n_rq3_targets_executable": 6,
+        "n_target_control_cells": 6,
+        "state": "GO"
+      },
+      {
+        "control_id": "PS_013",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.007058083817215191,
+        "mean_target_control_contrast": -0.004456854807966745,
+        "min_target_control_contrast": -0.01597179343314868,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_036",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.0066252728854181014,
+        "mean_target_control_contrast": -0.0031614032048545813,
+        "min_target_control_contrast": -0.012948079295127264,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      },
+      {
+        "control_id": "PS_037",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.026024472873605764,
+        "mean_target_control_contrast": 0.023324630612686338,
+        "min_target_control_contrast": 0.020624788351766912,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "RJ"
+      },
+      {
+        "control_id": "PS_038",
+        "is_primary_matched_control": false,
+        "max_target_control_contrast": 0.010557839472421268,
+        "mean_target_control_contrast": 0.006680450453197099,
+        "min_target_control_contrast": 0.0028030614339729296,
+        "n_rq3_targets_executable": 2,
+        "n_target_control_cells": 2,
+        "state": "SP"
+      }
+    ]
+  },
+  "interpretation": {
+    "text": "Primary RQ3 reconstructed at 0.0261997195973106 (accepted 0.0261997195973106). State-shared admissible assignments n=32, range [0.024921116264327865, 0.06189575663714553] (width 0.03697464037281766); 32/32 positive (1.0); fraction equal to primary 0.03125; below 0.15625; above 0.8125. Target-specific envelope n=16384, range [0.020416422669966558, 0.06576060477157501], frac_positive 1.0. Per-target signs: all-positive ['PS_002', 'PS_003', 'PS_042', 'PS_043', 'PS_044', 'PS_048', 'PS_049', 'PS_050'], all-negative [], mixed ['PS_035', 'PS_039']; largest control range 0.10224903743603672 on PS_039. Selected vs alternatives fleet 0.0261997195973106 vs 0.04753344056738941 (\u0394 -0.02133372097007881). LOCO n_estimable=12/12, estimates [0.02945974939916813, 0.04761433003448854], max |shift| 0.009077290317660205 removing PS_005; frac_positive 1.0. Primary-control deletions: {'PS_005': {'estimable': True, 'fleet': 0.04761433003448854, 'shift_from_equal_control_r8': 0.009077290317660205, 'sign': 'positive'}, 'PS_007': {'estimable': True, 'fleet': 0.03789933037156976, 'shift_from_equal_control_r8': -0.0006377093452585719, 'sign': 'positive'}, 'PS_008': {'estimable': True, 'fleet': 0.039093859594987776, 'shift_from_equal_control_r8': 0.0005568198781594411, 'sign': 'positive'}}. These are exact enumerations over structurally executable controls, not inferential tests.",
+    "threshold_rules_used": false
+  },
+  "loco": {
+    "frac_positive": 1.0,
+    "max": 0.04761433003448854,
+    "max_abs_shift": 0.009077290317660205,
+    "max_abs_shift_control": "PS_005",
+    "median": 0.03889804637233797,
+    "min": 0.02945974939916813,
+    "n_estimable": 12,
+    "n_nonestimable": 0,
+    "n_positive": 12,
+    "n_replicates": 12,
+    "sign_stable_all_positive": true
+  },
+  "n_distinct_controls": 12,
+  "n_primary_targets": 10,
+  "n_target_control_cells": 32,
+  "n_valid_source_comparisons": 118,
+  "no_refit": true,
+  "no_scoring": true,
+  "no_support_rebuild": true,
+  "orientation": "CONTROL_MINUS_TWIN",
+  "per_target_summary": {
+    "largest_range": 0.10224903743603672,
+    "largest_range_target": "PS_039"
+  },
+  "primary_control_deletions": {
+    "PS_005": {
+      "estimable": true,
+      "fleet": 0.04761433003448854,
+      "shift_from_equal_control_r8": 0.009077290317660205,
+      "sign": "positive"
+    },
+    "PS_007": {
+      "estimable": true,
+      "fleet": 0.03789933037156976,
+      "shift_from_equal_control_r8": -0.0006377093452585719,
+      "sign": "positive"
+    },
+    "PS_008": {
+      "estimable": true,
+      "fleet": 0.039093859594987776,
+      "shift_from_equal_control_r8": 0.0005568198781594411,
+      "sign": "positive"
+    }
+  },
+  "primary_reconstruction": {
+    "accepted": 0.0261997195973106,
+    "difference": 0.0,
+    "fleet": 0.0261997195973106,
+    "mapping": {
+      "GO": "PS_005",
+      "RJ": "PS_007",
+      "SP": "PS_008"
+    },
+    "state_means": {
+      "GO": 0.037319821906811594,
+      "RJ": 0.02970172406527209,
+      "SP": -0.010662591799153867
+    }
+  },
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "selected_vs_alternatives": {
+    "by_state": {
+      "GO": {
+        "alternatives": 0.06757745629901228,
+        "selected": 0.037319821906811594
+      },
+      "RJ": {
+        "alternatives": 0.023324630612686338,
+        "selected": 0.02970172406527209
+      },
+      "SP": {
+        "alternatives": 0.011610203327223878,
+        "selected": -0.010662591799153867
+      }
+    },
+    "fleet_alternatives": 0.04753344056738941,
+    "fleet_difference": -0.02133372097007881,
+    "fleet_selected": 0.0261997195973106,
+    "note": "Primary mapping is structural/upstream; this contrast is descriptive of selected vs remaining executable controls."
+  },
+  "sign_stability": {
+    "frac_loco_positive": 1.0,
+    "frac_state_shared_positive": 1.0,
+    "frac_target_specific_positive": 1.0,
+    "targets_all_negative": [],
+    "targets_all_positive": [
+      "PS_002",
+      "PS_003",
+      "PS_042",
+      "PS_043",
+      "PS_044",
+      "PS_048",
+      "PS_049",
+      "PS_050"
+    ],
+    "targets_mixed": [
+      "PS_035",
+      "PS_039"
+    ]
+  },
+  "state_common_controls": {
+    "GO": [
+      "PS_005",
+      "PS_012"
+    ],
+    "RJ": [
+      "PS_007",
+      "PS_037"
+    ],
+    "SP": [
+      "PS_001",
+      "PS_008",
+      "PS_009",
+      "PS_010",
+      "PS_011",
+      "PS_013",
+      "PS_036",
+      "PS_038"
+    ]
+  },
+  "state_shared": {
+    "distribution": {
+      "frac_above_primary": 0.8125,
+      "frac_below_primary": 0.15625,
+      "frac_equal_primary": 0.03125,
+      "frac_negative": 0.0,
+      "frac_positive": 1.0,
+      "frac_zero": 0.0,
+      "max": 0.06189575663714553,
+      "mean": 0.038537039716828335,
+      "median": 0.04307728922088107,
+      "min": 0.024921116264327865,
+      "n": 32,
+      "n_above_primary": 26,
+      "n_below_primary": 5,
+      "n_equal_primary": 1,
+      "n_negative": 0,
+      "n_positive": 32,
+      "n_zero": 0,
+      "p05": 0.02554885002971807,
+      "p25": 0.027414466110954404,
+      "p75": 0.045516244977087575,
+      "p95": 0.055137974397027036,
+      "sd": 0.010808435769831832
+    },
+    "n_assignments": 32,
+    "n_common_GO": 2,
+    "n_common_RJ": 2,
+    "n_common_SP": 8,
+    "primary_assignment_id": 2,
+    "primary_fleet": 0.0261997195973106
+  },
+  "status": "S12_P7_RQ3_CONTROL_DEPENDENCE_MATERIALIZED",
+  "target_specific": {
+    "distribution": {
+      "frac_above_primary": 0.9764404296875,
+      "frac_below_primary": 0.02349853515625,
+      "frac_equal_primary": 6.103515625e-05,
+      "frac_negative": 0.0,
+      "frac_positive": 1.0,
+      "frac_zero": 0.0,
+      "max": 0.06576060477157501,
+      "mean": 0.038537039716828335,
+      "median": 0.03826229039142372,
+      "min": 0.020416422669966558,
+      "n": 16384,
+      "n_above_primary": 15998,
+      "n_below_primary": 385,
+      "n_equal_primary": 1,
+      "n_negative": 0,
+      "n_positive": 16384,
+      "n_zero": 0,
+      "p05": 0.027907398258018034,
+      "p25": 0.033832920121477,
+      "p75": 0.04294682596361022,
+      "p95": 0.050112193322112066,
+      "sd": 0.006707872671025239
+    },
+    "label": "broader target-specific envelope, not the closest perturbation to the primary design",
+    "n_assignments": 16384,
+    "n_controls_by_target": {
+      "PS_002": 2,
+      "PS_003": 2,
+      "PS_035": 8,
+      "PS_039": 8,
+      "PS_042": 2,
+      "PS_043": 2,
+      "PS_044": 2,
+      "PS_048": 2,
+      "PS_049": 2,
+      "PS_050": 2
+    }
+  },
+  "threshold_rules_used": false
+}

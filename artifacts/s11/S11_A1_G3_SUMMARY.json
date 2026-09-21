@@ -1,0 +1,40 @@
+{
+  "feasibility_only": false,
+  "features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2"
+  ],
+  "group_id": "TW_7b33a493697b",
+  "model_family": "SplineRidge",
+  "n_bidirectionally_computable_unordered_pairs": 28,
+  "n_computable_directed_transfers": 56,
+  "n_directed": 56,
+  "n_expected_directed_transfers": 56,
+  "n_noncomputable_directed_transfers": 0,
+  "n_plants": 8,
+  "plants": [
+    "PS_004",
+    "PS_017",
+    "PS_020",
+    "PS_022",
+    "PS_023",
+    "PS_024",
+    "PS_026",
+    "PS_030"
+  ],
+  "rq1_plant_balanced_mean_otg": 0.009376330782857482,
+  "rq2_plant_balanced_mean_abs_asymmetry": 0.009469542712050007,
+  "rq3_n_contributing_targets": 8,
+  "rq3_n_distinct_contributing_controls": 22,
+  "rq3_n_executable_pairs": null,
+  "rq3_n_executable_target_control_pairs": 176,
+  "rq3_n_valid_source_control_comparisons": 1232,
+  "rq3_status": "S11_PHASE3_A1_G3_MATERIALIZED",
+  "rq3_target_balanced_control_minus_twin": 0.007769929532634877,
+  "status": "S11_PHASE3_A1_G3_MATERIALIZED",
+  "support_rule": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  }
+}

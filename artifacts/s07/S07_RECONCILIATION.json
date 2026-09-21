@@ -1,0 +1,33 @@
+{
+  "asymmetry_to_directional": "PASS",
+  "computable_noncomputable": {
+    "computable": 85,
+    "noncomputable": 9
+  },
+  "directional_universe": 94,
+  "local_mae_equals_s06": "PASS",
+  "matrix_to_directional": "PASS",
+  "n_supported_equals_s06": "PASS",
+  "no_bootstrap_ci": true,
+  "no_epsilon": true,
+  "no_equivalence_classification": true,
+  "no_gself_comparison": true,
+  "no_hgb_primary_otg": true,
+  "no_missing_direction_imputation": true,
+  "no_model_fit": true,
+  "no_new_prediction": true,
+  "no_rq3": true,
+  "no_source_ranking": true,
+  "no_support_recompute": true,
+  "otg_abs_recompute": "PASS",
+  "otg_rel_recompute": "PASS",
+  "primary_family_filtering": "SplineRidge only",
+  "s03_registry_hash": "PASS",
+  "s03_scope_hash": "PASS",
+  "s06_predictions": "PASS",
+  "s06_protocol_reconciliation_manifest": "PASS",
+  "s06_transfer_metrics": "PASS",
+  "s06_transfer_status": "PASS",
+  "sr_equals_s06": "PASS",
+  "transfer_mae_equals_s06": "PASS"
+}

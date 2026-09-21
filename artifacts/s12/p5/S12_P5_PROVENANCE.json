@@ -1,0 +1,67 @@
+{
+  "accepted_science_not_modified": true,
+  "canonical_inputs": {
+    "artifacts/s07/S07_ASYMMETRY.csv": "3703640a37dc70c19fc3eac40b43f29c003b07fe7d2f7965f371c1327ed7d9f2",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+  },
+  "excluded": [
+    "G3",
+    "R7",
+    "R9",
+    "P4_recalibration",
+    "OTG_half"
+  ],
+  "g2_group_id": "TW_4467a039e00b",
+  "generated_at_utc": "2026-09-21T02:48:26+00:00",
+  "helper_path": "src/lib/s12_p5_stability.py",
+  "manuscript_files_not_edited": true,
+  "no_new_scoring": true,
+  "no_refit": true,
+  "nong2_group_ids": [
+    "TW_04b9f5d95694",
+    "TW_88a108921af7"
+  ],
+  "outputs": {
+    "artifacts/s12/p5/S12_P5_G2_DELETE.csv": {
+      "bytes": 1393,
+      "row_count": 10,
+      "sha256": "42d849f8846b2159b801d4456d3d3e4bec46a0ca1c4e05cfc43fd62f82518e57"
+    },
+    "artifacts/s12/p5/S12_P5_NONG2_DELETE.csv": {
+      "bytes": 658,
+      "row_count": 4,
+      "sha256": "87a2977c5e1bce9c93d6ec9c6a5d8020fdf3f426af949ce98afd8e4b0a72013f"
+    },
+    "artifacts/s12/p5/S12_P5_PLANT_DELETE_RQ1.csv": {
+      "bytes": 2708,
+      "row_count": 14,
+      "sha256": "af78993ef25ea7d85c46bd349d5b3bff1754d2b963575ade6dfa4305f6a16432"
+    },
+    "artifacts/s12/p5/S12_P5_PLANT_DELETE_RQ2.csv": {
+      "bytes": 1752,
+      "row_count": 14,
+      "sha256": "7171d28a9c664786282379cc7a4c363ba26e306b4e47265fd528d115075ec853"
+    },
+    "artifacts/s12/p5/S12_P5_SUBGROUP_SUMMARY.csv": {
+      "bytes": 1042,
+      "row_count": 5,
+      "sha256": "e810e8fda7ccedca6a18099a433ac588a26c251ebba398489c932b22bd84323d"
+    },
+    "artifacts/s12/p5/S12_P5_SUMMARY.json": {
+      "bytes": 16648,
+      "row_count": null,
+      "sha256": "d571501c8889e751a504090556d27998702b0373fa5888382d26ea02fcdfeb65"
+    },
+    "reports/scientific/S12_P5_PLANT_DELETE_STABILITY.md": {
+      "bytes": 2261,
+      "row_count": null,
+      "sha256": "c5ff55d4c07ce28dd224724c0e71a135c1014d83d60426bc43fd82376833397c"
+    }
+  },
+  "plant_delete_rule": "remove plant from all source and target roles (RQ1) and from both pair members (RQ2)",
+  "repository_head": "25ea8d187f060cf872305ec0a3da341c709d4014",
+  "rq1_balancing": "equal-target: mean of per-target means of directional OTG_abs",
+  "rq2_balancing": "plant-balanced mean of per-plant means of |asymmetry| on accepted bidirectional pairs",
+  "script_path": "src/run/24_s12_p5_stability.py",
+  "self_hash_registered_externally": true
+}

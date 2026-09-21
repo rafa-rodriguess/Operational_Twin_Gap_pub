@@ -1,0 +1,342 @@
+{
+  "all_frozen_invariants_passed": true,
+  "all_passed": true,
+  "frozen_invariants": [
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "['PS_002', 'PS_003', 'PS_035', 'PS_039', 'PS_042', 'PS_043', 'PS_044', 'PS_045', 'PS_046', 'PS_047', 'PS_048', 'PS_049', 'PS_050', 'PS_051']",
+      "name": "v01_target_reconstructed",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "f0a5c4d07db0e8115abce8dc7265ddaf7e36863e14e096ae6abe03ccb1a3c2b6",
+      "name": "v02_target_hash",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "37",
+      "name": "v03_source_reconstructed",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "16fcc90cfcf4ce98e6ccd613ad865c5c3805da4ec22233b0fde903bb4de03575",
+      "name": "v04_source_hash",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "disjoint",
+      "name": "v05_target_ne_source",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "train_before_c=13/13",
+      "name": "v06_source_train_before_c",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "val_before_c=13/13",
+      "name": "v07_source_val_before_c",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "n=13 min=0.799405646359584",
+      "name": "v08_chrono_80_20",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "source_fit uses source plant id only",
+      "name": "v09_no_target_y_in_source_selection",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "[\"poa_irradiance_wm2\", \"ghi_irradiance_wm2\", \"gri_irradiance_wm2\", \"panel_temperature_celsius\", \"ambient_temperature_celsius\", \"wind_speed_ms\"]",
+      "name": "v10_feature_order",
+      "passed": true
+    },
+    {
+      "artifact_path": [
+        "artifacts/p02c/P02C_PLANT_PANEL.parquet",
+        "artifacts/rq4/RQ4_SOURCE_MODELS.parquet"
+      ],
+      "evidence": "{\"n_eligible_source_rows\": 50246, \"n_poa_le_50\": 0, \"n_cov_lt_0_80\": 0}",
+      "name": "v11_eligibility_exact",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "tracker_albedo_index",
+      "name": "v12_tracker_absent",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "SplineRidge",
+      "name": "v13_spline_primary",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "n_knots",
+      "name": "v14_spline_grid",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "min_samples_leaf=20",
+      "name": "v15_hgb_grid",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "30",
+      "name": "v16_L30",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "45",
+      "name": "v17_H45",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "45",
+      "name": "v18_Kmax45",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "[0, 1, 2, 3, 5, 7, 10, 14, 21, 30, 45]",
+      "name": "v19_k_grid",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "cut lattice first+n*45",
+      "name": "v20_cuts_deterministic",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "R=[c+H,c+2H); consecutive 45d cuts abut",
+      "name": "v21_nonoverlap_R",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "R starts at c+H; Wk ends at c+k k<=H",
+      "name": "v22_Wk_R_disjoint",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "instances=4",
+      "name": "v23_same_R_across_k",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "P_ALL",
+      "name": "v24_P_ALL",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "gower",
+      "name": "v25_gower",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "5",
+      "name": "v26_M5",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "0.3",
+      "name": "v27_rho030",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "CS4 source TRAIN; kNN=5; threshold=0.95 quantile of LOO 5th-neighbour distances",
+      "name": "v28_cs4_train",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "5",
+      "name": "v29_knn5",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "0.95",
+      "name": "v30_q95",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "common_r_fp unique per instance",
+      "name": "v31_same_target_rows",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "n_inf=4",
+      "name": "v32_candidates_ge2",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "Reg_random = mean L_R - L*",
+      "name": "v33_random_analytic",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "Reg_metadata = L_metadata - L*",
+      "name": "v34_metadata_tie_analytic",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "tie key gower then id",
+      "name": "v35_verify_tie_det",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "oracle uses common_r_fp",
+      "name": "v36_oracle_same_R",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "no epsilon constant in scoring",
+      "name": "v37_no_epsilon",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "Reg_rel iff L*>0; else invalid_rel=1",
+      "name": "v38_invalid_denominators_missing",
+      "passed": true
+    },
+    {
+      "artifact_path": [
+        "artifacts/rq4/RQ4_TEMPORAL_NOISE.parquet",
+        "artifacts/rq4/RQ4_TEMPORAL_AUDIT.parquet"
+      ],
+      "evidence": "{\"n_audit\": 4, \"n_A_B_disjoint_fp\": 4}",
+      "name": "v39_7day_blocks",
+      "passed": true
+    },
+    {
+      "artifact_path": [
+        "artifacts/rq4/RQ4_TEMPORAL_NOISE.parquet",
+        "artifacts/rq4/RQ4_TEMPORAL_AUDIT.parquet"
+      ],
+      "evidence": "{\"n_directional_pairs\": 4}",
+      "name": "v40_A_to_B_and_B_to_A",
+      "passed": true
+    },
+    {
+      "artifact_path": [
+        "artifacts/rq4/RQ4_TEMPORAL_NOISE.parquet",
+        "artifacts/rq4/RQ4_TEMPORAL_AUDIT.parquet"
+      ],
+      "evidence": "{\"n_chrono_values_matched\": 8}",
+      "name": "v41_chrono_half",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_REGRET_BY_INSTANCE.parquet",
+      "evidence": "{\"recomputed_median\": 0.020024828508627843, \"recomputed_mean\": 0.020024828508627843, \"curve_k45\": 0.020024828508627843}",
+      "name": "v42_target_balanced",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_BOOTSTRAP_DRAWS.parquet",
+      "evidence": "{\"n_draw_matches\": 60000, \"n_rel_draws\": 55000, \"n_t1_draws\": 5000, \"t1_mean\": 0.01361618969627243}",
+      "name": "v43_target_cluster_bootstrap",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "5000",
+      "name": "v44_B5000",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "42",
+      "name": "v45_seed42",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "14",
+      "name": "v46_persistent_k_tau",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "None",
+      "name": "v47_persistent_k_noise",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "T1 T2 k=45 k_tau k_noise",
+      "name": "v48_no_perk_fishing",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "hgb_k=[0, 1, 2, 3, 5, 7, 10, 14, 21, 30, 45]",
+      "name": "v49_hgb_not_primary",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "3ca11b2ed883f53bfa4292588a18127979df30cdbbd18b8d3f3696b2b936d848",
+      "name": "v50_deterministic_rerun",
+      "passed": true
+    },
+    {
+      "artifact_path": "artifacts/rq4/RQ4_VALIDATION.json",
+      "evidence": "RQ4_SOURCE_SELECTION_RESULTS_MATERIALIZED",
+      "name": "v51_manuscript_from_sot",
+      "passed": true
+    }
+  ],
+  "n_frozen_invariants": 51,
+  "n_supplemental_checks": 2,
+  "rerun_identical": true,
+  "rerun_scientific_content_sha256": "3ca11b2ed883f53bfa4292588a18127979df30cdbbd18b8d3f3696b2b936d848",
+  "supplemental_checks": [
+    {
+      "artifact_path": "docs/method_amendments/RQ4_SOURCE_SELECTION_FROZEN_SPEC.md",
+      "evidence": "75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66",
+      "name": "spec_file_sha",
+      "passed": true
+    },
+    {
+      "artifact_path": "docs/prompts/EXECUTE_RQ4_SOURCE_SELECTION_CONFIRMATORY.md",
+      "evidence": "0c1dcaa79b2a5015bb8e73d0f38f8b1f30801e28d98c75674b5e0bc6391b526f",
+      "name": "prompt_archive_sha",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "group_id": "TW_7b33a493697b",
+  "model_family": "SplineRidge",
+  "n_bidirectionally_computable_unordered_pairs": 28,
+  "n_computable_directed_transfers": 56,
+  "n_expected_directed_transfers": 56,
+  "n_noncomputable_directed_transfers": 0,
+  "n_structurally_executable_target_control_pairs": 176,
+  "n_targets_with_structurally_executable_control": 8,
+  "noncomputable_reasons": {},
+  "plants": [
+    "PS_004",
+    "PS_017",
+    "PS_020",
+    "PS_022",
+    "PS_023",
+    "PS_024",
+    "PS_026",
+    "PS_030"
+  ],
+  "provenance_sources": {
+    "directional": {
+      "path": "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv",
+      "sha256": "f455e07004f706f3481a7affb119567bdec431effc5c308a168935b2adbed402"
+    },
+    "members": {
+      "path": "artifacts/twins/members.csv",
+      "sha256": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006"
+    },
+    "metadata": {
+      "path": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+      "sha256": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c"
+    },
+    "protocol": {
+      "path": "config/protocol.py",
+      "sha256": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+    }
+  },
+  "reduced_features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2"
+  ],
+  "split": "eligibility_then_chronological_60_20_20",
+  "support_rule": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  },
+  "supported_row_counts": {
+    "artifact": "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv",
+    "field": "n_supported",
+    "row_count": 56,
+    "sha256": "f455e07004f706f3481a7affb119567bdec431effc5c308a168935b2adbed402"
+  },
+  "target": "y_dc_normalized"
+}

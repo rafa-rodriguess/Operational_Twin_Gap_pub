@@ -1,0 +1,45 @@
+{
+  "bootstrap_or_permutation_executed": false,
+  "cs3_metrics_executed": false,
+  "difference_of_mae_computed": false,
+  "feature_order": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "joblib_version": "1.5.3",
+  "local_comparison_rows_identical_to_transfer": true,
+  "model_families": [
+    {
+      "id": "SplineRidge",
+      "role": "primary"
+    },
+    {
+      "id": "HistGradientBoosting",
+      "role": "r1_frozen_input"
+    }
+  ],
+  "numpy_version": "2.4.4",
+  "otg_computed": false,
+  "prediction_clipping": false,
+  "primary_common_support": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  },
+  "primary_loss": "MAE",
+  "python_version": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "s05_mask_reused_without_mutation": true,
+  "s06_training_or_refit": false,
+  "secondary_metrics": [
+    "RMSE",
+    "R2",
+    "bias_mean_pred_minus_true"
+  ],
+  "source_models": "S04 full.joblib only",
+  "target": "y_dc_normalized",
+  "target_adaptation": false
+}

@@ -1,0 +1,131 @@
+{
+  "association_interpretation": "negative_otg_retention_association",
+  "association_interpretation_note": "Lower support retention tends to accompany larger absolute transfer penalties (bootstrap CI excludes 0).",
+  "bootstrap_cluster": "target_plant_id with replacement; all source\u2192target rows of a sampled target included with multiplicity",
+  "n_association": 85,
+  "no_new_prediction_scoring": true,
+  "no_refit": true,
+  "otg_abs_definition": "transfer_mae - local_same_rows_mae (S07 otg_abs)",
+  "otg_rel_definition": "otg_abs / local_same_rows_mae when local_same_rows_mae != 0 (S07 otg_rel)",
+  "r7": {
+    "n_directional": 47,
+    "n_distinct_sources": 12,
+    "n_distinct_targets": 12,
+    "rq1_abs_difference": -0.0009835030706975261,
+    "rq1_directional_median": 0.0037625795021312483,
+    "rq1_group_plant_balanced": {
+      "TW_04b9f5d95694": 0.0010783871471068823,
+      "TW_4467a039e00b": 0.01288644656999825,
+      "TW_88a108921af7": -0.013253571979140621
+    },
+    "rq1_plant_balanced": 0.008740101787088115,
+    "rq1_primary": 0.009723604857785641,
+    "rq1_rel_median": 0.06064903023201766,
+    "rq1_rel_p75": 0.11789963717134741,
+    "rq2_abs_difference": 0.008394594245024194,
+    "rq2_group_plant_balanced": {
+      "TW_04b9f5d95694": 0.0002428308038606164,
+      "TW_4467a039e00b": 0.042744622951071
+    },
+    "rq2_median_abs_asymmetry": 0.004954412760202063,
+    "rq2_n_eligible_unordered_pairs": 18,
+    "rq2_n_plants": 11,
+    "rq2_plant_balanced_abs_asymmetry": 0.03501702437885093,
+    "rq2_primary": 0.026622430133826737,
+    "rq3_primary": 0.0261997195973106,
+    "rq3_reason": "RQ3 uses pairwise TEST intersection of twin CS4 and control CS4 (n_pairwise in source_contrasts.csv) without persisted control-side or intersection retention; S07 support_retention is twin-transfer only. Filtering only the twin leg would be a one-sided proxy. No refit/new scoring in P2.",
+    "rq3_status": "R7_RQ3_NOT_COMPUTABLE_FROM_PERSISTED_ARTIFACTS",
+    "threshold": 0.5
+  },
+  "r7_interpretation_note": "R7 RQ1 plant-balanced 0.008740101787088115 vs primary 0.009723604857785641 (signed difference -0.0009835030706975261). Support coverage is a modifier to the extent this numerical shift matters; R7 is not labeled better or worse.",
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "rq2_r7_rule": "unordered pair eligible iff both directions computable in primary and both support_retention >= 0.5",
+  "spearman_abs": {
+    "bootstrap_seed": 20260921,
+    "ci95_high": -0.03486494194987956,
+    "ci95_low": -0.5063571487826426,
+    "n": 85,
+    "n_invalid": 0,
+    "n_replicates": 5000,
+    "n_valid": 5000,
+    "p_value_descriptive": 0.011234004038787652,
+    "rho": -0.2737736955247215
+  },
+  "spearman_rel": {
+    "bootstrap_seed": 20260921,
+    "ci95_high": -0.05081407171361724,
+    "ci95_low": -0.5259737461222844,
+    "interpreted_separately_from_abs": true,
+    "n": 85,
+    "n_invalid": 0,
+    "n_replicates": 5000,
+    "n_valid": 5000,
+    "p_value_descriptive": 0.005205332986600642,
+    "rho": -0.30046902481923
+  },
+  "status": "S12_P2_SUPPORT_RETENTION_MATERIALIZED",
+  "tercile_cutpoints": {
+    "q_one_third": 0.3507362784471218,
+    "q_two_thirds": 0.6816901408450704,
+    "quantile_method": "linear"
+  },
+  "terciles": [
+    {
+      "cut_q_one_third": 0.3507362784471218,
+      "cut_q_two_thirds": 0.6816901408450704,
+      "group_composition": {
+        "TW_4467a039e00b": 28
+      },
+      "median_otg_abs": 0.009356163792156636,
+      "median_otg_rel": 0.22115568768182808,
+      "median_support_retention": 0.2168480149663184,
+      "n_directional": 28,
+      "n_distinct_targets": 10,
+      "n_targets_plant_balanced": 10,
+      "p75_otg_abs": 0.015906247527336704,
+      "p75_otg_rel": 0.3453639604097577,
+      "plant_balanced_otg_abs": 0.013460255204958254,
+      "retention_interval": "[min, 0.3507362784471218)",
+      "tercile": "LOW"
+    },
+    {
+      "cut_q_one_third": 0.3507362784471218,
+      "cut_q_two_thirds": 0.6816901408450704,
+      "group_composition": {
+        "TW_4467a039e00b": 26,
+        "TW_88a108921af7": 2
+      },
+      "median_otg_abs": 0.006219077795974835,
+      "median_otg_rel": 0.09075277838185522,
+      "median_support_retention": 0.5404748735460805,
+      "n_directional": 28,
+      "n_distinct_targets": 12,
+      "n_targets_plant_balanced": 12,
+      "p75_otg_abs": 0.019829021077206452,
+      "p75_otg_rel": 0.3157643811198865,
+      "plant_balanced_otg_abs": 0.011969924429543031,
+      "retention_interval": "[0.3507362784471218, 0.6816901408450704)",
+      "tercile": "MID"
+    },
+    {
+      "cut_q_one_third": 0.3507362784471218,
+      "cut_q_two_thirds": 0.6816901408450704,
+      "group_composition": {
+        "TW_04b9f5d95694": 2,
+        "TW_4467a039e00b": 27
+      },
+      "median_otg_abs": 0.003812474935823658,
+      "median_otg_rel": 0.06064903023201766,
+      "median_support_retention": 0.7430555555555556,
+      "n_directional": 29,
+      "n_distinct_targets": 11,
+      "n_targets_plant_balanced": 11,
+      "p75_otg_abs": 0.006793773823267998,
+      "p75_otg_rel": 0.1129250027348752,
+      "plant_balanced_otg_abs": 0.009614343325281341,
+      "retention_interval": "[0.6816901408450704, max]",
+      "tercile": "HIGH"
+    }
+  ]
+}

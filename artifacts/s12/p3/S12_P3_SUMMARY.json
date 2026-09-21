@@ -1,0 +1,180 @@
+{
+  "interpretation": "R9 recovers all 9 PS_048 source directions. RQ1 plant-balanced primary 0.009723604857785641 vs R9 0.007921538431514311 (difference -0.0018020664262713305). R9 remains a sensitivity arm, not a new primary protocol.",
+  "lost_identities": [],
+  "mad_constant": 1.4826,
+  "model_actions": {
+    "PS_002": "refit_unusable_artifact",
+    "PS_003": "refit_unusable_artifact",
+    "PS_035": "refit_unusable_artifact",
+    "PS_039": "refit_unusable_artifact",
+    "PS_042": "refit_unusable_artifact",
+    "PS_043": "refit_unusable_artifact",
+    "PS_044": "refit_unusable_artifact",
+    "PS_045": "refit_unusable_artifact",
+    "PS_046": "refit_unusable_artifact",
+    "PS_047": "refit_unusable_artifact",
+    "PS_048": "refit_unusable_artifact",
+    "PS_049": "refit_unusable_artifact",
+    "PS_050": "refit_unusable_artifact",
+    "PS_051": "refit_unusable_artifact"
+  },
+  "n_lost": 0,
+  "n_planned": 94,
+  "n_primary_computable": 85,
+  "n_r9_computable": 94,
+  "n_recovered": 9,
+  "n_unchanged_identities": 85,
+  "noncomputable": [],
+  "ps048_n_recovered": 9,
+  "ps048_source_directions": [
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_042"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_043"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_044"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_045"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_046"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_047"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_049"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_050"
+    },
+    {
+      "computable": true,
+      "reason": null,
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "ps048_wind_speed_ms": {
+    "engine_computable": true,
+    "feature": "wind_speed_ms",
+    "iqr": 0.0,
+    "mad": 0.0,
+    "median": 0.0,
+    "n_source_train": 2215,
+    "n_support_features": 5,
+    "scale": null,
+    "scale_source": "OMITTED_DEGENERATE",
+    "source_plant_id": "PS_048",
+    "tau": 0.38880986598928063
+  },
+  "r9_is_sensitivity_only": true,
+  "r9_rule": "IQR if valid else 1.4826*MAD if valid else omit feature from support distance only; all degenerate -> all_support_features_degenerate",
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "recovered_identities": [
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_042"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_043"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_044"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_045"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_046"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_047"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_049"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_050"
+    },
+    {
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "rq1": {
+    "difference_vs_primary": -0.0018020664262713305,
+    "directional_mean": 0.011953083581860825,
+    "group_plant_balanced": {
+      "TW_04b9f5d95694": 0.001078387147105963,
+      "TW_4467a039e00b": 0.012658603983171465,
+      "TW_88a108921af7": -0.008920638042363104
+    },
+    "median": 0.004647377806329123,
+    "n": 94,
+    "n_targets": 14,
+    "overlap_difference_vs_primary": -2.9524993561125257e-15,
+    "overlap_n": 85,
+    "overlap_n_targets": 14,
+    "overlap_plant_balanced": 0.009723604857782689,
+    "plant_balanced": 0.007921538431514311,
+    "primary": 0.009723604857785641,
+    "rel_median": 0.07286363616599364,
+    "rel_p75": 0.2602941113870969,
+    "support_retention_median": 0.5036611342526129
+  },
+  "rq2": {
+    "difference_vs_primary": -0.0005668824239364982,
+    "median_abs_asymmetry": 0.014702517779294093,
+    "n_bidirectional_primary": 38,
+    "n_bidirectional_r9": 47,
+    "n_newly_recovered_pairs": 9,
+    "n_plants": 14,
+    "n_unordered_primary_pairs": 47,
+    "overlap_difference_vs_primary": 4.163336342344337e-17,
+    "overlap_n_pairs": 38,
+    "overlap_plant_balanced": 0.02662243013382678,
+    "plant_balanced_abs_asymmetry": 0.02605554770989024,
+    "primary": 0.026622430133826737
+  },
+  "rq3_reason": "Canonical RQ3 needs R9 support on both twin and matched-control source histories plus pairwise TEST intersection. Control models/scoring are a separate pipeline; P3 does not rebuild it or invent a twin-only proxy.",
+  "rq3_status": "R9_RQ3_DEFERRED_NOT_REQUIRED_FOR_SCALER_SENSITIVITY",
+  "status": "S12_P3_R9_ADAPTIVE_SCALING_MATERIALIZED",
+  "support_change": {
+    "identical": 85,
+    "median_abs_delta_otg": 4.142519660632615e-15,
+    "median_abs_delta_retention": 0.0,
+    "median_jaccard": 1.0,
+    "min_jaccard": 1.0,
+    "n_overlap_directions": 85,
+    "partial": 0,
+    "r9_subset": 0,
+    "r9_superset": 0
+  }
+}

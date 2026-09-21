@@ -1,0 +1,67 @@
+{
+  "comparison_row_count": 118,
+  "contributing_target_count": 10,
+  "eligibility_row_count": 72,
+  "eligibility_rule": "structural_candidate = same-state AND not nominal twin AND ranking_components defined; structurally_executable = candidate AND n_train_xy>=8 AND n_val_xy>=4 AND nonempty CS4 pairwise intersection with at least one twin source on target test rows. Gate uses structurally_executable only. Eligibility does not read transfer MAE, local MAE, or CONTROL minus TWIN contrasts.",
+  "generated_at_utc": "2026-09-21T00:22:48+00:00",
+  "helper_path": "src/lib/s11_phase2_a2.py",
+  "median_eligible_controls_per_target": 2.0,
+  "n_primary_rq3_targets": 10,
+  "outputs": {
+    "artifacts/s11/S11_A2_R8_COMPARISONS.csv": {
+      "bytes": 22588,
+      "row_count": 128,
+      "schema_fingerprint": "fe8fc147028a1f526a80acad371ccc7d8162d4d4b352be70ba92ad2854264b06",
+      "sha256": "1e1a17de41b302fb6b26e75f07f8762950b7da8c7bce5078410bacee87678b08"
+    },
+    "artifacts/s11/S11_A2_R8_ELIGIBILITY.csv": {
+      "bytes": 11425,
+      "row_count": 72,
+      "schema_fingerprint": "b440cddd75639a522b5ecef95710871d99d65cd673fc3c9b164bfe5c82a0d005",
+      "sha256": "038b2ef906e45235045c748cb3533bf31b783be4661df91f680e7b901acd65cc"
+    },
+    "artifacts/s11/S11_A2_R8_ELIGIBILITY_SUMMARY.json": {
+      "bytes": 1507,
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "fed8ef3ef3924a4e6c15bed0820950bb101998ff2024cd0bc0f52c45be9b8b85"
+    },
+    "artifacts/s11/S11_A2_R8_SUMMARY.json": {
+      "bytes": 632,
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "5f47c58c1ba2df882e3ec2a5b0fa5786de79302215740bb2e9eb99379f6f48db"
+    },
+    "artifacts/s11/S11_A2_R8_TARGET_SUMMARY.csv": {
+      "bytes": 468,
+      "row_count": 10,
+      "schema_fingerprint": "de545c5fd0984714b81bb700ae8c8503ab17facaf9fff28fd3ab4d5d1967008a",
+      "sha256": "709e417255ee4cf10e76dea708e4afae6fd87ddba8de13eeb6c98e7ac18348a8"
+    }
+  },
+  "part_b_executed": true,
+  "repository_head": "eaaebfbca46087acccafb83f713891d005640041",
+  "script_path": "src/run/16_s11_phase2_a2.py",
+  "source_artifacts": {
+    "members": {
+      "path": "artifacts/twins/members.csv",
+      "sha256": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006"
+    },
+    "metadata": {
+      "path": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+      "sha256": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c"
+    },
+    "rq3_mapping": {
+      "path": "artifacts/rq3/mapping.csv",
+      "sha256": "e51400ec841f7b7dba7aa4317803dd77ff108cbbef11d32c499ba021006fcfca"
+    },
+    "rq3_summary": {
+      "path": "artifacts/rq3/summary.json",
+      "sha256": "3ce6640a8b641805194745587079c4eae1dfdc3046a514ad9ef51c065ea4f437"
+    },
+    "support_masks": {
+      "path": "artifacts/s05/S05_SUPPORT_MASKS.parquet",
+      "sha256": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b"
+    }
+  }
+}

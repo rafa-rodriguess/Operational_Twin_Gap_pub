@@ -1,0 +1,53 @@
+{
+  "distinct_eligible_control_count": 12,
+  "eligibility_rule": "structural_candidate = same-state AND not nominal twin AND ranking_components defined; structurally_executable = candidate AND n_train_xy>=8 AND n_val_xy>=4 AND nonempty CS4 pairwise intersection with at least one twin source on target test rows. Gate uses structurally_executable only. Eligibility does not read transfer MAE, local MAE, or CONTROL minus TWIN contrasts.",
+  "median_eligible_controls_per_target": 2.0,
+  "n_primary_rq3_targets": 10,
+  "n_structural_candidates": 72,
+  "n_targets_more_than_one_eligible_control": 10,
+  "n_targets_one_eligible_control": 0,
+  "n_targets_zero_eligible_controls": 0,
+  "part_b_executed": true,
+  "per_target_control_counts": {
+    "PS_002": 2,
+    "PS_003": 2,
+    "PS_035": 8,
+    "PS_039": 8,
+    "PS_042": 2,
+    "PS_043": 2,
+    "PS_044": 2,
+    "PS_048": 2,
+    "PS_049": 2,
+    "PS_050": 2
+  },
+  "primary_group_ids": [
+    "TW_04b9f5d95694",
+    "TW_4467a039e00b",
+    "TW_88a108921af7"
+  ],
+  "primary_matched_controls": {
+    "PS_002": "PS_007",
+    "PS_003": "PS_007",
+    "PS_035": "PS_008",
+    "PS_039": "PS_008",
+    "PS_042": "PS_005",
+    "PS_043": "PS_005",
+    "PS_044": "PS_005",
+    "PS_048": "PS_005",
+    "PS_049": "PS_005",
+    "PS_050": "PS_005"
+  },
+  "rq3_targets": [
+    "PS_002",
+    "PS_003",
+    "PS_035",
+    "PS_039",
+    "PS_042",
+    "PS_043",
+    "PS_044",
+    "PS_048",
+    "PS_049",
+    "PS_050"
+  ],
+  "structural_status": "S11_PHASE2_A2_R8_MATERIALIZED"
+}

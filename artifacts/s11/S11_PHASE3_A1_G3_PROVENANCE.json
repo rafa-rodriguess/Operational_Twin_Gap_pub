@@ -1,0 +1,113 @@
+{
+  "canonical_sources": {
+    "members": {
+      "path": "artifacts/twins/members.csv",
+      "sha256": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006"
+    },
+    "protocol": {
+      "path": "config/protocol.py",
+      "sha256": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+    }
+  },
+  "features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2"
+  ],
+  "generated_at_utc": "2026-09-21T00:50:17+00:00",
+  "group_id": "TW_7b33a493697b",
+  "helper_path": "src/lib/s11_phase3_a1_g3.py",
+  "model_family": "SplineRidge",
+  "n_bidirectionally_computable_unordered_pairs": 28,
+  "n_computable_directed_transfers": 56,
+  "n_expected_directed_transfers": 56,
+  "n_noncomputable_directed_transfers": 0,
+  "newly_computed_artifacts": [
+    "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv",
+    "artifacts/s11/S11_A1_G3_RQ1_TARGET.csv",
+    "artifacts/s11/S11_A1_G3_ASYMMETRY.csv",
+    "artifacts/s11/S11_A1_G3_RQ3_ELIGIBILITY.csv",
+    "artifacts/s11/S11_A1_G3_RQ3_COMPARISONS.csv",
+    "artifacts/s11/S11_A1_G3_RQ3_TARGET_SUMMARY.csv",
+    "artifacts/s11/S11_A1_G3_PREFLIGHT.json",
+    "artifacts/s11/S11_A1_G3_SUMMARY.json",
+    "artifacts/s11/S11_PHASE3_A1_G3_PROVENANCE.json"
+  ],
+  "otg_definition": "transferred_error_minus_local_target_error_on_same_supported_rows",
+  "outputs": {
+    "artifacts/s11/S11_A1_G3_ASYMMETRY.csv": {
+      "bytes": 3819,
+      "row_count": 28,
+      "schema_fingerprint": "297b5e89ba4f1f9a8b2b7028ebcc464a0f901195456d307f5eb4e803e5328447",
+      "sha256": "be0e3b6cd88a870a4a76c386a6a37519040c6eb03a4b77901fa2d29298b70987"
+    },
+    "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv": {
+      "bytes": 8363,
+      "row_count": 56,
+      "schema_fingerprint": "cd52455a4ac586c6693b6bd7269a0dc6207df174ec7ed6989db7aea9f4dca923",
+      "sha256": "f455e07004f706f3481a7affb119567bdec431effc5c308a168935b2adbed402"
+    },
+    "artifacts/s11/S11_A1_G3_PREFLIGHT.json": {
+      "bytes": 1633,
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "8f682a467a2f936436771eecef818995fe4cea83db72373c87735e219164f877"
+    },
+    "artifacts/s11/S11_A1_G3_RQ1_TARGET.csv": {
+      "bytes": 646,
+      "row_count": 8,
+      "schema_fingerprint": "c879709fd2ab1daa6ba3e821b01ffcf542df2d9429db4bb0306eee5bcff8eaca",
+      "sha256": "d76d8fc256506855ea92a75db5d13c52ce4de1c84cfd8613cae8ec7e06044a61"
+    },
+    "artifacts/s11/S11_A1_G3_RQ3_COMPARISONS.csv": {
+      "bytes": 148376,
+      "row_count": 1232,
+      "schema_fingerprint": "3d085988b87bf0de849fcac695cd6293f32ae3a87ada2806e8bafb5a0ed9a817",
+      "sha256": "5e2a0170637f295aca633038fca2fd5db26b9d9a3e04d521fb2fced0a38e35ec"
+    },
+    "artifacts/s11/S11_A1_G3_RQ3_ELIGIBILITY.csv": {
+      "bytes": 13377,
+      "row_count": 176,
+      "schema_fingerprint": "326da573548db86701f4a73e4e908271d592c9297b075deb9e4140a04ac03cd1",
+      "sha256": "cdc494500f2597df391f8e9aae1f5f590fb161471b47889c06a23f821b619beb"
+    },
+    "artifacts/s11/S11_A1_G3_RQ3_TARGET_SUMMARY.csv": {
+      "bytes": 488,
+      "row_count": 8,
+      "schema_fingerprint": "98a82d4d9b01f0d87f316c6e709cde780cd27f3a5a5372fe3cebc1b9ef930901",
+      "sha256": "2e2ec4ce33ecf7dcea652bc30f7f3e37b6fec2083e7420678fce34b732a462ef"
+    },
+    "artifacts/s11/S11_A1_G3_SUMMARY.json": {
+      "bytes": 1075,
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "82640deefbd39ff40ad831e08397244791361cfaeb89826b9fee4c8a56855954"
+    }
+  },
+  "plants": [
+    "PS_004",
+    "PS_017",
+    "PS_020",
+    "PS_022",
+    "PS_023",
+    "PS_024",
+    "PS_026",
+    "PS_030"
+  ],
+  "repository_head": "9949a9dcb40994b37270c9c1e114516f6ea25265",
+  "reused_upstream_artifacts": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/twins/members.csv": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff",
+    "data/raw/br_pvgen/BR-PVGen_metadata.csv": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c"
+  },
+  "rq3_n_executable_target_control_pairs": 176,
+  "rq3_n_valid_source_control_comparisons": 1232,
+  "script_path": "src/run/17_s11_phase3_a1_g3.py",
+  "split": "eligibility_then_chronological_60_20_20",
+  "support_rule": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  },
+  "target": "y_dc_normalized"
+}

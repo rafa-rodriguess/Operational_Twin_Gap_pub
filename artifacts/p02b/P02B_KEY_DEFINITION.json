@@ -1,0 +1,82 @@
+{
+  "canonicalization": {
+    "boolean_fields": [
+      "is_panel_bifacial"
+    ],
+    "boolean_rule": "trim; map true/false case-insensitively to lowercase true/false",
+    "integer_fields": [
+      "number_of_panels"
+    ],
+    "missing_values": "missing in any key field makes the plant ineligible; missing never equals missing",
+    "numeric_decimal_fields": [
+      "nominal_power_mw",
+      "panel_area_mm2",
+      "panel_bifaciality_coefficient",
+      "panel_efficiency_percentage",
+      "panel_temperature_coefficient"
+    ],
+    "rule": "trim whitespace; parse with decimal.Decimal; serialize format(normalize(), 'f'); no tolerance; no binary float; no chosen decimal places",
+    "structure_type": "trim surrounding whitespace; do not case-fold"
+  },
+  "excluded_fields": [
+    {
+      "evidence": "P02B contract and BR-PVGen data dictionary: unique plant metadata identifier",
+      "field": "id",
+      "reason": "plant identifier; never enters the exact technical key"
+    },
+    {
+      "evidence": "P02B contract; Readme location restricted to federative unit",
+      "field": "brazil_federative_unit",
+      "reason": "state is contextual only; must not create, split, merge, or rank twin groups"
+    }
+  ],
+  "group_id_rule": "group_id = TW_ + first 12 lowercase hex characters of SHA-256 of canonical JSON object in frozen key order",
+  "group_key_hashes": {
+    "TW_04b9f5d95694": "04b9f5d95694d330eb17311cb3264ab4b2546f104222db35ac16b418ddb2b45f",
+    "TW_4467a039e00b": "4467a039e00be56da8761b787d1f723b289576f271ec3b97fe9b36acb6e14264",
+    "TW_7b33a493697b": "7b33a493697b7cdbf06573ad401e4c0f746cf0e22ed18f72f29115bf334fc320",
+    "TW_88a108921af7": "88a108921af7237a4007fe302cfadf4b50e9cfc8219714a22c808bbac779a3a8",
+    "TW_f8e8375afe38": "f8e8375afe38e2d4c25b1b13d7954a732d51fc15225c66fab482c7d1cac0924d"
+  },
+  "included_fields": [
+    "is_panel_bifacial",
+    "nominal_power_mw",
+    "number_of_panels",
+    "panel_area_mm2",
+    "panel_bifaciality_coefficient",
+    "panel_efficiency_percentage",
+    "panel_temperature_coefficient",
+    "structure_type"
+  ],
+  "metadata_row_count": 51,
+  "metadata_sha256": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c",
+  "metadata_source": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+  "ordered_final_key": [
+    "is_panel_bifacial",
+    "nominal_power_mw",
+    "number_of_panels",
+    "panel_area_mm2",
+    "panel_bifaciality_coefficient",
+    "panel_efficiency_percentage",
+    "panel_temperature_coefficient",
+    "structure_type"
+  ],
+  "reconstruction": {
+    "eligible_if": "all final key fields non-missing and canonicalizable",
+    "group_by": "exact equality of the ordered canonical key tuple"
+  },
+  "redundancy_review": {
+    "is_panel_bifacial_and_panel_bifaciality_coefficient": {
+      "decision": "retain_both",
+      "reason": "official dictionary defines a boolean module class and a separate rear-to-front ratio; constant sample values are not a documented encoding equivalence"
+    }
+  },
+  "unobserved_technical_configuration": {
+    "inverter_model_or_type": false,
+    "inverter_nominal_capacity": false,
+    "inverter_quantity_as_static_metadata": false,
+    "notes": "inverter identifiers exist only in time-series files; P02B does not use time-series to define nominal equivalence",
+    "orientation_azimuth": false,
+    "tilt": false
+  }
+}

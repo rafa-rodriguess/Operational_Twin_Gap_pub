@@ -1,0 +1,15 @@
+{
+  "fleet_formula": "equal-weight mean of delta_j over contributing targets",
+  "max_target_contrast": 0.06682851484211087,
+  "min_target_contrast": -0.0004400764837465265,
+  "n_contributing_targets": 10,
+  "n_distinct_contributing_controls": 12,
+  "n_primary_targets": 10,
+  "n_targets_zero_eligible_controls": 0,
+  "n_valid_comparisons": 118,
+  "orientation": "CONTROL_MINUS_TWIN",
+  "reconciliation_passed": true,
+  "status": "S11_PHASE2_A2_R8_MATERIALIZED",
+  "target_balanced_r8_control_minus_twin": 0.038537039716828335,
+  "target_formula": "delta_j = mean_s (mean_c (OTG_control - OTG_twin) on pairwise CS4 intersection)"
+}

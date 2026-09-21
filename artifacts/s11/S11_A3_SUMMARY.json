@@ -1,0 +1,10 @@
+{
+  "eligible_target_count": 10,
+  "manuscript_reporting_gate": "MEDIAN_AND_MAX",
+  "max_spread": 0.13146549135095195,
+  "max_target": "PS_042",
+  "median_spread": 0.10572379991039335,
+  "n_eligible_by_twin_group": {
+    "G2": 10
+  }
+}

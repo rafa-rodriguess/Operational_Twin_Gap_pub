@@ -1,0 +1,66 @@
+{
+  "asymmetry_abs_computable": {
+    "max": 0.15186303328509856,
+    "mean": 0.03478961779518681,
+    "median": 0.015586154208783561,
+    "min": 0.0002428308038606164,
+    "n": 38,
+    "p25": 0.004694134970387842,
+    "p75": 0.03947558610451729
+  },
+  "by_group": {
+    "TW_04b9f5d95694": {
+      "n_bidirectional": 1,
+      "n_computable": 2,
+      "n_directional": 2,
+      "n_noncomputable": 0,
+      "n_unordered_pairs": 1
+    },
+    "TW_4467a039e00b": {
+      "n_bidirectional": 36,
+      "n_computable": 81,
+      "n_directional": 90,
+      "n_noncomputable": 9,
+      "n_unordered_pairs": 45
+    },
+    "TW_88a108921af7": {
+      "n_bidirectional": 1,
+      "n_computable": 2,
+      "n_directional": 2,
+      "n_noncomputable": 0,
+      "n_unordered_pairs": 1
+    }
+  },
+  "fleet_synthesis": "DEFERRED_no_frozen_balancing_realization",
+  "n_bidirectionally_computable_pairs": 38,
+  "n_computable_directional": 85,
+  "n_expected_directional": 94,
+  "n_noncomputable_directional": 9,
+  "n_otg_rel_defined": 85,
+  "n_otg_rel_undefined": 0,
+  "n_unordered_pairs": 47,
+  "otg_abs": {
+    "max": 0.1186737048292433,
+    "mean": 0.014307448948508569,
+    "median": 0.005620504664835005,
+    "min": -0.0397182861422483,
+    "n": 85,
+    "p25": 0.000123874310040753,
+    "p75": 0.015195240447891868
+  },
+  "otg_rel_defined": {
+    "max": 2.443780819190178,
+    "mean": 0.2776222088021295,
+    "median": 0.09068350552690223,
+    "min": -0.3140212820831142,
+    "n": 85,
+    "p25": 0.0039252061566285405,
+    "p75": 0.2858920511133578
+  },
+  "primary_model_family": "SplineRidge",
+  "support_rule": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  }
+}

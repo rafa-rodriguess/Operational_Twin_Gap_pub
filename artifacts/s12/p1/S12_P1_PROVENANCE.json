@@ -1,0 +1,377 @@
+{
+  "accepted_primary_science_not_overwritten": true,
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+  },
+  "generated_at_utc": "2026-09-21T01:57:45+00:00",
+  "half_split_rule": "chrono_order_by_datetime_raw; A=first floor(n/2); extra odd row assigned to later B",
+  "helper_path": "src/lib/s12_p1_null.py",
+  "interleave_rule": "7-day blocks from first canonical TRAIN timestamp; even->A odd->B; drop final unmatched block if n_blocks odd",
+  "manuscript_files_not_edited": true,
+  "outputs": {
+    "artifacts/s12/p1/S12_P1_EVAL_ROWS.parquet": {
+      "bytes": 2860993,
+      "row_count": 61829,
+      "sha256": "d70885597b7b67d9f8ba94d2b8231bc922630ce07b89ff0d59ae0929a2393bbc"
+    },
+    "artifacts/s12/p1/S12_P1_OTG_HALF_DIRECTIONAL.csv": {
+      "bytes": 15841,
+      "row_count": 94,
+      "sha256": "8a63fdca6df1abe7ae8a3a1fceb14870b346310575afb17d878015d568c017a7"
+    },
+    "artifacts/s12/p1/S12_P1_PLACEBO_PLANT_SUMMARY.csv": {
+      "bytes": 4970,
+      "row_count": 14,
+      "sha256": "e1659fb688643ad98de774307f5534fbeb2c9a9c23ec49f8a2d7e645017a98f7"
+    },
+    "artifacts/s12/p1/S12_P1_SUMMARY.json": {
+      "bytes": 9097,
+      "row_count": null,
+      "sha256": "90a1ae51059379864aa2a7cd3e6cbc0ca378cdeace1a2ea82911142fd445da59"
+    },
+    "artifacts/s12/p1/models/PS_002/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "a2ff1d25fad52029bda85e4e1222c4330aab1f19cbe16736f33857ff5a033bfc"
+    },
+    "artifacts/s12/p1/models/PS_002/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "01fdc536ca8d9b6e38437c472b2433793b0b89b2269e910de362ae9d7b0a228a"
+    },
+    "artifacts/s12/p1/models/PS_002/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "b4244645b4adce1aa7ee1fc2e4deabc2ff502a8782d7ef730991c568f572ac63"
+    },
+    "artifacts/s12/p1/models/PS_002/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "0cba5830fbcf5d8eeb974f95e719f23a4a0251d688c3941a988bc4f86502c7fb"
+    },
+    "artifacts/s12/p1/models/PS_002/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "01fdc536ca8d9b6e38437c472b2433793b0b89b2269e910de362ae9d7b0a228a"
+    },
+    "artifacts/s12/p1/models/PS_003/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "4912000a3152997ed566ab46fd1e70b41f3c412e86eb9fa7a7a06fc69eaaf758"
+    },
+    "artifacts/s12/p1/models/PS_003/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "35ef85d6c4f4b15955993c8f7ca82a4bed5acf124e2c92da4f66feb954968668"
+    },
+    "artifacts/s12/p1/models/PS_003/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "3f30c7c37c71c1d335157fc69d9f860be3ab5848269dd57140c90b137ccfcb18"
+    },
+    "artifacts/s12/p1/models/PS_003/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "fa0a019193b42aeee934e62ea2c9d7c316a9510938ac5b204995c5e38a6ac692"
+    },
+    "artifacts/s12/p1/models/PS_003/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "35ef85d6c4f4b15955993c8f7ca82a4bed5acf124e2c92da4f66feb954968668"
+    },
+    "artifacts/s12/p1/models/PS_035/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "8ca3854c6e8798353b95d612532e748ad2494bb10c779d467ccfb7cfba94f4bf"
+    },
+    "artifacts/s12/p1/models/PS_035/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "f2cbcf8e2ccc13ee6302aacd0aea07c596b50f510e8bdacc1235a7cdcac6dbd8"
+    },
+    "artifacts/s12/p1/models/PS_035/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "ea72e2696b83fb8a71aa80bbe056fea19b5aa3d75d1e8b48ec732fe4ad0ab1c3"
+    },
+    "artifacts/s12/p1/models/PS_035/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "ba963c00f7f3f0569b32ac68fcc5b72e2cc7a7336c9510b2da0f41c54936b5a8"
+    },
+    "artifacts/s12/p1/models/PS_035/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "f2cbcf8e2ccc13ee6302aacd0aea07c596b50f510e8bdacc1235a7cdcac6dbd8"
+    },
+    "artifacts/s12/p1/models/PS_039/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "417a53c158a2c7d11970754daaee5450b8e7b93544c0b5d9f3f02d05cc2ff4c9"
+    },
+    "artifacts/s12/p1/models/PS_039/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "e7281511201c2a5dd520ce3135e7e1936ea85b6255b7d6a11b34c931743d69cc"
+    },
+    "artifacts/s12/p1/models/PS_039/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "7e8a358fec17b88d6b1821eb278d932566a0f0dc1ea0668c47d1a094e006e945"
+    },
+    "artifacts/s12/p1/models/PS_039/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "24aba8a821948d2b95df5d6156fdf2e45e7f9295b11193ffb98ee40fca5cd247"
+    },
+    "artifacts/s12/p1/models/PS_039/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "e7281511201c2a5dd520ce3135e7e1936ea85b6255b7d6a11b34c931743d69cc"
+    },
+    "artifacts/s12/p1/models/PS_042/chrono_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "b6cd5a2810952830596bc4fe2f5bd8fbe38ced0494a58b61f8e6ad25508db8a6"
+    },
+    "artifacts/s12/p1/models/PS_042/chrono_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "8fe676004c4961611a1f8f5a36e1116d52e44ddb1a88b5382d42d7bd61c3f242"
+    },
+    "artifacts/s12/p1/models/PS_042/interleaved_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "c78ff0005d7b28b03d17b9940e8d7809cc4328016f24f1b731f1d9d77190925d"
+    },
+    "artifacts/s12/p1/models/PS_042/interleaved_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "8a4cfce23b6e17c4dcc054050e164baf2b4981fcfae5e4cc912aca5bdcfb6302"
+    },
+    "artifacts/s12/p1/models/PS_042/otg_half.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "8fe676004c4961611a1f8f5a36e1116d52e44ddb1a88b5382d42d7bd61c3f242"
+    },
+    "artifacts/s12/p1/models/PS_043/chrono_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "4c69efcf93c9af05fb7fe001230a236fdc584831f7cb2ce00c0e6c1ac265e780"
+    },
+    "artifacts/s12/p1/models/PS_043/chrono_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "5b0ded071c00b981a4573ea010997604adae15035b70b98979edde4109fd2e96"
+    },
+    "artifacts/s12/p1/models/PS_043/interleaved_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "6c15c8186eaece2da034577b06342520345db7f3138aafc84546237c91bdb852"
+    },
+    "artifacts/s12/p1/models/PS_043/interleaved_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "e0889b0d35d1b7d509d6756a60bdde8eff1675ac2cce4119d849a6a27904b53f"
+    },
+    "artifacts/s12/p1/models/PS_043/otg_half.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "5b0ded071c00b981a4573ea010997604adae15035b70b98979edde4109fd2e96"
+    },
+    "artifacts/s12/p1/models/PS_044/chrono_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "3e8dd27df69b83c66d4d4f56065f5c8f53b5ed8f3bac68ccba71bb8ef692b0ce"
+    },
+    "artifacts/s12/p1/models/PS_044/chrono_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "ea754ce20fedd0f5a5bf83fbcbbf1b6ce7308112002ca1d7c6567c79b790c893"
+    },
+    "artifacts/s12/p1/models/PS_044/interleaved_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "d54cc6c78b22f83430d4307f120615f8398e79ac440a389d885bdccc7acfb592"
+    },
+    "artifacts/s12/p1/models/PS_044/interleaved_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "ce6146f9de20dd6afc2da95496c0e1c971db0d94cbd04506bea22bcd5f182f4c"
+    },
+    "artifacts/s12/p1/models/PS_044/otg_half.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "ea754ce20fedd0f5a5bf83fbcbbf1b6ce7308112002ca1d7c6567c79b790c893"
+    },
+    "artifacts/s12/p1/models/PS_045/chrono_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "6c47a5ae5f6af579fdae86fefecc7fa7be08ee6fc0618a3873bc114a2ef020a5"
+    },
+    "artifacts/s12/p1/models/PS_045/chrono_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "0083e7aae102755e428d989f95e6019b9e087492b5087627eb46c840093706b4"
+    },
+    "artifacts/s12/p1/models/PS_045/interleaved_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "157aa1ad65bd6021e6b2d9ea97609ba3446df922df865f39cd2211c4fc4be216"
+    },
+    "artifacts/s12/p1/models/PS_045/interleaved_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "d878d9156ff43a8e59573028157e7d5ed5cdd5f748f21cfee965d5b605c2bc12"
+    },
+    "artifacts/s12/p1/models/PS_045/otg_half.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "0083e7aae102755e428d989f95e6019b9e087492b5087627eb46c840093706b4"
+    },
+    "artifacts/s12/p1/models/PS_046/chrono_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "da39c908ebbd280b1e3896a014f663070365b48c8e88327ce340fb4525d67e5c"
+    },
+    "artifacts/s12/p1/models/PS_046/chrono_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "fba08e93533cb0cfba5b755bc1a420efad172d4dba79e7d3c46564374235cfce"
+    },
+    "artifacts/s12/p1/models/PS_046/interleaved_A.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "0039168b566569e0cccff5802ff71d1090dfc67a4ab6bd06c33b9d643e0898f3"
+    },
+    "artifacts/s12/p1/models/PS_046/interleaved_B.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "b072c0b5e79ff69b8cb3c84352fa7da125535997e230ab676087b6d7ccbf313d"
+    },
+    "artifacts/s12/p1/models/PS_046/otg_half.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "fba08e93533cb0cfba5b755bc1a420efad172d4dba79e7d3c46564374235cfce"
+    },
+    "artifacts/s12/p1/models/PS_047/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "3efc8e0f48efd1ef674eb024de955e3f5c758a4ac813e87b24666b5fe750200f"
+    },
+    "artifacts/s12/p1/models/PS_047/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "76a14ec9a9ee95872ca6c36e07480822f11424be468b7d8764139bf2a101ba2a"
+    },
+    "artifacts/s12/p1/models/PS_047/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "e26060efeba73b77d462e5a84d86f8850721158f251414e3bb48c1a5212b7e51"
+    },
+    "artifacts/s12/p1/models/PS_047/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "fb93b0e519be1542ad62e560e12ea03414667fbcf443219d29f9101d777b28ca"
+    },
+    "artifacts/s12/p1/models/PS_047/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "76a14ec9a9ee95872ca6c36e07480822f11424be468b7d8764139bf2a101ba2a"
+    },
+    "artifacts/s12/p1/models/PS_048/otg_half.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "3813a0c6c507513d302bae8178a5d62604df1a7df62c26abe14db82b2f823b66"
+    },
+    "artifacts/s12/p1/models/PS_049/chrono_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "fdb2de21f92bdfbf6bbefe0fb5d21a890e7d88e6e7b7cf20eafd0034f4deeea6"
+    },
+    "artifacts/s12/p1/models/PS_049/chrono_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "bec58f2d6efdb49b8e24d7610f8f773946836e25103058438762921d41e2cf56"
+    },
+    "artifacts/s12/p1/models/PS_049/interleaved_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "60298845284769322214587eabc249e782e8b5ade5b7b4d142f337ae43de302e"
+    },
+    "artifacts/s12/p1/models/PS_049/interleaved_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "fd7bb67d4055e59472d7a346213719fdd3826920c18379033ec836bab61eb3e8"
+    },
+    "artifacts/s12/p1/models/PS_049/otg_half.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "bec58f2d6efdb49b8e24d7610f8f773946836e25103058438762921d41e2cf56"
+    },
+    "artifacts/s12/p1/models/PS_050/chrono_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "2b64c26c20b3932a6e93b398f027869687470c0eb7ba24ad9566d43b64e58041"
+    },
+    "artifacts/s12/p1/models/PS_050/chrono_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "e9619fac316a964159d1b3e29551a5f6d2b35a1a2ad2adcd270354387bd27c50"
+    },
+    "artifacts/s12/p1/models/PS_050/interleaved_A.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "086067dc02dd6642aa53d500fb9ab43083cee1343e7d012e12058bd8a9783d44"
+    },
+    "artifacts/s12/p1/models/PS_050/interleaved_B.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "11bd8bf7d3e6282fe0f90ea0dae735302525759faeb1a138a9e5e0715a4ee361"
+    },
+    "artifacts/s12/p1/models/PS_050/otg_half.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "e9619fac316a964159d1b3e29551a5f6d2b35a1a2ad2adcd270354387bd27c50"
+    },
+    "artifacts/s12/p1/models/PS_051/chrono_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "0c9608a00f34efbbcc1cad09c8fa68c9b1fd01eab4536893eb82ccd890222ca5"
+    },
+    "artifacts/s12/p1/models/PS_051/chrono_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "5917e8ff6e62e69a437c1c5b5ed623a91d865c5adabf5d2639ae2eb35460ef38"
+    },
+    "artifacts/s12/p1/models/PS_051/interleaved_A.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "53f370b42c38125c1871c3b2908512e574c605a001f10b4fdb280565ea41b9b9"
+    },
+    "artifacts/s12/p1/models/PS_051/interleaved_B.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "8724e91eff64244b653ca70c20b724c2f53705dd7c72aad39e4323d7146d0cdf"
+    },
+    "artifacts/s12/p1/models/PS_051/otg_half.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "5917e8ff6e62e69a437c1c5b5ed623a91d865c5adabf5d2639ae2eb35460ef38"
+    },
+    "reports/scientific/S12_P1_NULL_CALIBRATION.md": {
+      "bytes": 2110,
+      "row_count": null,
+      "sha256": "853116dbef254e1552119e85de4ca09aaad6e86bb4e7e205a5664c0a47e5e973"
+    }
+  },
+  "repository_head": "896bcdf0d64bce0c02cd0349aca7eb8915184719",
+  "script_path": "src/run/20_s12_p1_null.py",
+  "self_hash_registered_externally": true,
+  "support_semantics": "CS4 k=5 q=0.95 source-history median/IQR; LOO d5 threshold; degenerate IQR = not_computable; no P3 MAD fallback"
+}

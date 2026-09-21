@@ -1,0 +1,40 @@
+{
+  "changes": {
+    "manuscript_figure_2": "added a separate matched-scale ECDF panel overlaying half-history twin transfer and two within-plant placebo distributions",
+    "manuscript_figure_3": "standardized diagonal and non-computable cell labels to NA"
+  },
+  "ecdf": {
+    "chrono_placebo_n": 13,
+    "half_history_n": 85,
+    "interleaved_placebo_n": 13,
+    "matched_scale_panel": true,
+    "primary_not_compared_directly_with_placebo": true,
+    "primary_relative_n": 85,
+    "primary_relative_p75": 0.2858920511133578
+  },
+  "generated_at_utc": "2026-09-21T04:52:40+00:00",
+  "no_new_estimator": true,
+  "no_refit": true,
+  "no_rescoring": true,
+  "no_scientific_artifact_rewrite": true,
+  "operational_map": {
+    "M": 0.1186737048292433,
+    "center": 0.0,
+    "computable_cells": 81,
+    "diagonal_label": "NA",
+    "group_id": "TW_4467a039e00b",
+    "height_in": 6.4,
+    "missing_label": "NA",
+    "n_plants": 10,
+    "placement": "two_column",
+    "width_in": 7.16
+  },
+  "source_artifacts": {
+    "artifacts/s04/S04_GSELF_SUMMARY.csv": "b00145389b065295c8a728d60023b84c59c0972462b66f4244cc5f1967298949",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "artifacts/s12/p1/S12_P1_OTG_HALF_DIRECTIONAL.csv": "8a63fdca6df1abe7ae8a3a1fceb14870b346310575afb17d878015d568c017a7",
+    "artifacts/s12/p1/S12_P1_PLACEBO_PLANT_SUMMARY.csv": "e1659fb688643ad98de774307f5534fbeb2c9a9c23ec49f8a2d7e645017a98f7"
+  },
+  "status": "FIGURE_LABEL_AND_PLACEBO_ECDF_POLISH_MATERIALIZED",
+  "tier": 3
+}

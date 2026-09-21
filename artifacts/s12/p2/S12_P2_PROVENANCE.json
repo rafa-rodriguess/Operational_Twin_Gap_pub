@@ -1,0 +1,69 @@
+{
+  "accepted_science_not_edited": true,
+  "bootstrap": {
+    "ci": "percentile 2.5/97.5 linear quantile",
+    "cluster": "target_plant_id",
+    "n_replicates": 5000,
+    "seed": 20260921
+  },
+  "canonical_inputs": {
+    "artifacts/rq3/source_contrasts.csv": "75585a92d68557ebc6827e643baca53d96ea48158cd0f45d8cbf03e126e9a2cd",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s07/S07_ASYMMETRY.csv": "3703640a37dc70c19fc3eac40b43f29c003b07fe7d2f7965f371c1327ed7d9f2",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+  },
+  "generated_at_utc": "2026-09-21T02:07:57+00:00",
+  "helper_path": "src/lib/s12_p2_retention.py",
+  "manuscript_files_not_edited": true,
+  "no_new_prediction_scoring": true,
+  "no_refit": true,
+  "otg_abs_definition": "transfer_mae - local_same_rows_mae (S07 otg_abs)",
+  "otg_rel_definition": "otg_abs / local_same_rows_mae when local_same_rows_mae != 0 (S07 otg_rel)",
+  "outputs": {
+    "artifacts/s12/p2/S12_P2_ASSOCIATION_ROWS.csv": {
+      "bytes": 13897,
+      "row_count": 85,
+      "sha256": "14b362a806116403927d65aef50de34052d2b9b5e5944100c3f92ffcd8bf067d"
+    },
+    "artifacts/s12/p2/S12_P2_BOOTSTRAP.csv": {
+      "bytes": 294020,
+      "row_count": 5000,
+      "sha256": "9849543e27f1479f45a7c04965ac0c62c70294730f00d4864780e44305bd3623"
+    },
+    "artifacts/s12/p2/S12_P2_R7_DIRECTIONAL.csv": {
+      "bytes": 5310,
+      "row_count": 47,
+      "sha256": "8f2ca0546a065becc7a47c8cc682b7cdfc018a256ac537c5f824483f6c4cd857"
+    },
+    "artifacts/s12/p2/S12_P2_R7_PAIRS.csv": {
+      "bytes": 2092,
+      "row_count": 18,
+      "sha256": "f5987fba9283f64ba1c68cf6305d9b3b94f280980720972a82900b12667db8be"
+    },
+    "artifacts/s12/p2/S12_P2_RETENTION_TERCILES.csv": {
+      "bytes": 978,
+      "row_count": 3,
+      "sha256": "cfc0f5e217269374d86b6a3020980e36fbd3bad47cd9432922fad61cb0dd0f53"
+    },
+    "artifacts/s12/p2/S12_P2_SUMMARY.json": {
+      "bytes": 5275,
+      "row_count": null,
+      "sha256": "ae022ba760c5cff5b2ce0d52a8e883a231962bdd0abc579e8d76b9f2f8c84869"
+    },
+    "reports/scientific/S12_P2_SUPPORT_RETENTION.md": {
+      "bytes": 2592,
+      "row_count": null,
+      "sha256": "c8de1e66e29ca027ab746068a3e86a0feb058677c915cf499ef84b6ed53697cb"
+    }
+  },
+  "r7_threshold": 0.5,
+  "repository_head": "58ad2725a63f22b2f13a157a6bd76abd5176876d",
+  "rq2_r7_rule": "unordered pair eligible iff both directions computable in primary and both support_retention >= 0.5",
+  "rq3_r7": {
+    "reason": "RQ3 uses pairwise TEST intersection of twin CS4 and control CS4 (n_pairwise in source_contrasts.csv) without persisted control-side or intersection retention; S07 support_retention is twin-transfer only. Filtering only the twin leg would be a one-sided proxy. No refit/new scoring in P2.",
+    "status": "R7_RQ3_NOT_COMPUTABLE_FROM_PERSISTED_ARTIFACTS"
+  },
+  "script_path": "src/run/21_s12_p2_retention.py",
+  "self_hash_registered_externally": true,
+  "tercile_quantile_rule": "numpy.quantile 1/3 and 2/3 method=linear; LOW<q1, MID<q2 else HIGH"
+}

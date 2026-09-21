@@ -1,0 +1,44 @@
+{
+  "artifacts": {
+    "S07_ASYMMETRY.csv": {
+      "bytes": 6108,
+      "path": "artifacts/s07/S07_ASYMMETRY.csv",
+      "row_count": 47,
+      "schema_fingerprint": "62204fd8ab28daa6b27f9d380319085a1dce349996b449b026c2ffaf56ece29f",
+      "sha256": "3703640a37dc70c19fc3eac40b43f29c003b07fe7d2f7965f371c1327ed7d9f2"
+    },
+    "S07_OTG.md": {
+      "bytes": 989,
+      "path": "reports/scientific/S07_OTG.md",
+      "sha256": "fc51bc74a7e7cca1b124805935d49c9f35de3948ad7c6fdfbb02431376b4fe0a"
+    },
+    "S07_OTG_DIRECTIONAL.csv": {
+      "bytes": 15079,
+      "path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+      "row_count": 94,
+      "schema_fingerprint": "de1ab47f94c73520fa6a340516aa4faf92a4c21c685e900830958af087d1c7d4",
+      "sha256": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+    },
+    "S07_OTG_MATRICES.json": {
+      "bytes": 10663,
+      "path": "artifacts/s07/S07_OTG_MATRICES.json",
+      "sha256": "1a3d5a36d38fe550fa4cdf94a6991adc82095f2a1d0b377c3dfc5c62e65ccb67"
+    },
+    "S07_OTG_PROTOCOL.json": {
+      "bytes": 899,
+      "path": "artifacts/s07/S07_OTG_PROTOCOL.json",
+      "sha256": "202ce0c2b27fe50e6eab1075e4190acfc704d37eba989a0e7aa8ac4eee8a0cf8"
+    },
+    "S07_RECONCILIATION.json": {
+      "bytes": 964,
+      "path": "artifacts/s07/S07_RECONCILIATION.json",
+      "sha256": "8d290276de2ddf9e232c7f3a6f3b7128b6ac2c146c0234895c6204ed35c301fb"
+    },
+    "S07_SUMMARY.json": {
+      "bytes": 1646,
+      "path": "artifacts/s07/S07_SUMMARY.json",
+      "sha256": "6db463510ac7e6695286d12cec9adf941fa30672437a24c9428c255333d8c8bf"
+    }
+  },
+  "job": "S07_OTG"
+}

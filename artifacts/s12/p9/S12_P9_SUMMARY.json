@@ -1,0 +1,605 @@
+{
+  "assoc": {
+    "ed_full_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": -0.7953464547840055,
+        "rho_ci_lo": -0.9205475560236458,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 8.354573876877491e-28,
+      "reason": null,
+      "rho": -0.8744576900527653,
+      "x": "ed_full",
+      "y": "support_retention"
+    },
+    "ed_removed_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.6788140000465975,
+        "rho_ci_lo": -0.09620814584472577,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.0004215520385376628,
+      "reason": null,
+      "rho": 0.37402775063513777,
+      "x": "ed_removed",
+      "y": "support_retention"
+    },
+    "ed_supported_otg_abs": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.36752990765185795,
+        "rho_ci_lo": -0.1941528082715405,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.4147792409661798,
+      "reason": null,
+      "rho": 0.08960328317373462,
+      "x": "ed_supported",
+      "y": "otg_abs"
+    },
+    "ed_supported_otg_rel": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.4109453575505093,
+        "rho_ci_lo": -0.17572338279369396,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.25556415102061186,
+      "reason": null,
+      "rho": 0.12468243111197967,
+      "x": "ed_supported",
+      "y": "otg_rel"
+    },
+    "mmd_full_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": -0.8344504497720814,
+        "rho_ci_lo": -0.9331039677418183,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 2.4273287944746236e-31,
+      "reason": null,
+      "rho": -0.898045729919875,
+      "x": "mmd2_full",
+      "y": "support_retention"
+    },
+    "mmd_removed_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.6768905629528273,
+        "rho_ci_lo": -0.12446646416181184,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.0007271141901357012,
+      "reason": null,
+      "rho": 0.3595075239398085,
+      "x": "mmd2_removed",
+      "y": "support_retention"
+    },
+    "mmd_supported_otg_abs": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.371917462082444,
+        "rho_ci_lo": -0.16580216435921605,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.32293666588725967,
+      "reason": null,
+      "rho": 0.10850107484854407,
+      "x": "mmd2_supported",
+      "y": "otg_abs"
+    },
+    "mmd_supported_otg_rel": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.41094603158014864,
+        "rho_ci_lo": -0.15050360021733541,
+        "seed": 20260921
+      },
+      "n": 85,
+      "pvalue": 0.19337067101382277,
+      "reason": null,
+      "rho": 0.14246628884111784,
+      "x": "mmd2_supported",
+      "y": "otg_rel"
+    },
+    "partial_ed_otg_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.021856325547176248,
+        "rho_ci_lo": -0.5440692693310749,
+        "seed": 20260921
+      },
+      "n": 85,
+      "reason": null,
+      "rho": -0.29246274566286823
+    },
+    "partial_mmd_otg_retention": {
+      "bootstrap": {
+        "n_boot": 5000,
+        "n_valid": 5000,
+        "rho_ci_hi": 0.057810537570841945,
+        "rho_ci_lo": -0.5154716954656756,
+        "seed": 20260921
+      },
+      "n": 85,
+      "reason": null,
+      "rho": -0.26221709946391486
+    }
+  },
+  "bootstrap": {
+    "ed_full_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": -0.7953464547840055,
+      "rho_ci_lo": -0.9205475560236458,
+      "seed": 20260921
+    },
+    "ed_removed_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.6788140000465975,
+      "rho_ci_lo": -0.09620814584472577,
+      "seed": 20260921
+    },
+    "ed_supported_otg_abs": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.36752990765185795,
+      "rho_ci_lo": -0.1941528082715405,
+      "seed": 20260921
+    },
+    "ed_supported_otg_rel": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.4109453575505093,
+      "rho_ci_lo": -0.17572338279369396,
+      "seed": 20260921
+    },
+    "mmd_full_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": -0.8344504497720814,
+      "rho_ci_lo": -0.9331039677418183,
+      "seed": 20260921
+    },
+    "mmd_removed_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.6768905629528273,
+      "rho_ci_lo": -0.12446646416181184,
+      "seed": 20260921
+    },
+    "mmd_supported_otg_abs": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.371917462082444,
+      "rho_ci_lo": -0.16580216435921605,
+      "seed": 20260921
+    },
+    "mmd_supported_otg_rel": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.41094603158014864,
+      "rho_ci_lo": -0.15050360021733541,
+      "seed": 20260921
+    },
+    "partial_ed_otg_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.021856325547176248,
+      "rho_ci_lo": -0.5440692693310749,
+      "seed": 20260921
+    },
+    "partial_mmd_otg_retention": {
+      "n_boot": 5000,
+      "n_valid": 5000,
+      "rho_ci_hi": 0.057810537570841945,
+      "rho_ci_lo": -0.5154716954656756,
+      "seed": 20260921
+    }
+  },
+  "energy_formula": "ED=2 E||X-Y|| - E||X-X'|| - E||Y-Y'|| Euclidean V-statistic including diagonal",
+  "features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "groups": {
+    "G1": {
+      "ed_full": {
+        "max": 0.06373687768665293,
+        "mean": 0.05975526878669479,
+        "median": 0.05975526878669479,
+        "min": 0.05577365988673666,
+        "n": 2,
+        "p25": 0.057764464336715726,
+        "p75": 0.06174607323667386,
+        "p95": 0.06333871679665712
+      },
+      "ed_supported": {
+        "max": 0.07282458254084645,
+        "mean": 0.06738258052708357,
+        "median": 0.06738258052708357,
+        "min": 0.06194057851332069,
+        "n": 2,
+        "p25": 0.06466157952020213,
+        "p75": 0.07010358153396501,
+        "p95": 0.07228038233947016
+      },
+      "estimable": true,
+      "label": "G1",
+      "mmd2_supported": {
+        "max": 0.01998846182054459,
+        "mean": 0.018649510038463823,
+        "median": 0.018649510038463823,
+        "min": 0.017310558256383057,
+        "n": 2,
+        "p25": 0.01798003414742344,
+        "p75": 0.019318985929504207,
+        "p95": 0.019854566642336514
+      },
+      "n_directional": 2,
+      "small_n_caution": true,
+      "spearman_ed_supported_otg": {
+        "reason": "n_lt_3",
+        "rho": null
+      }
+    },
+    "G2": {
+      "ed_full": {
+        "max": 1.9785180579004833,
+        "mean": 0.6075662531307247,
+        "median": 0.5536395197443837,
+        "min": 0.053778712968597375,
+        "n": 81,
+        "p25": 0.30890739308105575,
+        "p75": 0.7740981612836917,
+        "p95": 1.3582551933902804
+      },
+      "ed_supported": {
+        "max": 3.4065802913760743,
+        "mean": 0.6380996797630909,
+        "median": 0.3217073519345699,
+        "min": 0.05478549324101567,
+        "n": 81,
+        "p25": 0.20507131606690088,
+        "p75": 0.92308009413208,
+        "p95": 2.160396103342915
+      },
+      "estimable": true,
+      "label": "G2",
+      "mmd2_supported": {
+        "max": 0.868108004982139,
+        "mean": 0.1661999061925586,
+        "median": 0.08279894118472875,
+        "min": 0.014587672502685667,
+        "n": 81,
+        "p25": 0.05358001877611285,
+        "p75": 0.2544429070647576,
+        "p95": 0.5298373804275973
+      },
+      "n_directional": 81,
+      "small_n_caution": false,
+      "spearman_ed_supported_otg": {
+        "n": 81,
+        "pvalue": 0.49897879770561526,
+        "reason": null,
+        "rho": 0.07619692863595302,
+        "x": "ed_supported",
+        "y": "otg_abs"
+      }
+    },
+    "G4": {
+      "ed_full": {
+        "max": 0.856154479305343,
+        "mean": 0.6868646220385519,
+        "median": 0.6868646220385519,
+        "min": 0.5175747647717608,
+        "n": 2,
+        "p25": 0.6022196934051564,
+        "p75": 0.7715095506719475,
+        "p95": 0.8392254935786639
+      },
+      "ed_supported": {
+        "max": 0.5644816710566742,
+        "mean": 0.5007373601680898,
+        "median": 0.5007373601680898,
+        "min": 0.43699304927950533,
+        "n": 2,
+        "p25": 0.46886520472379756,
+        "p75": 0.532609515612382,
+        "p95": 0.5581072399678157
+      },
+      "estimable": true,
+      "label": "G4",
+      "mmd2_supported": {
+        "max": 0.1462667291070967,
+        "mean": 0.1352967518018131,
+        "median": 0.1352967518018131,
+        "min": 0.12432677449652951,
+        "n": 2,
+        "p25": 0.1298117631491713,
+        "p75": 0.1407817404544549,
+        "p95": 0.14516973137656836
+      },
+      "n_directional": 2,
+      "small_n_caution": true,
+      "spearman_ed_supported_otg": {
+        "reason": "n_lt_3",
+        "rho": null
+      }
+    },
+    "nonG2": {
+      "ed_full": {
+        "max": 0.856154479305343,
+        "mean": 0.37330994541262336,
+        "median": 0.29065582122920686,
+        "min": 0.05577365988673666,
+        "n": 4,
+        "p25": 0.06174607323667386,
+        "p75": 0.6022196934051564,
+        "p95": 0.8053675221253056
+      },
+      "ed_supported": {
+        "max": 0.5644816710566742,
+        "mean": 0.2840599703475867,
+        "median": 0.2549088159101759,
+        "min": 0.06194057851332069,
+        "n": 4,
+        "p25": 0.07010358153396501,
+        "p75": 0.46886520472379756,
+        "p95": 0.5453583777900989
+      },
+      "estimable": true,
+      "label": "nonG2",
+      "mmd2_supported": {
+        "max": 0.1462667291070967,
+        "mean": 0.07697313092013847,
+        "median": 0.07215761815853705,
+        "min": 0.017310558256383057,
+        "n": 4,
+        "p25": 0.019318985929504207,
+        "p75": 0.1298117631491713,
+        "p95": 0.14297573591551163
+      },
+      "n_directional": 4,
+      "small_n_caution": true,
+      "spearman_ed_supported_otg": {
+        "n": 4,
+        "pvalue": 0.0,
+        "reason": null,
+        "rho": -1.0,
+        "x": "ed_supported",
+        "y": "otg_abs"
+      }
+    }
+  },
+  "interpretation": {
+    "causal_claims": false,
+    "notes": [
+      "environmental_mismatch_tracks_support_loss: ED_full is negatively associated with support retention and the target-cluster CI excludes zero.",
+      "residual_mismatch vs OTG is weak or uncertain at the target-cluster bootstrap.",
+      "distance_mostly_acts_through_support_loss_or_is_uncertain: partial Spearman CI includes zero or is undefined.",
+      "RQ2 descriptive: Spearman A_ED vs A_OTG rho=-0.2846044424991793; sign concordance {'n_nonzero': 38, 'n_concordant': 18, 'fraction': 0.47368421052631576}. No iid CI."
+    ],
+    "scientific_consequence": {
+      "q1": "Environmental mismatch is associated with support loss and/or residual OTG only to the extent of the reported Spearmans; it does not by itself fully explain nonzero twin OTG.",
+      "q2": "Partial Spearman CI includes zero or is weak: residual environmental distance does not clearly add information beyond support retention.",
+      "q3": "RQ2 signed environmental asymmetry vs signed OTG is descriptive only (n=38 pairs, shared plants): rho=-0.2846044424991793, concordance={'n_nonzero': 38, 'n_concordant': 18, 'fraction': 0.47368421052631576}.",
+      "q4": "Environmental distance is not sufficient as a standalone source-selection rule on this evidence; it may complement retention diagnostics but is not a deployment criterion by itself."
+    },
+    "text": "environmental_mismatch_tracks_support_loss: ED_full is negatively associated with support retention and the target-cluster CI excludes zero. residual_mismatch vs OTG is weak or uncertain at the target-cluster bootstrap. distance_mostly_acts_through_support_loss_or_is_uncertain: partial Spearman CI includes zero or is undefined. RQ2 descriptive: Spearman A_ED vs A_OTG rho=-0.2846044424991793; sign concordance {'n_nonzero': 38, 'n_concordant': 18, 'fraction': 0.47368421052631576}. No iid CI.",
+    "threshold_rules_used": false
+  },
+  "mmd_formula": "biased mean Kxx+Kyy-2Kxy; k=exp(-||x-y||^2/(2 sigma_source^2)); sigma=median positive off-diagonal source sample distances",
+  "n_directional": 85,
+  "n_pairs": 38,
+  "n_plants": 14,
+  "no_refit": true,
+  "no_scoring": true,
+  "no_support_rebuild": true,
+  "p2_reconciliation": {
+    "max_abs_otg": 0.0,
+    "max_abs_retention": 0.0
+  },
+  "partial_spearman": "average ranks; residualize rank(distance) and rank(OTG) on rank(retention); Pearson of residuals",
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "reporting_correction": true,
+  "rq2": {
+    "inference": "descriptive_only_shared_plants_three_groups",
+    "n_pairs": 38,
+    "sign_concordance_ed": {
+      "fraction": 0.47368421052631576,
+      "n_concordant": 18,
+      "n_nonzero": 38
+    },
+    "sign_concordance_mmd": {
+      "fraction": 0.47368421052631576,
+      "n_concordant": 18,
+      "n_nonzero": 38
+    },
+    "spearman_a_ed_a_otg": {
+      "n": 38,
+      "pvalue": 0.08330371635617728,
+      "reason": null,
+      "rho": -0.2846044424991793,
+      "x": "a_ed",
+      "y": "a_otg"
+    },
+    "spearman_a_mmd_a_otg": {
+      "n": 38,
+      "pvalue": 0.10411195151751086,
+      "reason": null,
+      "rho": -0.2677535835430572,
+      "x": "a_mmd",
+      "y": "a_otg"
+    },
+    "spearman_abs_a_ed_abs_a_otg": {
+      "n": 38,
+      "pvalue": 0.24317056303845264,
+      "reason": null,
+      "rho": 0.1940037203195098,
+      "x": "abs_a_ed",
+      "y": "abs_a_otg"
+    },
+    "spearman_abs_a_mmd_abs_a_otg": {
+      "n": 38,
+      "pvalue": 0.30021283563469264,
+      "reason": null,
+      "rho": 0.17255717255717257,
+      "x": "abs_a_mmd",
+      "y": "abs_a_otg"
+    }
+  },
+  "sampling": {
+    "association_stability_1024_vs_2048": {
+      "comparisons": [
+        {
+          "absolute_difference": 0.013679890560875485,
+          "kind": "spearman",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "ed_full_vs_support_retention",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": -0.8607777994918898,
+          "rho_2048": -0.8744576900527653,
+          "signed_difference": 0.013679890560875485
+        },
+        {
+          "absolute_difference": 0.012429157709595517,
+          "kind": "spearman",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "mmd2_full_vs_support_retention",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": -0.8856165722102795,
+          "rho_2048": -0.898045729919875,
+          "signed_difference": 0.012429157709595517
+        },
+        {
+          "absolute_difference": 0.008286105139730313,
+          "kind": "spearman",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "ed_supported_vs_otg_abs",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": 0.0813171780340043,
+          "rho_2048": 0.08960328317373462,
+          "signed_difference": -0.008286105139730313
+        },
+        {
+          "absolute_difference": 0.007641196013289039,
+          "kind": "spearman",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "mmd2_supported_vs_otg_abs",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": 0.10085987883525503,
+          "rho_2048": 0.10850107484854407,
+          "signed_difference": -0.007641196013289039
+        },
+        {
+          "absolute_difference": 0.01120410520188192,
+          "kind": "partial",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "partial_ed_supported_otg_abs_given_retention",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": -0.30366685086475015,
+          "rho_2048": -0.29246274566286823,
+          "signed_difference": -0.01120410520188192
+        },
+        {
+          "absolute_difference": 0.01874477724620277,
+          "kind": "partial",
+          "n_1024": 85,
+          "n_2048": 85,
+          "name": "partial_mmd2_supported_otg_abs_given_retention",
+          "reason_1024": null,
+          "reason_2048": null,
+          "rho_1024": -0.28096187671011763,
+          "rho_2048": -0.26221709946391486,
+          "signed_difference": -0.01874477724620277
+        }
+      ],
+      "conclusion": "Under the 1024 cap, ED_full vs retention remains strongly negative (rho_2048=-0.8744576900527653, rho_1024=-0.8607777994918898); ED_supported vs |OTG| remains small (rho_2048=0.08960328317373462, rho_1024=0.0813171780340043); partial Spearman remains modestly negative (rho_2048=-0.29246274566286823, rho_1024=-0.30366685086475015). The qualitative P9 conclusions \u2014 mismatch tracks support loss; residual distance does not clearly add beyond retention \u2014 are stable under the smaller cap. No magnitude cutoff was applied.",
+      "headline_cap": 2048,
+      "sensitivity_cap": 1024,
+      "threshold_rules_used": false
+    },
+    "headline_cap": 2048,
+    "max_abs_ed_change": 0.05588776045970345,
+    "max_abs_mmd_change": 0.01773751059787576,
+    "median_abs_ed_change": 0.015999918521719003,
+    "median_abs_mmd_change": 0.0043746382024052455,
+    "note": "1024 is sampling sensitivity only; 2048 is headline",
+    "sensitivity_cap": 1024,
+    "spearman_ed_2048_1024": 0.9967559116669924,
+    "spearman_mmd_2048_1024": 0.9975962478014462
+  },
+  "status": "S12_P9_ENVIRONMENTAL_DISTANCE_MATERIALIZED",
+  "target_balanced": {
+    "caution": "n=14 weighting sensitivity, not replacement for 85-direction analysis",
+    "n_targets": 14,
+    "spearman_ed_otg": {
+      "n": 14,
+      "pvalue": 0.828626422928612,
+      "reason": null,
+      "rho": 0.06373626373626373,
+      "x": "mean_ed_supported",
+      "y": "mean_otg_abs"
+    },
+    "spearman_ed_retention": {
+      "n": 14,
+      "pvalue": 0.05615392734370259,
+      "reason": null,
+      "rho": -0.5208791208791209,
+      "x": "mean_ed_supported",
+      "y": "mean_support_retention"
+    },
+    "spearman_mmd_otg": {
+      "n": 14,
+      "pvalue": 0.899093096973967,
+      "reason": null,
+      "rho": 0.03736263736263736,
+      "x": "mean_mmd2_supported",
+      "y": "mean_otg_abs"
+    },
+    "spearman_mmd_retention": {
+      "n": 14,
+      "pvalue": 0.04282204937819734,
+      "reason": null,
+      "rho": -0.5472527472527473,
+      "x": "mean_mmd2_supported",
+      "y": "mean_support_retention"
+    }
+  }
+}

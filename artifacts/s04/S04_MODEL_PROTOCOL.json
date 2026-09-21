@@ -1,0 +1,135 @@
+{
+  "block_length_selector_realization_computed": false,
+  "common_support_or_otg_calculated": false,
+  "cross_plant_data_used": false,
+  "feature_order": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "final_fit_partition": "TRAIN_only",
+  "gself_blocks": "three equal-duration calendar intervals on TRAIN span; last closed on the right",
+  "hgb_grid": [
+    {
+      "l2_regularization": 0,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    },
+    {
+      "l2_regularization": 1,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15
+    },
+    {
+      "l2_regularization": 0,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 31
+    },
+    {
+      "l2_regularization": 1,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 31
+    },
+    {
+      "l2_regularization": 0,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    },
+    {
+      "l2_regularization": 1,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15
+    },
+    {
+      "l2_regularization": 0,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31
+    },
+    {
+      "l2_regularization": 1,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31
+    }
+  ],
+  "numpy_version": "2.4.4",
+  "primary_eligibility": "poa>50, coverage_dc>=0.80, finite y and six-core, exclude_TRUE interpolation (dc or active features); UNKNOWN not recoded FALSE",
+  "pyarrow_version": "23.0.1",
+  "python_version": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "scikit_learn_version": "1.8.0",
+  "spline_grid": [
+    {
+      "alpha": 0.1,
+      "n_knots": 4
+    },
+    {
+      "alpha": 1,
+      "n_knots": 4
+    },
+    {
+      "alpha": 10,
+      "n_knots": 4
+    },
+    {
+      "alpha": 0.1,
+      "n_knots": 6
+    },
+    {
+      "alpha": 1,
+      "n_knots": 6
+    },
+    {
+      "alpha": 10,
+      "n_knots": 6
+    },
+    {
+      "alpha": 0.1,
+      "n_knots": 8
+    },
+    {
+      "alpha": 1,
+      "n_knots": 8
+    },
+    {
+      "alpha": 10,
+      "n_knots": 8
+    }
+  ],
+  "split_rule": "eligibility_then_chronological_floor_60_20_20",
+  "target": "y_dc_normalized",
+  "test_used_for_selection": false,
+  "unspecified_effective_params": {
+    "HistGradientBoosting_full_get_params": {
+      "categorical_features": "from_dtype",
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1,
+      "learning_rate": 0.1,
+      "loss": "absolute_error",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 300,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "quantile": null,
+      "random_state": null,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "SplineRidge_full_get_params": {
+      "memory": null,
+      "steps": "list",
+      "transform_input": null,
+      "verbose": false
+    }
+  },
+  "validation_selection": "minimum finite VALIDATION MAE; exact ties STOP"
+}

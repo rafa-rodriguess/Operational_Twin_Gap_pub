@@ -1,0 +1,69 @@
+{
+  "accepted_science_not_modified": true,
+  "canonical_inputs": {
+    "artifacts/rq3/mapping.csv": "e51400ec841f7b7dba7aa4317803dd77ff108cbbef11d32c499ba021006fcfca",
+    "artifacts/s11/S11_A2_R8_COMPARISONS.csv": "1e1a17de41b302fb6b26e75f07f8762950b7da8c7bce5078410bacee87678b08",
+    "artifacts/s11/S11_A2_R8_ELIGIBILITY.csv": "038b2ef906e45235045c748cb3533bf31b783be4661df91f680e7b901acd65cc",
+    "artifacts/s11/S11_A2_R8_SUMMARY.json": "5f47c58c1ba2df882e3ec2a5b0fa5786de79302215740bb2e9eb99379f6f48db",
+    "artifacts/s11/S11_A2_R8_TARGET_SUMMARY.csv": "709e417255ee4cf10e76dea708e4afae6fd87ddba8de13eeb6c98e7ac18348a8"
+  },
+  "generated_at_utc": "2026-09-21T03:16:47+00:00",
+  "helper_path": "src/lib/s12_p7_control_dependence.py",
+  "loco_rule": "remove one distinct executable control globally; remaining cells averaged equally within target then equally across targets; non-estimable if any target has zero leftover controls",
+  "manuscript_files_not_edited": true,
+  "no_refit": true,
+  "no_scoring": true,
+  "no_support_rebuild": true,
+  "orientation": "CONTROL_MINUS_TWIN",
+  "outputs": {
+    "artifacts/s12/p7/S12_P7_CONTROL_REUSE.csv": {
+      "bytes": 1189,
+      "row_count": 12,
+      "sha256": "e56ba17225787c95b5746dda72e4a6bfb5350dac5595c82b46eb1c7243d5e7d4"
+    },
+    "artifacts/s12/p7/S12_P7_LEAVE_ONE_CONTROL_OUT.csv": {
+      "bytes": 1279,
+      "row_count": 12,
+      "sha256": "4d7107f9257876274889ed3208f12924c3ec7bf243ad6fdeff22c5273bbe38e6"
+    },
+    "artifacts/s12/p7/S12_P7_STATE_SHARED_ASSIGNMENTS.csv": {
+      "bytes": 2327,
+      "row_count": 32,
+      "sha256": "cbabc84b2dc4aa6a82810f56672ccdd6f079f96a3ce8010cc6966753976cc9bd"
+    },
+    "artifacts/s12/p7/S12_P7_SUMMARY.json": {
+      "bytes": 11376,
+      "row_count": null,
+      "sha256": "246c086ba8d835b1e15ad8371c59e5638422135bd5be28e0dd5277cfdadc7a37"
+    },
+    "artifacts/s12/p7/S12_P7_TARGET_CONTROL_CELLS.csv": {
+      "bytes": 5081,
+      "row_count": 32,
+      "sha256": "15933a23b3968c482aa5181a809fbfc9397b5e468d025d0b152eb1ef984652de"
+    },
+    "artifacts/s12/p7/S12_P7_TARGET_CONTROL_SENSITIVITY.csv": {
+      "bytes": 3311,
+      "row_count": 10,
+      "sha256": "962936afe408fad9d9e3755ef2c27e77663f4684a80bef1f6bf121f9f4266503"
+    },
+    "artifacts/s12/p7/S12_P7_TARGET_SPECIFIC_ASSIGNMENTS.csv": {
+      "bytes": 1992681,
+      "row_count": 16384,
+      "sha256": "b66d9f0e68a0cacfca442afae921726200cdff5658739466a87ca7c183683392"
+    },
+    "reports/scientific/S12_P7_RQ3_CONTROL_DEPENDENCE.md": {
+      "bytes": 3889,
+      "row_count": null,
+      "sha256": "b00c6ac8b1f8d017da8b1428588269bbfc8897cbb9e4d69abd899a491daf8108"
+    }
+  },
+  "primary_reconstruction_rule": "equal-target mean of C(t, c_primary) for the 10 mapped primary RQ3 targets",
+  "repository_head": "7bdd85c353eab69c5a853f4a4e2805e98333d911",
+  "script_path": "src/run/26_s12_p7_control_dependence.py",
+  "self_hash_registered_externally": true,
+  "state_common_control_rule": "intersection of structurally_executable controls across all primary targets in the state; eligibility only, no outcome filter",
+  "state_shared_enumeration": "Cartesian product of one common control per state (RJ, SP, GO); apply that control to every primary target in the state; fleet=equal-target mean of C(t,c)",
+  "target_control_rule": "C(t,c)=mean over valid twin-source contrasts contrast_control_minus_twin(t,s,c)",
+  "target_specific_enumeration": "Cartesian product of each target's structurally executable controls independently; fleet=equal-target mean of C(t,c)",
+  "zero_tolerance": 1e-12
+}

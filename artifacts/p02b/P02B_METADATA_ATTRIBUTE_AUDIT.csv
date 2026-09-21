@@ -1,0 +1,11 @@
+attribute,dtype,n_missing,n_unique_non_missing,role,included_in_exact_key,exclusion_reason,technical_interpretation
+brazil_federative_unit,string,0,7,contextual,False,"state is contextual only; must not create, split, merge, or rank twin groups",Brazilian federative unit; contextual location only
+id,string,0,51,identifier,False,plant identifier; never enters the exact technical key,official plant identifier; never used for nominal equivalence
+is_panel_bifacial,boolean,0,1,technical_configuration,True,,whether modules are bifacial
+nominal_power_mw,decimal,0,9,technical_configuration,True,,installed plant capacity (MW)
+number_of_panels,integer,0,26,technical_configuration,True,,installed module count
+panel_area_mm2,decimal,0,26,technical_configuration,True,,single-module area (mm^2)
+panel_bifaciality_coefficient,decimal,0,1,technical_configuration,True,,rear-to-front efficiency ratio (0-1)
+panel_efficiency_percentage,decimal,0,8,technical_configuration,True,,module conversion efficiency (%)
+panel_temperature_coefficient,decimal,0,3,technical_configuration,True,,percent power loss per C above STC
+structure_type,string,0,2,technical_configuration,True,,FIXED or TRACKER mounting

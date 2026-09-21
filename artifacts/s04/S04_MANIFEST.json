@@ -1,0 +1,76 @@
+{
+  "artifacts": {
+    "S04_ANALYTIC_INDEX.parquet": {
+      "bytes": 249871,
+      "path": "artifacts/s04/S04_ANALYTIC_INDEX.parquet",
+      "row_count": 86002,
+      "schema_fingerprint": "b07fdfa9612e67cf2b3672bea8d5d4130f831d72f9ad71f953847e87f16748c0",
+      "sha256": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c"
+    },
+    "S04_GSELF_COMPONENTS.csv": {
+      "bytes": 10877,
+      "path": "artifacts/s04/S04_GSELF_COMPONENTS.csv",
+      "row_count": 84,
+      "schema_fingerprint": "3cf8fbb6e381ef6b81b5c83488b5ecf303f1eb38925780fc40665ea783ecd0e5",
+      "sha256": "1258369c2e443fa36779f53226ca0093648717b5f9c8994671200894c1d74a9d"
+    },
+    "S04_GSELF_SUMMARY.csv": {
+      "bytes": 3933,
+      "path": "artifacts/s04/S04_GSELF_SUMMARY.csv",
+      "row_count": 28,
+      "schema_fingerprint": "d388cad2e72b4e61950b2530977625efe13c77a10e375c515f7cccf3fec9f398",
+      "sha256": "b00145389b065295c8a728d60023b84c59c0972462b66f4244cc5f1967298949"
+    },
+    "S04_GSELF_TEST_PREDICTIONS.parquet": {
+      "bytes": 3382574,
+      "path": "artifacts/s04/S04_GSELF_TEST_PREDICTIONS.parquet",
+      "row_count": 103242,
+      "schema_fingerprint": "7f590c56f76005ea7ef139808457c150f70cd6731425bc9c7bc6f31daea34c81",
+      "sha256": "3b266b9093d8d33df6f1f6a327aaba6cd3530c649785319e47c37e254a34cf8d"
+    },
+    "S04_HYPERPARAMETER_SELECTION.csv": {
+      "bytes": 141000,
+      "path": "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv",
+      "row_count": 952,
+      "schema_fingerprint": "f382cae952769c6be9cbd9165fd833dbff3592f8bc9892fa969884876909d267",
+      "sha256": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5"
+    },
+    "S04_LOCAL_METRICS.csv": {
+      "bytes": 3960,
+      "path": "artifacts/s04/S04_LOCAL_METRICS.csv",
+      "row_count": 28,
+      "schema_fingerprint": "e333974a47d0bf02c5ee882f2b03a6818f8f6bf3f4cfdbd055361a9a8df5c6c7",
+      "sha256": "b069099a84b90fd6805f90bdc2f5766764d7d18962fd312f674da373797c9d9d"
+    },
+    "S04_LOCAL_MODELS_GSELF.md": {
+      "bytes": 6189,
+      "path": "reports/scientific/S04_LOCAL_MODELS_GSELF.md",
+      "sha256": "ce6b3ca60d16eb1a786a6c4c04c7c4cacf0fbd29397be1c2365b6221017240b9"
+    },
+    "S04_LOCAL_TEST_PREDICTIONS.parquet": {
+      "bytes": 1282360,
+      "path": "artifacts/s04/S04_LOCAL_TEST_PREDICTIONS.parquet",
+      "row_count": 34414,
+      "schema_fingerprint": "805b3f7846c16388f5bb039b681a0233d6ce39257de6b5253bb506cc50be75de",
+      "sha256": "0c5c67a7539fca05f146d9976d6b4f7888100a3f627ea88fbc5bb2b4296dc035"
+    },
+    "S04_MODEL_MANIFEST.json": {
+      "bytes": 22237,
+      "path": "artifacts/s04/S04_MODEL_MANIFEST.json",
+      "sha256": "9c21daf74d2ef78ef20ae72cab480d72a073c789e556b16735b5ae3444a4e2e8"
+    },
+    "S04_MODEL_PROTOCOL.json": {
+      "bytes": 3150,
+      "path": "artifacts/s04/S04_MODEL_PROTOCOL.json",
+      "sha256": "5d1198e45458b6a3ea3f5ead7c53c0e372d2867393ea4ecb32ba7fb61492a274"
+    },
+    "S04_VALIDATION_PREDICTIONS.parquet": {
+      "bytes": 1313657,
+      "path": "artifacts/s04/S04_VALIDATION_PREDICTIONS.parquet",
+      "row_count": 34400,
+      "schema_fingerprint": "7ebe3069a2c73c192d32a8065122ed0342b89230d2dccd9dd6fa885286ce547d",
+      "sha256": "367642568e364ff791a2b9964a788714d119438107fbf81a12e1d0aee20eda68"
+    }
+  },
+  "job": "S04_LOCAL_MODELS_GSELF"
+}

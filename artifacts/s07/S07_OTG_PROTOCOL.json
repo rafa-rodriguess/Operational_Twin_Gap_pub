@@ -1,0 +1,27 @@
+{
+  "asymmetry_signed": "otg_a_to_b - otg_b_to_a",
+  "bootstrap_permutation_ci": false,
+  "equivalence_classification": false,
+  "fleet_synthesis_invented": false,
+  "gself_comparison": false,
+  "metrics_source": "S06_TRANSFER_METRICS.csv SplineRidge primary CS4",
+  "model_loading_required": false,
+  "new_prediction": false,
+  "otg_abs": "transfer_mae - local_same_rows_mae",
+  "otg_rel": "otg_abs / local_same_rows_mae",
+  "otg_rel_zero_denominator": "undefined; otg_rel null; otg_rel_defined false; no epsilon",
+  "primary_loss": "MAE",
+  "primary_model_family": "SplineRidge",
+  "primary_support_rule": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  },
+  "r1_robustness_interpreted": false,
+  "signed_otg_preserved": true,
+  "source_ranking": false,
+  "support_recomputed": false,
+  "training_or_refit": false,
+  "twin_vs_control": false,
+  "unordered_pair_order": "lexical plant_a < plant_b"
+}

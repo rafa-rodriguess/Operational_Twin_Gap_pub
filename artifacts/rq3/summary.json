@@ -1,0 +1,38 @@
+{
+  "D_fleet_RQ3": 0.0261997195973106,
+  "contrast_orientation": "CONTROL_MINUS_TWIN",
+  "cs4": {
+    "id": "CS4",
+    "k": 5,
+    "q": 0.95
+  },
+  "excluded": [
+    {
+      "reason": "NO_SAME_STATE_CONTROL",
+      "target_plant_id": "PS_045"
+    },
+    {
+      "reason": "NO_SAME_STATE_CONTROL",
+      "target_plant_id": "PS_046"
+    },
+    {
+      "reason": "NO_SAME_STATE_CONTROL",
+      "target_plant_id": "PS_047"
+    },
+    {
+      "reason": "NO_SAME_STATE_CONTROL",
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "fleet_synthesis": "F1_TARGET_BALANCED_ARITHMETIC_MEAN",
+  "n_computable_targets": 10,
+  "n_excluded": 4,
+  "n_rq3_targets": 10,
+  "selected_controls": [
+    "PS_005",
+    "PS_007",
+    "PS_008"
+  ],
+  "support_alignment": "B_PAIRWISE_INTERSECTION",
+  "target_aggregation": "M1_EQUAL_WEIGHT_ARITHMETIC_MEAN"
+}

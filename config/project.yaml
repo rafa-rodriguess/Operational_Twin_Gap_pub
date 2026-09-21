@@ -1,0 +1,12 @@
+study:
+  slug: Operational_Twin_Gap
+  type: EMP
+  title_provisional: "Operational Twin Gap"
+seed: 42
+paths:
+  src: src
+  data: data
+  reports: reports
+  paper_tex: paper
+  outputs: outputs
+  artifacts: artifacts

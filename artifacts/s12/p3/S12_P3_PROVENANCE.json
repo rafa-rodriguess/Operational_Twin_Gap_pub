@@ -1,0 +1,83 @@
+{
+  "accepted_science_not_modified": true,
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+  },
+  "feature_omission": "support distance only; SplineRidge still uses six-core features",
+  "generated_at_utc": "2026-09-21T02:17:32+00:00",
+  "helper_path": "src/lib/s12_p3_adaptive_scaling.py",
+  "iqr_validity": "finite and > 0 (src.lib.split_support.iqr_is_valid)",
+  "mad": "median(|x-median|); scale=1.4826*MAD",
+  "manuscript_files_not_edited": true,
+  "model_actions": {
+    "PS_002": "refit_unusable_artifact",
+    "PS_003": "refit_unusable_artifact",
+    "PS_035": "refit_unusable_artifact",
+    "PS_039": "refit_unusable_artifact",
+    "PS_042": "refit_unusable_artifact",
+    "PS_043": "refit_unusable_artifact",
+    "PS_044": "refit_unusable_artifact",
+    "PS_045": "refit_unusable_artifact",
+    "PS_046": "refit_unusable_artifact",
+    "PS_047": "refit_unusable_artifact",
+    "PS_048": "refit_unusable_artifact",
+    "PS_049": "refit_unusable_artifact",
+    "PS_050": "refit_unusable_artifact",
+    "PS_051": "refit_unusable_artifact"
+  },
+  "outputs": {
+    "artifacts/s12/p3/S12_P3_R9_ASYMMETRY.csv": {
+      "bytes": 6272,
+      "row_count": 47,
+      "sha256": "9615fe567b96416bad55f3cdffd6d43eba2be6ff079ce78c3f18c54ad729a5d9"
+    },
+    "artifacts/s12/p3/S12_P3_R9_DIRECTIONAL.csv": {
+      "bytes": 18407,
+      "row_count": 94,
+      "sha256": "4e311b5b36904ea4739a3117493df03214d98945da49b809702f45017261d39a"
+    },
+    "artifacts/s12/p3/S12_P3_R9_EVAL_ROWS.parquet": {
+      "bytes": 1397630,
+      "row_count": 39542,
+      "sha256": "182abbf9d941bb1c6f17e45d19b45d97fa2857210c5dbdf17bdeb95a7ce39a4a"
+    },
+    "artifacts/s12/p3/S12_P3_R9_SOURCE_SCALERS.csv": {
+      "bytes": 10171,
+      "row_count": 84,
+      "sha256": "b8574d2a53a2e41348ddc942e6c7749bd7025b956ab877fb30e0f8955ba8937d"
+    },
+    "artifacts/s12/p3/S12_P3_R9_SUPPORT_COMPARISON.csv": {
+      "bytes": 5527,
+      "row_count": 85,
+      "sha256": "f86abd48489f3bd93e7b8d0acd527b162d627cefea234c8b3f7c5812d1a9ce93"
+    },
+    "artifacts/s12/p3/S12_P3_R9_SUPPORT_MASKS.parquet": {
+      "bytes": 841294,
+      "row_count": 76087,
+      "sha256": "90f1a2268d33435d025860fbc25686528ca687636c4094993769b1afe42ff3ad"
+    },
+    "artifacts/s12/p3/S12_P3_SUMMARY.json": {
+      "bytes": 5204,
+      "row_count": null,
+      "sha256": "79da884624e27f2f8ba4289c38048df0da442263a5c27cce9b932c64d3c3693f"
+    },
+    "reports/scientific/S12_P3_ADAPTIVE_SCALING_R9.md": {
+      "bytes": 1122,
+      "row_count": null,
+      "sha256": "e35acbb842f1603aa75016e8ef5e0776cfd6960f94c5822a0081f869023c8c43"
+    }
+  },
+  "r9_is_sensitivity_only": true,
+  "repository_head": "26afb3c92a79a352d39b7381fd242faa3b30d6cb",
+  "script_path": "src/run/22_s12_p3_adaptive_scaling.py",
+  "self_hash_registered_externally": true,
+  "support": {
+    "k": 5,
+    "q": 0.95,
+    "quantile": "linear"
+  }
+}

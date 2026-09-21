@@ -1,0 +1,80 @@
+{
+  "accepted_science_not_modified": true,
+  "bootstrap": {
+    "cluster": "target_plant_id",
+    "n": 5000,
+    "seed": 20260921
+  },
+  "boundary": "inclusive endpoints; no day-boundary rounding; timezone-aware UTC",
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+  },
+  "d_pair": "min(source_duration_days, target_duration_days) shared by both matched windows of the ordered transfer",
+  "duration_formula": "duration_days = (max(TRAIN datetime_raw) - min(TRAIN datetime_raw)).total_seconds()/86400",
+  "equal_tolerance_days": 1.1574074074074073e-05,
+  "frozen_science_sha256": {
+    "artifacts/s12/p6/S12_P6_DIRECTION_HISTORY.csv": "df46034b48e9772f5487530aa63f660662705e7ca1b2caf0d6213d214a1f43f4",
+    "artifacts/s12/p6/S12_P6_PLANT_TRAIN_HISTORY.csv": "cf0852f928272c90a6cb66622c7cef2e27ea88031266d5e374950d0df42a8abd",
+    "artifacts/s12/p6/S12_P6_R10_ASYMMETRY.csv": "9b3b8222b532b021c46e2af8df00aac7f0a1686cd2eeb14a2a9702a1a69df92f",
+    "artifacts/s12/p6/S12_P6_R10_DIRECTIONAL.csv": "d6e70846d81a1fd24766f114ab32ee1495c382d650a9db043cc2cfa1d788e151",
+    "artifacts/s12/p6/S12_P6_R10_TEST_ROWS.parquet": "75e32cd5ccb47570ad70a4fc1e988a688cc4f36eb37a8c36e782441bf2988a67"
+  },
+  "generated_at_utc": "2026-09-21T03:07:22+00:00",
+  "helper_path": "src/lib/s12_p6_matched_duration.py",
+  "manuscript_files_not_edited": true,
+  "n_cached_models": 58,
+  "no_p4": true,
+  "no_r9": true,
+  "outputs": {
+    "artifacts/s12/p6/S12_P6_DIRECTION_HISTORY.csv": {
+      "bytes": 29033,
+      "row_count": 94,
+      "sha256": "df46034b48e9772f5487530aa63f660662705e7ca1b2caf0d6213d214a1f43f4"
+    },
+    "artifacts/s12/p6/S12_P6_PLANT_TRAIN_HISTORY.csv": {
+      "bytes": 1487,
+      "row_count": 14,
+      "sha256": "cf0852f928272c90a6cb66622c7cef2e27ea88031266d5e374950d0df42a8abd"
+    },
+    "artifacts/s12/p6/S12_P6_R10_ASYMMETRY.csv": {
+      "bytes": 8438,
+      "row_count": 47,
+      "sha256": "9b3b8222b532b021c46e2af8df00aac7f0a1686cd2eeb14a2a9702a1a69df92f"
+    },
+    "artifacts/s12/p6/S12_P6_R10_DIRECTIONAL.csv": {
+      "bytes": 44280,
+      "row_count": 94,
+      "sha256": "d6e70846d81a1fd24766f114ab32ee1495c382d650a9db043cc2cfa1d788e151"
+    },
+    "artifacts/s12/p6/S12_P6_R10_TEST_ROWS.parquet": {
+      "bytes": 1928447,
+      "row_count": null,
+      "sha256": "75e32cd5ccb47570ad70a4fc1e988a688cc4f36eb37a8c36e782441bf2988a67"
+    },
+    "artifacts/s12/p6/S12_P6_SUMMARY.json": {
+      "bytes": 7362,
+      "row_count": null,
+      "sha256": "c348c6b1906f13838e5e5d53e600baede25ef57d2f85549465aa73d8d3b15a7d"
+    },
+    "reports/scientific/S12_P6_MATCHED_TRAIN_DURATION_R10.md": {
+      "bytes": 2702,
+      "row_count": null,
+      "sha256": "0b25ee397a4e436f72411e6bf36004520f49793901ffccfe78c31b347156eea5"
+    }
+  },
+  "reporting_derived_from": [
+    "artifacts/s12/p6/S12_P6_R10_DIRECTIONAL.csv",
+    "artifacts/s12/p6/S12_P6_DIRECTION_HISTORY.csv",
+    "artifacts/s12/p6/S12_P6_R10_ASYMMETRY.csv"
+  ],
+  "reporting_only": true,
+  "repository_head": "8a7e6820deaf4627c2f4052c39a9319a82ed2e81",
+  "script_path": "src/run/25_s12_p6_matched_duration.py",
+  "self_hash_registered_externally": true,
+  "support": "primary CS4 IQR k=5 q=0.95 on matched source TRAIN only; no R9 MAD/omission",
+  "trailing_window": "TRAIN rows with train_end - D_pair days <= datetime <= train_end"
+}

@@ -1,0 +1,55 @@
+{
+  "audit_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/rq3/mapping.csv": "e51400ec841f7b7dba7aa4317803dd77ff108cbbef11d32c499ba021006fcfca",
+    "artifacts/rq3/source_contrasts.csv": "75585a92d68557ebc6827e643baca53d96ea48158cd0f45d8cbf03e126e9a2cd",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5",
+    "artifacts/s04/S04_LOCAL_TEST_PREDICTIONS.parquet": "0c5c67a7539fca05f146d9976d6b4f7888100a3f627ea88fbc5bb2b4296dc035",
+    "artifacts/s04/S04_MODEL_MANIFEST.json": "9c21daf74d2ef78ef20ae72cab480d72a073c789e556b16735b5ae3444a4e2e8",
+    "artifacts/s04/S04_MODEL_PROTOCOL.json": "5d1198e45458b6a3ea3f5ead7c53c0e372d2867393ea4ecb32ba7fb61492a274",
+    "artifacts/s04/S04_VALIDATION_PREDICTIONS.parquet": "367642568e364ff791a2b9964a788714d119438107fbf81a12e1d0aee20eda68",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet": "345a544012001bc6974f14000b1c248a02158616a8428f636b332d44088fcb27",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "artifacts/s11/S11_PHASE4_CONSOLIDATION.json": "7d5c56efffe925a99b8dfe32ca53bdcfe0fc4b3e63208a77422b81f6549733aa",
+    "artifacts/twins/members.csv": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff",
+    "data/raw/br_pvgen/BR-PVGen_metadata.csv": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c",
+    "paper/main.pdf": "32df35d44a6146560a9a1141ac3cc44f3bf5476d875cd38e483ea8753752352a",
+    "paper/main.tex": "c974a83c82ec6608de38c58fd536d1be4b47740804d130639c965b1a90e0a843",
+    "src/lib/models.py": "8fb6b75aa9270dc7953217ef1fbe47d31331dd4458fdb97bd9e43c2cbafc60f7",
+    "src/lib/robustness_struct.py": "69c84f823b488d1c2e7a59ae417bc1b25dc96e6956df342ea4d75088621cc0d0",
+    "src/lib/split_support.py": "daabfff8eca9df03bc30e78a557d20f4e975cb66c541efd9ea01bd8da2bcab13"
+  },
+  "generated_at_utc": "2026-09-21T01:45:51+00:00",
+  "helper_path": "src/lib/s12_phase0.py",
+  "manuscript": {
+    "paper/main.pdf": "32df35d44a6146560a9a1141ac3cc44f3bf5476d875cd38e483ea8753752352a",
+    "paper/main.tex": "c974a83c82ec6608de38c58fd536d1be4b47740804d130639c965b1a90e0a843"
+  },
+  "manuscript_files_not_edited": true,
+  "no_scientific_headline_computed": true,
+  "outputs": {
+    "artifacts/s12/S12_PHASE0_PIPELINE_INVENTORY.json": {
+      "bytes": 11966,
+      "sha256": "11c910d8bbd9eb8f6e654cf8a572bffb5e1cbc0f25dd512f662c317e18a297ef"
+    },
+    "artifacts/s12/S12_PHASE0_READINESS.csv": {
+      "bytes": 2586,
+      "sha256": "c917bc2d12d6b95fe79417b181d6e785517a0f3858c505960452e2dc09dc7f97"
+    },
+    "artifacts/s12/S12_ROADMAP.json": {
+      "bytes": 1963,
+      "sha256": "30e3f2088d4d06202cebb35181bb37511423bdbbb3087ba308223fb0f41fe8e3"
+    },
+    "reports/scientific/S12_IMPROVEMENT_ROADMAP.md": {
+      "bytes": 2208,
+      "sha256": "5c1c644966a41c4a498fa6a7662d66d44261534828702ede52401510cde95c9a"
+    }
+  },
+  "p1_not_started": true,
+  "repository_head": "7619571fa184f2708996e1e1eaf6329c3820df48",
+  "script_path": "src/run/19_s12_phase0.py",
+  "self_hash_registered_externally": true
+}

@@ -1,0 +1,270 @@
+{
+  "authoritative_headlines": {
+    "a2": {
+      "distinct_eligible_control_count": 12,
+      "median_eligible_controls_per_target": 2.0,
+      "n_primary_rq3_targets": 10,
+      "n_valid_comparisons": 118,
+      "orientation": "CONTROL_MINUS_TWIN",
+      "per_target_control_counts": {
+        "PS_002": 2,
+        "PS_003": 2,
+        "PS_035": 8,
+        "PS_039": 8,
+        "PS_042": 2,
+        "PS_043": 2,
+        "PS_044": 2,
+        "PS_048": 2,
+        "PS_049": 2,
+        "PS_050": 2
+      },
+      "target_balanced_r8": 0.038537039716828335
+    },
+    "a3": {
+      "eligible_target_count": 10,
+      "max_spread": 0.13146549135095195,
+      "max_target": "PS_042",
+      "median_spread": 0.10572379991039335,
+      "n_eligible_by_twin_group": {
+        "G2": 10
+      }
+    },
+    "a4": {
+      "by_group": {
+        "G1": 0.0010783871471068823,
+        "G2": 0.015181496979951397,
+        "G4": -0.008920638042364377
+      },
+      "rows": [
+        {
+          "group_id": "TW_04b9f5d95694",
+          "max_target_mean_otg": "0.0011998025490371905",
+          "min_target_mean_otg": "0.0009569717451765741",
+          "n_directional_transfers": "2",
+          "n_targets": "2",
+          "plant_balanced_rq1": "0.0010783871471068823",
+          "twin_group": "G1"
+        },
+        {
+          "group_id": "TW_4467a039e00b",
+          "max_target_mean_otg": "0.036246958185756586",
+          "min_target_mean_otg": "-0.009694196502888719",
+          "n_directional_transfers": "81",
+          "n_targets": "10",
+          "plant_balanced_rq1": "0.015181496979951397",
+          "twin_group": "G2"
+        },
+        {
+          "group_id": "TW_88a108921af7",
+          "max_target_mean_otg": "-0.0045877041055881335",
+          "min_target_mean_otg": "-0.013253571979140621",
+          "n_directional_transfers": "2",
+          "n_targets": "2",
+          "plant_balanced_rq1": "-0.008920638042364377",
+          "twin_group": "G4"
+        }
+      ]
+    },
+    "g3": {
+      "features": [
+        "poa_irradiance_wm2",
+        "ghi_irradiance_wm2"
+      ],
+      "group_id": "TW_7b33a493697b",
+      "n_bidirectionally_computable_unordered_pairs": 28,
+      "n_computable_directed_transfers": 56,
+      "n_expected_directed_transfers": 56,
+      "n_plants": 8,
+      "plants": [
+        "PS_004",
+        "PS_017",
+        "PS_020",
+        "PS_022",
+        "PS_023",
+        "PS_024",
+        "PS_026",
+        "PS_030"
+      ],
+      "rq1": 0.009376330782857482,
+      "rq2": 0.009469542712050007,
+      "rq3": 0.007769929532634877,
+      "rq3_n_distinct_contributing_controls": 22,
+      "rq3_n_executable_target_control_pairs": 176,
+      "rq3_n_valid_source_control_comparisons": 1232
+    },
+    "primary": {
+      "D_fleet_RQ3": 0.0261997195973106,
+      "rq1": 0.009723604857785641,
+      "rq2": 0.026622430133826737,
+      "rq3": 0.0261997195973106,
+      "selected_controls": [
+        "PS_005",
+        "PS_007",
+        "PS_008"
+      ]
+    }
+  },
+  "decisions": {
+    "A1": {
+      "claim_allowed": "Under POA+GHI only, the eight-plant G3 cohort still exhibits residual plant-balanced OTG, directional asymmetry, and a positive same-state control-minus-twin contrast; G3 is not pooled with primary RQ1\u2013RQ3.",
+      "claim_prohibited": "Do not treat G3 headlines as interchangeable with primary estimates or as a six-feature replication.",
+      "decision": "INCLUDE_CORE",
+      "estimated_footprint": "Methods 1 sentence + Results 1 short paragraph (~8\u201312 lines). No new figure.",
+      "insertion_location": "Methods surrogate paragraph (feature-set note) and a new Results sensitivity paragraph after RQ2; Table I status can stay 'sensitivity, reduced features'.",
+      "scientific_rationale": "Table I already flags G3 as excluded for reduced features; a short sensitivity result answers whether residual OTG is an artifact of the six-feature primary cohort.",
+      "selection_basis": "reviewer-likely gap in Table I, not proximity of G3 RQ1 to primary RQ1"
+    },
+    "A2": {
+      "claim_allowed": "Broadening from one matched control per target to all structurally executable same-state non-twins (median 2 per target; 12 distinct controls; 118 comparisons) yields a target-balanced CONTROL_MINUS_TWIN contrast of the same sign as primary RQ3.",
+      "claim_prohibited": "Do not present R8 as a replacement primary estimand, a p-value, or evidence that more controls make twins universally better.",
+      "decision": "INCLUDE_CORE",
+      "estimated_footprint": "Results 1\u20132 sentences and optional Table II row (~4\u20136 lines). No new figure.",
+      "insertion_location": "RQ3 results after the three-control sentence; optional robustness table row labeled R8 descriptive.",
+      "r8_vs_primary_note": {
+        "primary_rq3": 0.0261997195973106,
+        "r8": 0.038537039716828335,
+        "r8_larger": true,
+        "used_for_selection": false
+      },
+      "scientific_rationale": "The manuscript already discloses that revised RQ3 uses only three distinct controls; R8 tests whether the twin-vs-control signal survives the full structurally executable same-state control set.",
+      "selection_basis": "addresses an existing limitation, not that R8 is larger than primary RQ3"
+    },
+    "A3": {
+      "claim_allowed": "Within G2, source choice was consequential: among its ten targets with at least two computable twin sources, the median gap between the best and worst source was 0.1057 normalized MAE (maximum 0.1315).",
+      "claim_prohibited": "Do not generalize source-choice spread to G1/G4 or to the secondary RQ4 deployment analysis.",
+      "decision": "INCLUDE_CORE",
+      "estimated_footprint": "One Results sentence (~2\u20133 lines) near the G2 operational-twin map. No separate figure.",
+      "insertion_location": "RQ1 paragraph on the G2 map (Fig. 2).",
+      "scientific_rationale": "User editorial decision after the Phase 4 synthesis: place the G2 source-choice spread statistic in the main text next to Fig. 2, with the G2-only scope preserved.",
+      "scope_g2_only": true,
+      "selection_basis": "user editorial decision after scientific synthesis; not result sign/magnitude and not page budget"
+    },
+    "A4": {
+      "claim_allowed": "Group-level plant-balanced OTG varied from \u22120.0089 (G4) to 0.0152 (G2), with G1 near zero (0.0011).",
+      "claim_prohibited": "Do not read A4 as within-group source-choice variation or as evidence that G4 twins are interchangeable.",
+      "decision": "INCLUDE_CORE",
+      "estimated_footprint": "One Results sentence (~2 lines) adjacent to the RQ1 headline or G2-map discussion. No separate figure.",
+      "includes_negative_group_mean": true,
+      "insertion_location": "RQ1 after the plant-balanced headline, or adjacent to the G2-map discussion.",
+      "scientific_rationale": "User editorial decision after the Phase 4 synthesis: state between-group plant-balanced OTG heterogeneity in the main RQ1 results.",
+      "selection_basis": "user editorial decision after scientific synthesis; includes the negative G4 mean rather than selecting on sign"
+    }
+  },
+  "manuscript_context": {
+    "fig1_concept": true,
+    "gself_paragraph": true,
+    "has_g2_heatmap": true,
+    "has_rq4_source_selection": true,
+    "has_table_ii": true,
+    "mentions_g3_excluded": true,
+    "pdf_pages": 7,
+    "pdf_sha256": "241988426194d3224b5ab5211dc9c5aacd60c79c3a847bb14a1d2e11d4bcd942",
+    "rq3_three_controls_limitation": true
+  },
+  "manuscript_not_edited": true,
+  "no_estimand_recomputed": true,
+  "phase6_payload": {
+    "A1": {
+      "abstract_clause": false,
+      "conclusion": false,
+      "discussion": true,
+      "limitation": true,
+      "methods": true,
+      "results": true,
+      "table_ii_row": false
+    },
+    "A2": {
+      "abstract_clause": false,
+      "conclusion": false,
+      "discussion": true,
+      "limitation": true,
+      "methods": true,
+      "results": true,
+      "table_ii_row": true
+    },
+    "A3": {
+      "abstract_clause": false,
+      "conclusion": false,
+      "discussion": false,
+      "limitation": true,
+      "methods": false,
+      "results": true,
+      "supplement": false,
+      "table_ii_row": false
+    },
+    "A4": {
+      "abstract_clause": false,
+      "conclusion": false,
+      "discussion": false,
+      "limitation": false,
+      "methods": false,
+      "results": true,
+      "table_ii_row": false
+    },
+    "candidate_wording": {
+      "A3": "Within G2, source choice was consequential: among its ten targets with at least two computable twin sources, the median gap between the best and worst source was 0.1057 normalized MAE (maximum 0.1315).",
+      "A4": "Group-level plant-balanced OTG varied from \u22120.0089 (G4) to 0.0152 (G2), with G1 near zero (0.0011)."
+    },
+    "do_not_change": [
+      "title",
+      "abstract_core_RQ1_RQ2_RQ3",
+      "original_contributions_list"
+    ]
+  },
+  "recommended_if_space_set": [],
+  "recommended_inclusion_set": [
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ],
+  "recommended_supplement_or_omit_set": [],
+  "selection_rule": "user editorial decision after scientific synthesis; estimand sign is not a selection input; page count does not constrain inclusion",
+  "space_plan": {
+    "already_over_limit": true,
+    "current_pdf_pages": 7,
+    "deferred_until_after_insertion": [
+      "compress G2 heatmap / Fig. 2",
+      "condense Gself paragraph",
+      "remove Fig. 1",
+      "omit any of A1\u2013A4"
+    ],
+    "fit_assessment": "deferred until after insertion and compile",
+    "indin_limit": 6,
+    "page_count_does_not_constrain_inclusion": true,
+    "sequencing": "insert_all_first_then_assess_page_count",
+    "steps": [
+      {
+        "action": "Insert A1, A2, A3, and A4 into the main manuscript (next phase). Do not compress or omit in Phase 4.",
+        "expected_recovery": "not applicable; insertion precedes assessment",
+        "order": 1
+      },
+      {
+        "action": "Compile and measure page count against the INDIN 6-page target.",
+        "expected_recovery": "assessment only",
+        "order": 2
+      },
+      {
+        "action": "Only after the expanded compile, consider heatmap compression, Gself condensation, or Fig. 1 removal.",
+        "expected_recovery": "deferred",
+        "order": 3
+      }
+    ]
+  },
+  "status": "S11_PHASE4_DECISION_MATERIALIZED",
+  "synthesis": {
+    "beyond_paper_a": {
+      "A1_generality": "Same qualitative OTG/asymmetry/control-minus-twin pattern appears in a reduced-feature G3 cohort that the paper currently only excludes.",
+      "A2_control_robustness": "Twin-vs-control is not an artifact of one matched control; executable-control expansion keeps a positive target-balanced contrast.",
+      "A3_source_identity": "Inside G2, best-vs-worst twin source OTG spread is large; this is already qualitatively visible in Fig. 2.",
+      "A4_group_heterogeneity": "Primary group means span negative to positive OTG, so the plant-balanced headline is not a homogeneous twin-group property."
+    },
+    "would_materially_change": {
+      "abstract": false,
+      "conclusion": false,
+      "figure_strategy": "no new figures; do not compress or remove figures in Phase 4; page optimization deferred until after insertion",
+      "limitations": true,
+      "table_ii": "optional R8 descriptive row only"
+    }
+  }
+}

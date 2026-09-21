@@ -1,0 +1,135 @@
+{
+  "documented_vs_zip_inner_names": {
+    "documented_inverter_example": "plant_PS_001_inverter.csv",
+    "documented_meteorological_example": "plant_PS_001_solar_station.csv",
+    "readme_inner_names_not_in_zip": true,
+    "readme_inner_pattern": {
+      "inverter": "plant_{ps}_inverter.csv",
+      "meteorological": "plant_{ps}_solar_station.csv"
+    },
+    "zip_member_pattern": "BR-PVGen_{family}/PS_XXX.csv"
+  },
+  "doi": "10.5281/zenodo.21511487",
+  "entries": [
+    {
+      "byte_size": 3095,
+      "column_count": 10,
+      "file_family": "metadata",
+      "format": "csv",
+      "provenance": {
+        "acquisition": "local copy of official Zenodo objects; md5 verified against record 21511487",
+        "doi": "10.5281/zenodo.21511487",
+        "md5": {
+          "BR-PVGen_inverter.zip": "fbdb7cdb328a3e6ffb470f95bc56bcf4",
+          "BR-PVGen_metadata.csv": "abae1b232035097a55d8534a9ec51ab8",
+          "BR-PVGen_meteorological.zip": "7c20c037074734f426d79a4e3f0db0bf",
+          "Readme.txt": "49bbfb45c13db13baf2c669a7d67c1d0"
+        },
+        "raw_dir": "data/raw/br_pvgen",
+        "zenodo_record_id": 21511487
+      },
+      "relative_path": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+      "row_count": 51,
+      "sha256": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c"
+    },
+    {
+      "byte_size": 10090,
+      "column_count": null,
+      "file_family": "documentation",
+      "format": "txt",
+      "provenance": {
+        "acquisition": "local copy of official Zenodo objects; md5 verified against record 21511487",
+        "doi": "10.5281/zenodo.21511487",
+        "md5": {
+          "BR-PVGen_inverter.zip": "fbdb7cdb328a3e6ffb470f95bc56bcf4",
+          "BR-PVGen_metadata.csv": "abae1b232035097a55d8534a9ec51ab8",
+          "BR-PVGen_meteorological.zip": "7c20c037074734f426d79a4e3f0db0bf",
+          "Readme.txt": "49bbfb45c13db13baf2c669a7d67c1d0"
+        },
+        "raw_dir": "data/raw/br_pvgen",
+        "zenodo_record_id": 21511487
+      },
+      "relative_path": "data/raw/br_pvgen/Readme.txt",
+      "row_count": null,
+      "sha256": "4e8ec256c926b32cea8e8e1f2b9fb334f75cedd391eca570cdd229006add8a20"
+    },
+    {
+      "byte_size": 57222929,
+      "column_count": null,
+      "file_family": "meteorological_archive",
+      "format": "zip",
+      "provenance": {
+        "acquisition": "local copy of official Zenodo objects; md5 verified against record 21511487",
+        "doi": "10.5281/zenodo.21511487",
+        "md5": {
+          "BR-PVGen_inverter.zip": "fbdb7cdb328a3e6ffb470f95bc56bcf4",
+          "BR-PVGen_metadata.csv": "abae1b232035097a55d8534a9ec51ab8",
+          "BR-PVGen_meteorological.zip": "7c20c037074734f426d79a4e3f0db0bf",
+          "Readme.txt": "49bbfb45c13db13baf2c669a7d67c1d0"
+        },
+        "raw_dir": "data/raw/br_pvgen",
+        "zenodo_record_id": 21511487
+      },
+      "relative_path": "data/raw/br_pvgen/BR-PVGen_meteorological.zip",
+      "row_count": null,
+      "sha256": "a4b23123c16bf6a97a8d282e6ad18c2e697ac990d0b96602c68c6b2abfce240f"
+    },
+    {
+      "byte_size": 294085407,
+      "column_count": null,
+      "file_family": "inverter_archive",
+      "format": "zip",
+      "provenance": {
+        "acquisition": "local copy of official Zenodo objects; md5 verified against record 21511487",
+        "doi": "10.5281/zenodo.21511487",
+        "md5": {
+          "BR-PVGen_inverter.zip": "fbdb7cdb328a3e6ffb470f95bc56bcf4",
+          "BR-PVGen_metadata.csv": "abae1b232035097a55d8534a9ec51ab8",
+          "BR-PVGen_meteorological.zip": "7c20c037074734f426d79a4e3f0db0bf",
+          "Readme.txt": "49bbfb45c13db13baf2c669a7d67c1d0"
+        },
+        "raw_dir": "data/raw/br_pvgen",
+        "zenodo_record_id": 21511487
+      },
+      "relative_path": "data/raw/br_pvgen/BR-PVGen_inverter.zip",
+      "row_count": null,
+      "sha256": "58ec09c4da8e8d61659bda5dd9db5fe27ebaea7bc547117464e910b7aaf902c6"
+    }
+  ],
+  "expected_zenodo_files": [
+    "BR-PVGen_metadata.csv",
+    "BR-PVGen_inverter.zip",
+    "BR-PVGen_meteorological.zip",
+    "Readme.txt"
+  ],
+  "family_totals": {
+    "inverter_rows": 14400480,
+    "metadata_rows": 51,
+    "meteorological_rows": 1183968
+  },
+  "found_files": [
+    ".gitkeep",
+    "BR-PVGen_inverter.zip",
+    "BR-PVGen_metadata.csv",
+    "BR-PVGen_meteorological.zip",
+    "Readme.txt"
+  ],
+  "missing_expected_files": [],
+  "missing_inner_files": [],
+  "provenance": {
+    "acquisition": "local copy of official Zenodo objects; md5 verified against record 21511487",
+    "doi": "10.5281/zenodo.21511487",
+    "md5": {
+      "BR-PVGen_inverter.zip": "fbdb7cdb328a3e6ffb470f95bc56bcf4",
+      "BR-PVGen_metadata.csv": "abae1b232035097a55d8534a9ec51ab8",
+      "BR-PVGen_meteorological.zip": "7c20c037074734f426d79a4e3f0db0bf",
+      "Readme.txt": "49bbfb45c13db13baf2c669a7d67c1d0"
+    },
+    "raw_dir": "data/raw/br_pvgen",
+    "zenodo_record_id": 21511487
+  },
+  "unexpected_files": [
+    ".gitkeep"
+  ],
+  "unexpected_inner_files": []
+}

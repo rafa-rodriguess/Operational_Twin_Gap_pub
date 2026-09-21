@@ -1,0 +1,521 @@
+{
+  "excluded": [
+    "G3",
+    "R7",
+    "R9",
+    "P4_recalibration",
+    "OTG_half"
+  ],
+  "g1_baseline": {
+    "rq1": {
+      "directional_mean": 0.0010783871471068823,
+      "directional_median": 0.0010783871471068823,
+      "n_directional": 2,
+      "n_plants": 2,
+      "n_sources": 2,
+      "n_targets": 2,
+      "n_targets_iterate": 2,
+      "plant_balanced": 0.0010783871471068823,
+      "plant_balanced_iterate": 0.0010783871471068823,
+      "recon_pb": 0.0,
+      "rel_median": 0.01757970613728724,
+      "rel_p75": 0.017850003285347332
+    },
+    "rq2": {
+      "estimable": true,
+      "median_abs": 0.0002428308038606164,
+      "n_pairs": 1,
+      "n_plants": 2,
+      "n_plants_iterate": 2,
+      "plant_balanced": 0.0002428308038606164,
+      "plant_balanced_iterate": 0.0002428308038606164,
+      "reason": null,
+      "recon_pb": 0.0
+    }
+  },
+  "g2_baseline": {
+    "n_plants": 10,
+    "rq1": {
+      "directional_mean": 0.015207625461898069,
+      "directional_median": 0.006361898608261737,
+      "n_directional": 81,
+      "n_plants": 10,
+      "n_sources": 9,
+      "n_targets": 10,
+      "n_targets_iterate": 10,
+      "plant_balanced": 0.015181496979951397,
+      "plant_balanced_iterate": 0.015181496979951397,
+      "recon_pb": 0.0,
+      "rel_median": 0.11049499037108494,
+      "rel_p75": 0.3054139108433952
+    },
+    "rq2": {
+      "estimable": true,
+      "median_abs": 0.0165116103449235,
+      "n_pairs": 36,
+      "n_plants": 9,
+      "n_plants_iterate": 9,
+      "plant_balanced": 0.03647491048721349,
+      "plant_balanced_iterate": 0.03647491048721349,
+      "reason": null,
+      "recon_pb": 0.0
+    }
+  },
+  "g2_delete": {
+    "delta_max_negative_shift": -0.008759998714464378,
+    "delta_max_positive_shift": 0.0026975248817611465,
+    "max": 0.017879021861712543,
+    "max_abs_shift": 0.008759998714464378,
+    "median": 0.01600893990777926,
+    "min": 0.006421498265487018,
+    "n": 10,
+    "n_same_sign_as_full": 10,
+    "plant_max_abs_shift": "PS_047",
+    "plant_max_negative_shift": "PS_047",
+    "plant_max_positive_shift": "PS_046",
+    "range": 0.011457523596225525,
+    "ranking_abs_shift": [
+      {
+        "abs_delta": 0.008759998714464378,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_047",
+        "delta": -0.008759998714464378,
+        "value": 0.006421498265487018
+      },
+      {
+        "abs_delta": 0.0026975248817611465,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_046",
+        "delta": 0.0026975248817611465,
+        "value": 0.017879021861712543
+      },
+      {
+        "abs_delta": 0.0023668828308712093,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_042",
+        "delta": 0.0023668828308712093,
+        "value": 0.017548379810822606
+      },
+      {
+        "abs_delta": 0.0022859219005797425,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_050",
+        "delta": 0.0022859219005797425,
+        "value": 0.01746741888053114
+      },
+      {
+        "abs_delta": 0.0016729098163526003,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_049",
+        "delta": 0.0016729098163526003,
+        "value": 0.016854406796303997
+      },
+      {
+        "abs_delta": 0.0011010726039975272,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_045",
+        "delta": 0.0011010726039975272,
+        "value": 0.016282569583948924
+      },
+      {
+        "abs_delta": 0.0008786829760073171,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_051",
+        "delta": -0.0008786829760073171,
+        "value": 0.01430281400394408
+      },
+      {
+        "abs_delta": 0.0008042872572286888,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_044",
+        "delta": -0.0008042872572286888,
+        "value": 0.014377209722722708
+      },
+      {
+        "abs_delta": 0.000553813251658198,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_043",
+        "delta": 0.000553813251658198,
+        "value": 0.015735310231609595
+      },
+      {
+        "abs_delta": 0.00023515633752002954,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_048",
+        "delta": -0.00023515633752002954,
+        "value": 0.014946340642431367
+      }
+    ]
+  },
+  "g4_baseline": {
+    "rq1": {
+      "directional_mean": -0.008920638042364377,
+      "directional_median": -0.008920638042364377,
+      "n_directional": 2,
+      "n_plants": 2,
+      "n_sources": 2,
+      "n_targets": 2,
+      "n_targets_iterate": 2,
+      "plant_balanced": -0.008920638042364377,
+      "plant_balanced_iterate": -0.008920638042364377,
+      "recon_pb": 0.0,
+      "rel_median": -0.12029340863007928,
+      "rel_p75": -0.09624603128548259
+    },
+    "rq2": {
+      "estimable": true,
+      "median_abs": 0.008665867873552488,
+      "n_pairs": 1,
+      "n_plants": 2,
+      "n_plants_iterate": 2,
+      "plant_balanced": 0.008665867873552488,
+      "plant_balanced_iterate": 0.008665867873552488,
+      "reason": null,
+      "recon_pb": 0.0
+    }
+  },
+  "interpretation": {
+    "descriptors": [
+      "leave-one-plant-out RQ1/RQ2 remain defined for all 14 primary deletions",
+      "influence is ranked by observed absolute shift, without evaluative plant scores",
+      "G2-only versus G1/G4 baselines are subgroup contrasts, not delete-one replicates",
+      "non-G2 is a small descriptive cohort; pair estimability can fail when a two-plant group is broken"
+    ],
+    "jackknife_ci": false,
+    "text": "Leave-one-plant-out RQ1 over 14 deletes ranges [0.003239152507605244, 0.012830978674477312] (median 0.010674131827326395; range 0.009591826166872068) versus full primary 0.009723604857785641. Largest absolute shift is 0.006484452350180397 when deleting PS_047; max positive shift 0.003107373816691671 (PS_035), max negative shift -0.006484452350180397 (PS_047). 14/14 replicates keep the sign of full RQ1. RQ2 PB |A| ranges [0.011603159904507117, 0.0314187209210933] (median 0.027886593115242782) versus full 0.026622430133826737; largest absolute shift 0.01501927022931962 (PS_047). G2-only RQ1 0.015181496979951397 (n_dir 81) versus non-G2 pooled -0.003921125447628748 (G1 0.0010783871471068823, G4 -0.008920638042364377). These are descriptive influence diagnostics on a transfer network, not iid jackknife intervals.",
+    "threshold_rules_used": false
+  },
+  "jackknife_ci": false,
+  "n_directional_primary": 85,
+  "n_pairs_primary": 38,
+  "n_plants": 14,
+  "no_new_scoring": true,
+  "no_refit": true,
+  "nong2_baseline": {
+    "n_plants": 4,
+    "rq1": {
+      "directional_mean": -0.003921125447628748,
+      "directional_median": -0.0018153661802057797,
+      "n_directional": 4,
+      "n_plants": 4,
+      "n_sources": 4,
+      "n_targets": 4,
+      "n_targets_iterate": 4,
+      "plant_balanced": -0.003921125447628748,
+      "plant_balanced_iterate": -0.003921125447628748,
+      "recon_pb": 0.0,
+      "rel_median": -0.027579771049859418,
+      "rel_p75": 0.01730940898922715
+    },
+    "rq2": {
+      "estimable": true,
+      "median_abs": 0.004454349338706552,
+      "n_pairs": 2,
+      "n_plants": 4,
+      "n_plants_iterate": 4,
+      "plant_balanced": 0.004454349338706552,
+      "plant_balanced_iterate": 0.004454349338706552,
+      "reason": null,
+      "recon_pb": 0.0
+    }
+  },
+  "nong2_delete_rows": [
+    {
+      "deleted_group": "TW_04b9f5d95694",
+      "deleted_plant": "PS_002",
+      "delta_rq1": -0.00499951259473563,
+      "delta_rq2": 0.004211518534845936,
+      "n_directional": 2,
+      "n_pairs": 1,
+      "n_targets": 2,
+      "rq1": -0.008920638042364377,
+      "rq2": 0.008665867873552488,
+      "rq2_estimable": true,
+      "rq2_reason": null,
+      "scope": "nonG2_pooled"
+    },
+    {
+      "deleted_group": "TW_04b9f5d95694",
+      "deleted_plant": "PS_003",
+      "delta_rq1": -0.00499951259473563,
+      "delta_rq2": 0.004211518534845936,
+      "n_directional": 2,
+      "n_pairs": 1,
+      "n_targets": 2,
+      "rq1": -0.008920638042364377,
+      "rq2": 0.008665867873552488,
+      "rq2_estimable": true,
+      "rq2_reason": null,
+      "scope": "nonG2_pooled"
+    },
+    {
+      "deleted_group": "TW_88a108921af7",
+      "deleted_plant": "PS_035",
+      "delta_rq1": 0.00499951259473563,
+      "delta_rq2": -0.004211518534845936,
+      "n_directional": 2,
+      "n_pairs": 1,
+      "n_targets": 2,
+      "rq1": 0.0010783871471068823,
+      "rq2": 0.0002428308038606164,
+      "rq2_estimable": true,
+      "rq2_reason": null,
+      "scope": "nonG2_pooled"
+    },
+    {
+      "deleted_group": "TW_88a108921af7",
+      "deleted_plant": "PS_039",
+      "delta_rq1": 0.00499951259473563,
+      "delta_rq2": -0.004211518534845936,
+      "n_directional": 2,
+      "n_pairs": 1,
+      "n_targets": 2,
+      "rq1": 0.0010783871471068823,
+      "rq2": 0.0002428308038606164,
+      "rq2_estimable": true,
+      "rq2_reason": null,
+      "scope": "nonG2_pooled"
+    }
+  ],
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "rq1_delete": {
+    "delta_max_negative_shift": -0.006484452350180397,
+    "delta_max_positive_shift": 0.003107373816691671,
+    "max": 0.012830978674477312,
+    "max_abs_shift": 0.006484452350180397,
+    "median": 0.010674131827326395,
+    "min": 0.003239152507605244,
+    "n": 14,
+    "n_same_sign_as_full": 14,
+    "plant_max_abs_shift": "PS_047",
+    "plant_max_negative_shift": "PS_047",
+    "plant_max_positive_shift": "PS_035",
+    "range": 0.009591826166872068,
+    "ranking_abs_shift": [
+      {
+        "abs_delta": 0.006484452350180397,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_047",
+        "delta": -0.006484452350180397,
+        "value": 0.003239152507605244
+      },
+      {
+        "abs_delta": 0.003107373816691671,
+        "deleted_group": "TW_88a108921af7",
+        "deleted_plant": "PS_035",
+        "delta": 0.003107373816691671,
+        "value": 0.012830978674477312
+      },
+      {
+        "abs_delta": 0.003107373816691671,
+        "deleted_group": "TW_88a108921af7",
+        "deleted_plant": "PS_039",
+        "delta": 0.003107373816691671,
+        "value": 0.012830978674477312
+      },
+      {
+        "abs_delta": 0.0014476793702834258,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_046",
+        "delta": 0.0014476793702834258,
+        "value": 0.011171284228069067
+      },
+      {
+        "abs_delta": 0.0014408696184464598,
+        "deleted_group": "TW_04b9f5d95694",
+        "deleted_plant": "PS_002",
+        "delta": 0.0014408696184464598,
+        "value": 0.011164474476232101
+      },
+      {
+        "abs_delta": 0.0014408696184464598,
+        "deleted_group": "TW_04b9f5d95694",
+        "deleted_plant": "PS_003",
+        "delta": 0.0014408696184464598,
+        "value": 0.011164474476232101
+      },
+      {
+        "abs_delta": 0.0012187733350519335,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_042",
+        "delta": 0.0012187733350519335,
+        "value": 0.010942378192837575
+      },
+      {
+        "abs_delta": 0.0011627234602347644,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_050",
+        "delta": 0.0011627234602347644,
+        "value": 0.010886328318020406
+      },
+      {
+        "abs_delta": 0.001028156838940893,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_051",
+        "delta": -0.001028156838940893,
+        "value": 0.008695448018844748
+      },
+      {
+        "abs_delta": 0.0009766521105556893,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_044",
+        "delta": -0.0009766521105556893,
+        "value": 0.008746952747229952
+      },
+      {
+        "abs_delta": 0.0007383304788467424,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_049",
+        "delta": 0.0007383304788467424,
+        "value": 0.010461935336632384
+      },
+      {
+        "abs_delta": 0.0005826383969112347,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_048",
+        "delta": -0.0005826383969112347,
+        "value": 0.009140966460874407
+      },
+      {
+        "abs_delta": 0.0003424431779855356,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_045",
+        "delta": 0.0003424431779855356,
+        "value": 0.010066048035771177
+      },
+      {
+        "abs_delta": 3.6428681326305945e-05,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_043",
+        "delta": -3.6428681326305945e-05,
+        "value": 0.009687176176459335
+      }
+    ]
+  },
+  "rq1_full": 0.009723604857785641,
+  "rq2_delete": {
+    "delta_max_negative_shift": -0.01501927022931962,
+    "delta_max_positive_shift": 0.004796290787266566,
+    "max": 0.0314187209210933,
+    "max_abs_shift": 0.01501927022931962,
+    "median": 0.027886593115242782,
+    "min": 0.011603159904507117,
+    "n": 14,
+    "n_same_sign_as_full": 14,
+    "plant_max_abs_shift": "PS_047",
+    "plant_max_negative_shift": "PS_047",
+    "plant_max_positive_shift": "PS_002",
+    "range": 0.019815561016586186,
+    "ranking_abs_shift": [
+      {
+        "abs_delta": 0.01501927022931962,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_047",
+        "delta": -0.01501927022931962,
+        "value": 0.011603159904507117
+      },
+      {
+        "abs_delta": 0.004796290787266566,
+        "deleted_group": "TW_04b9f5d95694",
+        "deleted_plant": "PS_002",
+        "delta": 0.004796290787266566,
+        "value": 0.0314187209210933
+      },
+      {
+        "abs_delta": 0.004796290787266566,
+        "deleted_group": "TW_04b9f5d95694",
+        "deleted_plant": "PS_003",
+        "delta": 0.004796290787266566,
+        "value": 0.0314187209210933
+      },
+      {
+        "abs_delta": 0.0032648295018680475,
+        "deleted_group": "TW_88a108921af7",
+        "deleted_plant": "PS_035",
+        "delta": 0.0032648295018680475,
+        "value": 0.029887259635694784
+      },
+      {
+        "abs_delta": 0.0032648295018680475,
+        "deleted_group": "TW_88a108921af7",
+        "deleted_plant": "PS_039",
+        "delta": 0.0032648295018680475,
+        "value": 0.029887259635694784
+      },
+      {
+        "abs_delta": 0.002435952750189145,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_046",
+        "delta": 0.002435952750189145,
+        "value": 0.029058382884015882
+      },
+      {
+        "abs_delta": 0.0017105624517247016,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_049",
+        "delta": 0.0017105624517247016,
+        "value": 0.02833299258555144
+      },
+      {
+        "abs_delta": 0.0013403110475424841,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_045",
+        "delta": 0.0013403110475424841,
+        "value": 0.02796274118136922
+      },
+      {
+        "abs_delta": 0.0011880149152896056,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_044",
+        "delta": 0.0011880149152896056,
+        "value": 0.027810445049116343
+      },
+      {
+        "abs_delta": 0.0009226819405861002,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_050",
+        "delta": 0.0009226819405861002,
+        "value": 0.027545112074412837
+      },
+      {
+        "abs_delta": 0.00041993770643079104,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_051",
+        "delta": -0.00041993770643079104,
+        "value": 0.026202492427395946
+      },
+      {
+        "abs_delta": 0.00027272351563820477,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_042",
+        "delta": 0.00027272351563820477,
+        "value": 0.02689515364946494
+      },
+      {
+        "abs_delta": 0.00017960104974012667,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_043",
+        "delta": 0.00017960104974012667,
+        "value": 0.026802031183566864
+      },
+      {
+        "abs_delta": 0.0,
+        "deleted_group": "TW_4467a039e00b",
+        "deleted_plant": "PS_048",
+        "delta": 0.0,
+        "value": 0.026622430133826737
+      }
+    ]
+  },
+  "rq2_full": 0.026622430133826737,
+  "rq3_reason": "Canonical RQ3 needs control CS4 pairwise intersection; P5 does not rebuild that pipeline or plant-delete it.",
+  "rq3_status": "P5_RQ3_NOT_RUN_STABILITY_SCOPE",
+  "status": "S12_P5_PLANT_DELETE_STABILITY_MATERIALIZED",
+  "subgroup_vs_full": {
+    "g2_minus_full_rq1": 0.005457892122165756,
+    "g2_minus_full_rq2": 0.009852480353386754,
+    "nong2_minus_full_rq1": -0.013644730305414389,
+    "nong2_minus_full_rq2": -0.022168080795120185
+  }
+}

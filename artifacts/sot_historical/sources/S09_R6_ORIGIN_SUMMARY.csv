@@ -1,0 +1,4 @@
+arm_id,rq1_directional_denominator,rq1_plant_balanced_mean_otg,rq2_pair_denominator,rq2_plant_balanced_mean_abs_asymmetry,rq3_target_denominator,rq3_descriptive_target_balanced_control_minus_twin
+R6_TEMPORAL__O1,77,0.015188552412841503,30,0.01739329848280581,13,0.029738102381988145
+R6_TEMPORAL__O2,77,0.01069177096157405,30,0.02623117441691072,13,0.045652369985818786
+R6_TEMPORAL__O3,77,0.002140842362927061,30,0.04199741422743697,13,0.0584626661573872

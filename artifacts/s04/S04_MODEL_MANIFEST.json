@@ -1,0 +1,564 @@
+{
+  "models": [
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_002/HistGradientBoosting/full.joblib",
+      "sha256": "a73986993d0eaf41ab67733d0cd69765fab1b40d4a2e0595438ac904ebd1dfc5"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_002/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "d8cf93935f0ddb65942e98bca5e3027f8c9700875e8a47c3005b4f8b5ef35f9a"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_002/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "637b992a93f72b2def02b9e691207fdd9ea408ddd98ac6d20c70cf49f847fa32"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_002/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "b01ece382b1dc28668f852f8f2dcefd774825bfda58ae4f3623fdcd42a0681e4"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_002/SplineRidge/full.joblib",
+      "sha256": "8b6d1d37d81f1ca223c72614f5c6ea285f9a1e3a3e453c834e33f5fa6689f58c"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_002/SplineRidge/restricted_B1.joblib",
+      "sha256": "cd7e0590961913fcacb1d09a06dfaecef52c184fcfd25a791cd01d5328f30eaa"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_002/SplineRidge/restricted_B2.joblib",
+      "sha256": "b57aa941ea55b5b2ed6dda71cc54b256482ce79debc69eeba2c1161b9e5290dc"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_002/SplineRidge/restricted_B3.joblib",
+      "sha256": "a0de284119a2f9bef8e57bfd3f0e80974b72d365f704c249174ae1cfa319f85a"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_003/HistGradientBoosting/full.joblib",
+      "sha256": "ad1dbcf68176bedf2fd2f3487f8f098cd428f8f1484cbbbadcdda1d2f63548e8"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_003/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "28916dfa436a422bc2d26d7852e16826244226f1012d9beac183d91e60e52914"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_003/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "ca4d7eff5c9f1b2555e8b408cb14d67dced6a9e40a566743a597e25e2923b67d"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_003/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "c0f7855fa51fb684dba18a1e4da5573368f4ff2069d243ada5dba43b7f98531a"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_003/SplineRidge/full.joblib",
+      "sha256": "30d8abb24f37ecfb09e378a3c2bc4e0175391c2ef0a985aeef3cf007e320f5f6"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_003/SplineRidge/restricted_B1.joblib",
+      "sha256": "6b8d2170862f254f264287dc70cbdb47b9b5018f7f25bd89235741ea862a887d"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_003/SplineRidge/restricted_B2.joblib",
+      "sha256": "2c7bb7db4b6897326368b71bebc86f4ecaab690828f8fb5a9f328476fb051024"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_003/SplineRidge/restricted_B3.joblib",
+      "sha256": "0540d4efcb9d8823014a902fea9749c7358d6af109ed602a42b8e1ff1485ff51"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_035/HistGradientBoosting/full.joblib",
+      "sha256": "1a77e69601af446863088745e152308cb827fcf045c0971832098793a76a98bf"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_035/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "c7039f9ffcedcccc073c9261135a574d68eb5a439526d9f7e788a621f31404f9"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_035/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "4375a0d8e4203ab8c46d93302447b3fcc1c3ef22f320510ba72b01f8d5fb401d"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_035/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "ed2b0c397d56f1ad8567e873d90e29bf3c720291aaaea11a480714f4dc647ebf"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_035/SplineRidge/full.joblib",
+      "sha256": "3244ddf861035be461d5c890580e8533a7bef142d0bb1af0e8f99bf73e343034"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_035/SplineRidge/restricted_B1.joblib",
+      "sha256": "9b75a01dd579fd037f4ac428e962cb9bd4bdea067a40b1fae825be386be97caf"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_035/SplineRidge/restricted_B2.joblib",
+      "sha256": "05968015cb022f0a208a409be9bd68a01096561e76c30851e0b67fd190a80e11"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_035/SplineRidge/restricted_B3.joblib",
+      "sha256": "549c85502f4bdc815a1ac1885a0cc9d0b0fdefea1acaa87cfedf38e55a1710fd"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_039/HistGradientBoosting/full.joblib",
+      "sha256": "0a94bc28c1a203c16a0d7d5f23b44d7079f6c695fbbd0bacf316d73466bff082"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_039/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "be5ff285cd77187f2c65af825a3b4af6acfac683da5c106d807897ef611671a0"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_039/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "37827cfcb4acc81784a23a1b0a496bedfa8f4dfe51ef4926a922765ce534971e"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_039/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "f46341e077519dff991af0c6839acdd928dc5bbcf362d97995688cd88f4d4510"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_039/SplineRidge/full.joblib",
+      "sha256": "14dcf62bd804ffbfaf58fb63398715906191d2058f6a5d4f1a713b7e2899d83e"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_039/SplineRidge/restricted_B1.joblib",
+      "sha256": "9a03e596ba7be79e3d4b25de76ff163ae4e1557415914490e3b92820fa19045d"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_039/SplineRidge/restricted_B2.joblib",
+      "sha256": "213d0449ab97d502f2c47049f6d093495b5f9c2831ae06d864051d91483b30f6"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_039/SplineRidge/restricted_B3.joblib",
+      "sha256": "a0605a44f7c1e6104b5df66d3e97def38cea4d875252384e67b6b7e2349caa69"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_042/HistGradientBoosting/full.joblib",
+      "sha256": "1a07a907f19509ce13a4703186eb1352465b2b9a33964da7356139698fb2816c"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_042/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "b4fa88cea7d67a729b3da58bd3171207da5d688d8a3eb0fce2df1ab7a31b6181"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_042/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "c22396a989d90cae338e66c9cf7f8ab81d5c0186ebb6923faf0865ba1e3a9cff"
+    },
+    {
+      "bytes": 1085344,
+      "path": "artifacts/s04/models/PS_042/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "64e35f39ecda11e69dd15e9efb2e627981d3884664d6dbd14511557c25cd68ab"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_042/SplineRidge/full.joblib",
+      "sha256": "f4802790c2de56c570d0fe11647f0ff8b5d3b5d09a8d1d74f6e55de94ce07fb9"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_042/SplineRidge/restricted_B1.joblib",
+      "sha256": "eb0ba5ebe98bf149186739af21582085cfcde54d5b79adc6b179a2944ec2817e"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_042/SplineRidge/restricted_B2.joblib",
+      "sha256": "1d49c677c9d2b63ed015e07dc92bb2ab5839fb59fc3145c8011477d4e080adaf"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_042/SplineRidge/restricted_B3.joblib",
+      "sha256": "b3f5169fe49b2964e0d3a3abe98d5f67f93c0b3ad8c8ba9a9dd6561d0b84fc7f"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_043/HistGradientBoosting/full.joblib",
+      "sha256": "822bcc4137b31b369eeeb3a497696c2358940ed317345122f70cd290ee194efe"
+    },
+    {
+      "bytes": 1083776,
+      "path": "artifacts/s04/models/PS_043/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "fa3520d5cd2c279a09a21c3b56de6fde523118b77ebd180f1f061b084b5ef0ec"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_043/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "0757be3b61984f012ac5ed4a29d0ac9e956f45ba653f303314300e958f1b056b"
+    },
+    {
+      "bytes": 1095424,
+      "path": "artifacts/s04/models/PS_043/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "bf1010cbb66ec3221116d03913ac4e0006dfc95d7536a291b9a936385eaecea6"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_043/SplineRidge/full.joblib",
+      "sha256": "f0d409fc824764b4b0a82f2b712222a15812c960ceb60c63c21c6cccae1f4aa0"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_043/SplineRidge/restricted_B1.joblib",
+      "sha256": "1ab90be97d7f2f58c92d335db07845666689f31340c8bc948ed4dd020971d19b"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_043/SplineRidge/restricted_B2.joblib",
+      "sha256": "0dd6c41fb8f423b942c774c0cf01f5ea91a45c9d11a86c867cfc6a7579905864"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_043/SplineRidge/restricted_B3.joblib",
+      "sha256": "9e1dca814f9c28d8bf4366b3e6a5b02717928bac98c9d28ee0d93d285ec8b8f7"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_044/HistGradientBoosting/full.joblib",
+      "sha256": "39abae0957c79cb2f9eb562e1f018d384fa55ada01a798c402a0c1e054d00ec8"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_044/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "ca9dee5ed8c094472f5608e4b5dcf697786b91312cb07d5c551fdf008b094af3"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_044/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "82030f653fd4cdda819fdf185b6ea9f04dd44ee75dad62477bba4a54a9afeb7e"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_044/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "4a28910c0431b7c4bda55def6e703ebfb6cb604e4fd2077a9f5b7d0589b64a73"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_044/SplineRidge/full.joblib",
+      "sha256": "157e3d29d65959cbd7136cc2c5ec7311bbf4ac29546bf9f28513883e2cda9681"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_044/SplineRidge/restricted_B1.joblib",
+      "sha256": "d34ae8c455f4c697fe8f67b56cabb7683cafe67c59faee788ae7369d876780d0"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_044/SplineRidge/restricted_B2.joblib",
+      "sha256": "5db9c7fd00bc4c3b3205c72ad6b02e83a68551a69119116159d2df40876b59df"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_044/SplineRidge/restricted_B3.joblib",
+      "sha256": "f207b4be07ea8b32e545b4b4ea852badc587b213cc9af099aea251978dd4fec0"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_045/HistGradientBoosting/full.joblib",
+      "sha256": "4adba9c1d9e534b5858faedadc770ded6401cbe683b53ddf6fbe715f4b29f6b6"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_045/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "6037715c611bc43f0e2c6881c59a029af9f8d40bb68fc0bcd12baa3aee9a963d"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_045/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "c2477c7dfaa1064d0feb52fa300cfd3cce532b811a9ce382bd842d7b5f0e8baf"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_045/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "5a3a364acf8372f8f51ecc710e4ee81a5297038e3100918bd1dd8127e9bd8c50"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_045/SplineRidge/full.joblib",
+      "sha256": "b5ef6c1d2cc436484d366cb67a5e61946a6b50d529f21a537bcb408fbc94eaf0"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_045/SplineRidge/restricted_B1.joblib",
+      "sha256": "3fcb4ca37d5425515cf50aa638a21004eaf635253130fad12cf902c30ebb888f"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_045/SplineRidge/restricted_B2.joblib",
+      "sha256": "4b8877d305d4c00975703db191a68b6dbd0359aec150595ff56f07db40774f34"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_045/SplineRidge/restricted_B3.joblib",
+      "sha256": "8832e28519ebb986255a7d6c01a6ecf4c3d348871852f32204a5ae42817fb029"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_046/HistGradientBoosting/full.joblib",
+      "sha256": "b04aec3c43889cc2c81dbda59b41fdd367e7060d18648f1d3fcf048f26dfda93"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_046/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "b3723f9cfbc99a62b2876056361b0c48fbfdfdc04be0b185dcb5ebcdc455bab3"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_046/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "81b0073ba12fce48a86573ccbdfa09f03c5d8c27fcbac9f41bc4c4429671dbc4"
+    },
+    {
+      "bytes": 1094080,
+      "path": "artifacts/s04/models/PS_046/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "eb1c0477240e4117ca9bb1c907e9da16390104a098c7e4098f0ee82227164fdd"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_046/SplineRidge/full.joblib",
+      "sha256": "37e68c4f6005e262bcf75bc2ac5a33e22610735c2c4622357ac34157256ec920"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_046/SplineRidge/restricted_B1.joblib",
+      "sha256": "6496226591744fadb19e32164cf0fc4318e6ddb315c7521cd6516e2afb0e9cd9"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_046/SplineRidge/restricted_B2.joblib",
+      "sha256": "eea0f5abe349a8f71bb3ef166cc278423230709cf0800ebff37c9134c0c56d0a"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_046/SplineRidge/restricted_B3.joblib",
+      "sha256": "008167610fb066fe9b0e38355cb1c4bfeb207d879265df5d92568d18a2786ec0"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_047/HistGradientBoosting/full.joblib",
+      "sha256": "3565f660825bd1436bf5f066044b1775cad2a165989224b4fe814a74a426b931"
+    },
+    {
+      "bytes": 1089712,
+      "path": "artifacts/s04/models/PS_047/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "838bb485da0ef28af2b7fe7d7f063d1b50b5478daa29131fbd9a865edc53f837"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_047/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "156b0cc21a59f62d8527089a6f4e91b19dcea5e43234eb973a54619e98c9f768"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_047/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "608c48fe79ef9a22c14b11d44207e1b09dbc201be146b3c3de385a8437f03855"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_047/SplineRidge/full.joblib",
+      "sha256": "3e92e3fd02fbcd49593fc4492a77ea7cdf8c0b897dfaf91051a49e1f856aa1f4"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_047/SplineRidge/restricted_B1.joblib",
+      "sha256": "22a375b6b234fe0e31cf05aa6f7cf19c7b23b013fd8925eca958483540c3304d"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_047/SplineRidge/restricted_B2.joblib",
+      "sha256": "d64cf31f42c1ce5fc143b9450881adab79228ce3dec1104e286bdce94b107572"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_047/SplineRidge/restricted_B3.joblib",
+      "sha256": "460a08a0ae1baf38dc48d79fbaa6cf274afc03ff0b1c78a2abe5f508e049c002"
+    },
+    {
+      "bytes": 555792,
+      "path": "artifacts/s04/models/PS_048/HistGradientBoosting/full.joblib",
+      "sha256": "97d4e4d8d73aec826549bf79a79bdaa7867adca621eaf2ff3058ca8ac8b8311b"
+    },
+    {
+      "bytes": 555792,
+      "path": "artifacts/s04/models/PS_048/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "f5b5fa22b16bd3296e95bee7cc81fa537775145ac0ec834495878efe59d7b137"
+    },
+    {
+      "bytes": 555792,
+      "path": "artifacts/s04/models/PS_048/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "4ef0ec9d41756c165b20ef173bda7507c7f5a435803b75f2ccfc3631f009d420"
+    },
+    {
+      "bytes": 555792,
+      "path": "artifacts/s04/models/PS_048/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "6ffcbb51f09a51bc440eae77cebc85a89e62e9ff8d4f93c850ff0788915ce93f"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_048/SplineRidge/full.joblib",
+      "sha256": "2907f1cac162590a582f30497a7e3774b8450ad725ad7653f00c46c0a166e757"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_048/SplineRidge/restricted_B1.joblib",
+      "sha256": "ffee48cde7b7ee0ca694ab53715b227a51d28c0a65918e69a44de38f4c1fdc93"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_048/SplineRidge/restricted_B2.joblib",
+      "sha256": "be462417f4ad23a8bfde0b40fa6b41a2d0ef8237190a21665d1b846997c40482"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_048/SplineRidge/restricted_B3.joblib",
+      "sha256": "4e8021153a95730f73a5524a071c226a68458211e640e7174365526a62f6ea1a"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_049/HistGradientBoosting/full.joblib",
+      "sha256": "468c63e930b5d3cddcc73b871d9cfcc918d904a3c94f7cd6064ce8f6fde399f0"
+    },
+    {
+      "bytes": 1088144,
+      "path": "artifacts/s04/models/PS_049/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "190d80f2cca08390c5755faaf3f5cb834c8273c1ccbb8311aa9854bc7bdf4175"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_049/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "4f0cfabc57d938dde0074166fb66cab14f8bb71c9856403a30b474e4f8ef65cb"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_049/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "c7347c60568557090bc6a114df14853b582681a21023d3efea28b8a99bdd4e86"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_049/SplineRidge/full.joblib",
+      "sha256": "52b5e1dc4160ea555551364584cf45e6403779c4a5ef390780609619a5a2038c"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_049/SplineRidge/restricted_B1.joblib",
+      "sha256": "f34e6ea1a13b8c2b01048311c689fc4b4f0444a93a1f2ea8d70b9cf1380c5959"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_049/SplineRidge/restricted_B2.joblib",
+      "sha256": "2d748e169023cd47321b17161954bd8c1b772e240c192a08583b2aff356dad2f"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_049/SplineRidge/restricted_B3.joblib",
+      "sha256": "11e2788fb46934102dd991ad5d60e349dc7b4b2733653c280cf2160622c62c1b"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_050/HistGradientBoosting/full.joblib",
+      "sha256": "2748904e6eeac6154cbfe3f0eabcb1190e12b2f70d75efb85c659eb309e28ae7"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_050/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "66a470b4f30977bcc5da503b1b3ad7c67a09121b7eb22907f82ba5c0e77f215d"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_050/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "b489fb9a119832e2198d59bbc78f99c2ecad82570f76ce1e3444cc0484b6b639"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_050/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "1a2d30d2c57bc5d29035ae23f7baeaafac760cd417e4646194f118b97ec68701"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_050/SplineRidge/full.joblib",
+      "sha256": "a6dcd1cbde0a8dfa6ef09e425d6e81781a57afd1d09fd07d5efebeeff4575e25"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_050/SplineRidge/restricted_B1.joblib",
+      "sha256": "76a88c3535a7f5e667875a333b886b99d2ccd88ece2dedbdfbb0a8417e9eba74"
+    },
+    {
+      "bytes": 5601,
+      "path": "artifacts/s04/models/PS_050/SplineRidge/restricted_B2.joblib",
+      "sha256": "54b110f5e60ebab689d0ce8f34f07f4f6d573ef1a03112eff8b219ec07e3184d"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_050/SplineRidge/restricted_B3.joblib",
+      "sha256": "6ea35ba754523703caf4654484f3c3bfb3e0d212f3e3376af2cbcabb5f2bf4c0"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_051/HistGradientBoosting/full.joblib",
+      "sha256": "b4656966cbd6074af8aa6c57ce1ebe3a36da7f2439e5a395b54d8d5957a67864"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_051/HistGradientBoosting/restricted_B1.joblib",
+      "sha256": "bc533c06c9a786e816beebe31048142271b501363fcd0da376f21dab28e3df08"
+    },
+    {
+      "bytes": 1092400,
+      "path": "artifacts/s04/models/PS_051/HistGradientBoosting/restricted_B2.joblib",
+      "sha256": "2cec1c113bac783915a8a8a0bf22672f78beaff87129f33c1cc42446894d9cf7"
+    },
+    {
+      "bytes": 557824,
+      "path": "artifacts/s04/models/PS_051/HistGradientBoosting/restricted_B3.joblib",
+      "sha256": "0707f7addf20e78434d508d51227a02e453b337a391eed54d33c65c52d2e235f"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_051/SplineRidge/full.joblib",
+      "sha256": "e57b74afb4bf08150488c75053330d86175fa0a230b732e3869eeaa49064202c"
+    },
+    {
+      "bytes": 9633,
+      "path": "artifacts/s04/models/PS_051/SplineRidge/restricted_B1.joblib",
+      "sha256": "11c109d3d8e1fa8b4dabfef2a5250178644c5f6513bab466a80b03620dd7d895"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_051/SplineRidge/restricted_B2.joblib",
+      "sha256": "1ea2d74504bbb4e5e8dc250bcc7a19efd15e6ca9fe5b82d4162327ffe8b3c84b"
+    },
+    {
+      "bytes": 7425,
+      "path": "artifacts/s04/models/PS_051/SplineRidge/restricted_B3.joblib",
+      "sha256": "b23bad978c23f405ecf667c8f6db78f54132191e7eb0823d749ec272f476bfc2"
+    }
+  ]
+}

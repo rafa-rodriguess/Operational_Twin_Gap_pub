@@ -1,0 +1,38 @@
+{
+  "filter": "SplineRidge + CS4 + computable + primary groups",
+  "filtered_row_count": 85,
+  "generated_at_utc": "2026-09-21T00:00:27+00:00",
+  "helper_path": "src/lib/s11_phase1.py",
+  "outputs": {
+    "artifacts/s11/S11_A3_SUMMARY.json": {
+      "bytes": 236,
+      "row_count": null,
+      "schema_fingerprint": null,
+      "sha256": "2b5619df3731472c5686087ec472dcba1d1ebdb8ceca451c647aa17ddfb06002"
+    },
+    "artifacts/s11/S11_A3_TARGET_SPREAD.csv": {
+      "bytes": 1773,
+      "row_count": 10,
+      "schema_fingerprint": "82e47cbcacc668c97bdfa43e4f05402e64cc3be8f36277c582424860da31b58f",
+      "sha256": "b3d28edd5e4fd261b9e443b578f811b318c37f5a44e7b8ae3c6377a50867b379"
+    },
+    "artifacts/s11/S11_A4_RQ1_BY_GROUP.csv": {
+      "bytes": 385,
+      "row_count": 3,
+      "schema_fingerprint": "a9c1728d39810dcc1a4dbbad5edcc9ba0cb8461025d5b64dfd1bc63f254691b0",
+      "sha256": "3bb48b9b9a56242a99d1a9eed2089d4f1bd4a5f13a2b9222c78da7703b1e949e"
+    },
+    "artifacts/s11/S11_A4_TARGET_MEANS.csv": {
+      "bytes": 764,
+      "row_count": 14,
+      "schema_fingerprint": "1de3cf6935c0502b38e40dbbbdf71a4300aafde4fdc62d5b90c7e44968a82d77",
+      "sha256": "dbccfa3c5b17a46d8fc8247d046b1bb33d0b412afe04a23b6c6a7fba4fcfe2c2"
+    }
+  },
+  "phase1_baseline_commit": "d86bae9ea36df1ab1a478d66eaabf36cb658ca6f",
+  "repository_head": "d86bae9ea36df1ab1a478d66eaabf36cb658ca6f",
+  "script_path": "src/run/15_s11_phase1.py",
+  "source_artifact_path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+  "source_artifact_sha256": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+  "target_count": 14
+}

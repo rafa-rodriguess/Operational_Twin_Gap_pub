@@ -1,0 +1,7 @@
+candidate_id,alpha,n_knots,hyperparameters,n_s04_source_plants,s04_source_plants,features
+S04_00,0.1,4,"{""alpha"": 0.1, ""n_knots"": 4}",3,"PS_002,PS_003,PS_035","poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"
+S04_01,0.1,6,"{""alpha"": 0.1, ""n_knots"": 6}",4,"PS_042,PS_048,PS_049,PS_051","poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"
+S04_02,0.1,8,"{""alpha"": 0.1, ""n_knots"": 8}",1,PS_046,"poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"
+S04_03,1,8,"{""alpha"": 1, ""n_knots"": 8}",1,PS_044,"poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"
+S04_04,10,4,"{""alpha"": 10, ""n_knots"": 4}",3,"PS_039,PS_047,PS_050","poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"
+S04_05,10,8,"{""alpha"": 10, ""n_knots"": 8}",2,"PS_043,PS_045","poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms"

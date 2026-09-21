@@ -1,0 +1,89 @@
+{
+  "accepted_science_not_modified": true,
+  "bandwidth_rule": "median of positive off-diagonal Euclidean distances of capped source TRAIN sample at that cap",
+  "bootstrap": {
+    "algorithm": "resample target IDs with replacement; multiplicity; rerank/residualize inside partial replicates",
+    "n_boot": 5000,
+    "seed": 20260921
+  },
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s07/S07_ASYMMETRY.csv": "3703640a37dc70c19fc3eac40b43f29c003b07fe7d2f7965f371c1327ed7d9f2",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+  },
+  "energy_formula": "ED=2 E||X-Y|| - E||X-X'|| - E||Y-Y'|| Euclidean V-statistic including diagonal",
+  "full_test": "canonical target TEST rows before CS4",
+  "generated_at_utc": "2026-09-21T03:53:17+00:00",
+  "helper_path": "src/lib/s12_p9_environmental_distance.py",
+  "manuscript_files_not_edited": true,
+  "mmd_formula": "biased mean Kxx+Kyy-2Kxy; k=exp(-||x-y||^2/(2 sigma_source^2)); sigma=median positive off-diagonal source sample distances",
+  "no_refit": true,
+  "no_scoring": true,
+  "no_support_rebuild": true,
+  "outputs": {
+    "artifacts/s12/p9/S12_P9_BOOTSTRAP.csv": {
+      "bytes": 3260527,
+      "row_count": 50000,
+      "sha256": "713044d163495ecbb8354593eae43b9348e4d2a384cb18695e072bd6c5d90dfd"
+    },
+    "artifacts/s12/p9/S12_P9_DIRECTIONAL_DISTANCE.csv": {
+      "bytes": 66359,
+      "row_count": 85,
+      "sha256": "b3b27dd3b80fe9f3dc9ce5a869728598b2c8ba4dd7feb0a61ef33b4c9daad7f8"
+    },
+    "artifacts/s12/p9/S12_P9_DISTANCE_TERCILES.csv": {
+      "bytes": 551,
+      "row_count": 3,
+      "sha256": "e1c10efb7273c9292bdd6e07ef8c8a8eaa971198773247a61a4d46a0590dd596"
+    },
+    "artifacts/s12/p9/S12_P9_RQ2_DISTANCE_ASYMMETRY.csv": {
+      "bytes": 8939,
+      "row_count": 38,
+      "sha256": "8e56f9a30a5c12911c7483ea355b5e433246fff726e7516286ea5492a7c49f2d"
+    },
+    "artifacts/s12/p9/S12_P9_SOURCE_SCALERS.csv": {
+      "bytes": 3700,
+      "row_count": 14,
+      "sha256": "148943489ba40e33a215d2485cdf326047a95261d168c4b3fa40627d144e8e70"
+    },
+    "artifacts/s12/p9/S12_P9_SUMMARY.json": {
+      "bytes": 18855,
+      "row_count": null,
+      "sha256": "36073a4334cc2a8fdb52f7e30cbd926726fa4cfdf41faab7e3f693bb2355b2a0"
+    },
+    "artifacts/s12/p9/S12_P9_TARGET_BALANCED.csv": {
+      "bytes": 1595,
+      "row_count": 14,
+      "sha256": "29367e75a6bd4dbd6204a178b1f240809c0945532c55095e2ddc37ccf83d1067"
+    },
+    "reports/scientific/S12_P9_ENVIRONMENTAL_DISTANCE.md": {
+      "bytes": 6747,
+      "row_count": null,
+      "sha256": "a2863de316589f956c12a03e2f76bd7bb295e4baa57f9a8f79c7c45a2dd0199a"
+    }
+  },
+  "partial_spearman": "average ranks; residualize rank(distance) and rank(OTG) on rank(retention); Pearson of residuals",
+  "repository_head": "095c8343b0cef60ed91b525193e6a0a3209aeebb",
+  "rq2_definitions": "A_OTG=OTG(i->j)-OTG(j->i); A_ED=ED_supported(i->j)-ED_supported(j->i)",
+  "sampling": {
+    "association_stability_1024_vs_2048": "Spearman/partial Spearman recomputed from persisted directional 2048 and cap1024 columns; same average-rank residualization as headline",
+    "child_seed": "sha256(master|identity)[:8] little-endian uint32; identities source_train|pid|cap, target_test_full|pid|cap, target_test_supported|src|tgt|cap",
+    "master_seed": 20260921,
+    "max_dist_rows": 2048,
+    "sens": 1024
+  },
+  "script_path": "src/run/28_s12_p9_environmental_distance.py",
+  "self_hash_registered_externally": true,
+  "six_feature_schema": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "source_scaler_rule": "median and IQR from canonical source TRAIN only; z=(x-median)/IQR",
+  "supported_test": "accepted S05 CS4 supported target TEST identities; no new mask"
+}

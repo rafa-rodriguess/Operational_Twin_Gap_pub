@@ -1,0 +1,286 @@
+{
+  "accepted_science_not_modified": true,
+  "bootstrap": {
+    "algorithm": "resample_target_ids_with_replacement; equal-target mean GAIN with multiplicity",
+    "n_boot": 5000,
+    "plant_balanced": {
+      "ci_hi": 0.015614029868533122,
+      "ci_lo": 0.00801334799751679,
+      "n_replicates": 5000
+    },
+    "row_pooled": {
+      "ci_hi": 0.0183922243087188,
+      "ci_lo": 0.010391494156256828,
+      "n_replicates": 5000
+    },
+    "seed": 20260921
+  },
+  "candidate_construction": "unique S04 selected SplineRidge full tuples across 14 primary plants",
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet": "345a544012001bc6974f14000b1c248a02158616a8428f636b332d44088fcb27",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+  },
+  "donor_exclusion": "leave_target_out_other_13_primary_plants",
+  "final_model_paths": [
+    "artifacts/s12/p8/models/row_pooled/PS_002.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_002.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_003.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_003.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_035.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_035.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_039.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_039.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_042.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_042.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_043.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_043.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_044.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_044.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_045.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_045.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_046.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_046.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_047.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_047.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_048.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_048.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_049.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_049.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_050.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_050.joblib",
+    "artifacts/s12/p8/models/row_pooled/PS_051.joblib",
+    "artifacts/s12/p8/models/plant_balanced/PS_051.joblib"
+  ],
+  "generated_at_utc": "2026-09-21T03:37:29+00:00",
+  "helper_path": "src/lib/s12_p8_pooled.py",
+  "manuscript_files_not_edited": true,
+  "no_target_leakage": true,
+  "outputs": {
+    "artifacts/s12/p8/S12_P8_BOOTSTRAP.csv": {
+      "bytes": 435580,
+      "row_count": 10000,
+      "sha256": "f6925fab96503457d4b7a6cf851e24427bad7440885855817653804018786828"
+    },
+    "artifacts/s12/p8/S12_P8_COMMON_ROW_BEST_TWIN.csv": {
+      "bytes": 1776,
+      "row_count": 10,
+      "sha256": "55eca0796dc84a3ee489067fdb79ca6199c0c2369681faecc47a10486949bb77"
+    },
+    "artifacts/s12/p8/S12_P8_DIRECTIONAL.csv": {
+      "bytes": 30555,
+      "row_count": 85,
+      "sha256": "cb1f8ca8a79c686db8d34255d6779d4692b9e136c59ecf62f0a8073a73c8ee35"
+    },
+    "artifacts/s12/p8/S12_P8_HYPERPARAMETER_CANDIDATES.csv": {
+      "bytes": 1257,
+      "row_count": 6,
+      "sha256": "f47d51492357adcc1940e2bc05443c2f0848d5a9d6262064ae6bd00a2ec91365"
+    },
+    "artifacts/s12/p8/S12_P8_HYPERPARAMETER_SELECTION.csv": {
+      "bytes": 19850,
+      "row_count": 168,
+      "sha256": "76ea84418d43cfb679acd90de52c26ca225cac14a965f87116280a3e4da24a54"
+    },
+    "artifacts/s12/p8/S12_P8_SUMMARY.json": {
+      "bytes": 23712,
+      "row_count": null,
+      "sha256": "99402ac0391a8f9a6fe0b53e514075f7d84374a7edba1c5b6ea47386efce25e3"
+    },
+    "artifacts/s12/p8/S12_P8_TARGET_SUMMARY.csv": {
+      "bytes": 2840,
+      "row_count": 14,
+      "sha256": "7af0caf8bac485c0795b99a1c2c129ddfb1e3e399065c4dd2300964c9db4c197"
+    },
+    "artifacts/s12/p8/S12_P8_TEST_ROWS.parquet": {
+      "bytes": 2417484,
+      "row_count": 37165,
+      "sha256": "a835ac315c224d66c51a831c231f716b7c5352999a4ab8f4b0809c988bf823cf"
+    },
+    "artifacts/s12/p8/S12_P8_TRAINING_DIAGNOSTICS.csv": {
+      "bytes": 29637,
+      "row_count": 28,
+      "sha256": "27f0a91f7983ee8e14759a27e8e02b28acd75b8872fff87bd1daa299f341e52b"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_002.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "9a365b577b9ff2316ab5b910626da7bbc48f19849701a96c54c29dd84e9a8b16"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_003.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "c54e5ffa228e2c32b297401db8bef862bb99e78f97455956bda9efd960701ce6"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_035.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "987b74e1372afb334239a427bd06e308e66ef8f543db6f435d907827bea0fa9d"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_039.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "28a6506ddbe6f65a3013fe7aa458c951b917e65be89038a9facd7886e524a38e"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_042.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "6d5505b754133151fd163904de149232469d7ab4fd6cd3d5df40890c44e112b5"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_043.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "7c64eb7bd463a934f62f2d451c898aefd813bab2173a545a457f16d0c51bf1da"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_044.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "4d52f7fda3ccec6bbc715f30f716429b255f47074da591376a9a009168a4db91"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_045.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "f070ab3f8a758353822320904f6d2fb754aa6848d3d2770568dc408f33862821"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_046.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "a267e5e9a36115d702cf8749118340e0c1fadf10df36b1412328f7993c4e7b6b"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_047.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "60e628404500e5df1530d0c649442bd13498997e10aee5a72507f55f47d404d6"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_048.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "9d902a533a42a69af20815612387e883a67f0c5382c434f24f284085f7e49fbc"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_049.joblib": {
+      "bytes": 7345,
+      "row_count": null,
+      "sha256": "4b26d0275b374fea7ef7cfcc220ef4349dc1b1fee459558f426d50de7d7974d1"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_050.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "98c1cbe1eb6f2dc1345e8f39a00f307e2449251278134e9913bdb15851aa5e69"
+    },
+    "artifacts/s12/p8/models/plant_balanced/PS_051.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "b2783c465dc8f0854d59ad78675d40431ad69f561663527927e26e5365e82822"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_002.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "9e015fa461c0a1d3100d1973fd9aa7944ae09ddeef64dce438152cfb431ab0bd"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_003.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "b5ae4db7fbfbf2f82be659780aa9c469aa7d940f610480efead842a63d9558a9"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_035.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "dbe14f656754eef4d1159d3fbaa445da49128a4ff293e69ae007c3c558c0f078"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_039.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "1133251e4b6d50b932d5a98e7395c25cd127a8dd541ae6b4ae89ff008e66bb08"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_042.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "8e83669fc94861977b3255da65fdd55a45adca563707daee4912586bbf26c81a"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_043.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "2541eb238f1692e5fe3d3dd13b8dbdfefe109a55297d70dc8374710c6b198c28"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_044.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "62fa9527004c13c08b034bcca15231070972c003ea2448f86db8c4d1461ef70e"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_045.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "1fc4a13915b872a93fb3259f02e9db0d8ffa7b7ae30de74a8189c68c0667dc79"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_046.joblib": {
+      "bytes": 5521,
+      "row_count": null,
+      "sha256": "b3ecd66de3485885c236546b21f9598db621e7dbab4a1718762896959b8d1697"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_047.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "1466a60633e85b33b8d002fa301e69820b306590b808882ffe27c66373f6802a"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_048.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "3f7b881b14d72241a1dac39959a205ecce9ca7ed7dbaa2935470ae45b5c9bf54"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_049.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "1913879ba61d2a4bcb04667d2ae7f1834ffb749378e6df0981c24897e0e6c87c"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_050.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "d8e7ddfc1feb160fe4bebedd3f5dd806131d1f0a031efd5d6e8caffe399f7440"
+    },
+    "artifacts/s12/p8/models/row_pooled/PS_051.joblib": {
+      "bytes": 9553,
+      "row_count": null,
+      "sha256": "c03dbcd4182e6881edae6cb82d96bdf41b69504c5499150ace51338215c6ff5e"
+    },
+    "reports/scientific/S12_P8_POOLED_FLEET_BASELINE.md": {
+      "bytes": 3698,
+      "row_count": null,
+      "sha256": "a5345198e9d87924b3da41b143694cf17fccf9b4871e591eb846cf592f3c48cb"
+    }
+  },
+  "plant_balanced_weights": "w_ij=1/n_j on donor TRAIN; same vector to scaler__sample_weight and ridge__sample_weight; SplineTransformer uniform knots unweighted; no silent row-pooled fallback",
+  "primary_cohort": [
+    "PS_002",
+    "PS_003",
+    "PS_035",
+    "PS_039",
+    "PS_042",
+    "PS_043",
+    "PS_044",
+    "PS_045",
+    "PS_046",
+    "PS_047",
+    "PS_048",
+    "PS_049",
+    "PS_050",
+    "PS_051"
+  ],
+  "repository_head": "6182a53341558beed22e155289e001a8b17316f4",
+  "row_pooled_fit": "ordinary row-level SplineRidge on donor TRAIN",
+  "script_path": "src/run/27_s12_p8_pooled.py",
+  "selection_rule": "equal mean of donor-plant VALIDATION MAE; lexicographic hyperparameter serialization tie-break",
+  "self_hash_registered_externally": true,
+  "six_feature_schema": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "test_row_reuse": "exact accepted S06/S07 CS4 primary TEST identities; no pooled support mask"
+}

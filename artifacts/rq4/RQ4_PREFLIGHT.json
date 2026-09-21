@@ -1,0 +1,250 @@
+{
+  "bootstrap_seed": 42,
+  "cohorts": {
+    "source_count": 37,
+    "source_ids": [
+      "PS_001",
+      "PS_004",
+      "PS_005",
+      "PS_006",
+      "PS_007",
+      "PS_008",
+      "PS_009",
+      "PS_010",
+      "PS_011",
+      "PS_012",
+      "PS_013",
+      "PS_014",
+      "PS_015",
+      "PS_016",
+      "PS_017",
+      "PS_018",
+      "PS_019",
+      "PS_020",
+      "PS_021",
+      "PS_022",
+      "PS_023",
+      "PS_024",
+      "PS_025",
+      "PS_026",
+      "PS_027",
+      "PS_028",
+      "PS_029",
+      "PS_030",
+      "PS_031",
+      "PS_032",
+      "PS_033",
+      "PS_034",
+      "PS_036",
+      "PS_037",
+      "PS_038",
+      "PS_040",
+      "PS_041"
+    ],
+    "source_ids_sha256": "16fcc90cfcf4ce98e6ccd613ad865c5c3805da4ec22233b0fde903bb4de03575",
+    "source_population_artifact_path": "artifacts/p02c/P02C_PLANT_SUMMARY.csv",
+    "source_population_artifact_sha256": "a88b3a042ad1ad255eac4ed62bb79c4e2caddae28ba8ea7a983e77e79e20600d",
+    "source_population_provenance": "P02C_PLANT_SUMMARY plants minus PRIMARY_SCOPE confirmatory targets",
+    "target_count": 14,
+    "target_ids": [
+      "PS_002",
+      "PS_003",
+      "PS_035",
+      "PS_039",
+      "PS_042",
+      "PS_043",
+      "PS_044",
+      "PS_045",
+      "PS_046",
+      "PS_047",
+      "PS_048",
+      "PS_049",
+      "PS_050",
+      "PS_051"
+    ],
+    "target_ids_sha256": "f0a5c4d07db0e8115abce8dc7265ddaf7e36863e14e096ae6abe03ccb1a3c2b6",
+    "target_partition_artifact_path": "artifacts/scope/PRIMARY_SCOPE.json",
+    "target_partition_artifact_sha256": "7c2b8886c31fc05e6c580e1cb21af5740d1a6331ee32e80bf955cca1461de34d",
+    "target_source_disjoint": true
+  },
+  "decision": "GO_FOR_CONFIRMATORY_SCORING",
+  "features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "frozen_spec_sha256": "75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66",
+  "gates": [
+    {
+      "evidence": "FROZEN",
+      "name": "freeze_status",
+      "passed": true
+    },
+    {
+      "evidence": "75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66",
+      "name": "sot_spec_sha",
+      "passed": true
+    },
+    {
+      "evidence": "75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66",
+      "name": "file_spec_sha",
+      "passed": true
+    },
+    {
+      "evidence": "y_dc_normalized",
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "evidence": "[\"poa_irradiance_wm2\", \"ghi_irradiance_wm2\", \"gri_irradiance_wm2\", \"panel_temperature_celsius\", \"ambient_temperature_celsius\", \"wind_speed_ms\"]",
+      "name": "features_order",
+      "passed": true
+    },
+    {
+      "evidence": "[0, 1, 2, 3, 5, 7, 10, 14, 21, 30, 45]",
+      "name": "k_grid",
+      "passed": true
+    },
+    {
+      "evidence": "30",
+      "name": "L",
+      "passed": true
+    },
+    {
+      "evidence": "45",
+      "name": "H",
+      "passed": true
+    },
+    {
+      "evidence": "45",
+      "name": "K_max",
+      "passed": true
+    },
+    {
+      "evidence": "5",
+      "name": "M",
+      "passed": true
+    },
+    {
+      "evidence": "0.3",
+      "name": "rho",
+      "passed": true
+    },
+    {
+      "evidence": "5000",
+      "name": "B",
+      "passed": true
+    },
+    {
+      "evidence": "42",
+      "name": "seed",
+      "passed": true
+    },
+    {
+      "evidence": "SplineRidge",
+      "name": "primary_model",
+      "passed": true
+    },
+    {
+      "evidence": "tracker_albedo_index",
+      "name": "no_tracker_in_features",
+      "passed": true
+    },
+    {
+      "evidence": "{\"degree\": 3, \"n_knots\": [4, 6, 8], \"alpha\": [0.1, 1, 10]}",
+      "name": "spline_grid_sot",
+      "passed": true
+    },
+    {
+      "evidence": "{\"learning_rate\": [0.05, 0.1], \"max_leaf_nodes\": [15, 31], \"l2_regularization\": [0, 1], \"loss\": \"absolute_error\", \"max_iter\": 300, \"early_stopping\": false, \"min_samples_leaf\": 20}",
+      "name": "hgb_min_samples",
+      "passed": true
+    },
+    {
+      "evidence": "9",
+      "name": "canonical_spline_grid_len",
+      "passed": true
+    },
+    {
+      "evidence": "8",
+      "name": "canonical_hgb_grid_len",
+      "passed": true
+    },
+    {
+      "evidence": "artifacts/p02c/P02C_PLANT_PANEL.parquet",
+      "name": "panel_present",
+      "passed": true
+    },
+    {
+      "evidence": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+      "name": "metadata_present",
+      "passed": true
+    },
+    {
+      "evidence": "is_panel_bifacial,nominal_power_mw,number_of_panels,panel_area_mm2,panel_bifaciality_coefficient,panel_efficiency_percentage,panel_temperature_coefficient,structure_type",
+      "name": "metadata_fields",
+      "passed": true
+    },
+    {
+      "evidence": "header",
+      "name": "prohibited_not_in_metadata_header",
+      "passed": true
+    },
+    {
+      "evidence": "y_dc_normalized",
+      "name": "panel_has_target",
+      "passed": true
+    },
+    {
+      "evidence": "poa_irradiance_wm2,ghi_irradiance_wm2,gri_irradiance_wm2,panel_temperature_celsius,ambient_temperature_celsius,wind_speed_ms",
+      "name": "panel_has_features",
+      "passed": true
+    },
+    {
+      "evidence": "tracker_albedo_index",
+      "name": "panel_no_tracker_feature",
+      "passed": true
+    },
+    {
+      "evidence": "dc_any_officially_interpolated",
+      "name": "interp_flags_present",
+      "passed": true
+    },
+    {
+      "evidence": "eligible_mask uses nan for unknown",
+      "name": "unknown_interp_not_recoded_false",
+      "passed": true
+    },
+    {
+      "evidence": "sklearn SplineTransformer/Ridge/HGB imported via rq4_science",
+      "name": "libraries_spline_hgb",
+      "passed": true
+    },
+    {
+      "evidence": "ok",
+      "name": "cohort_ok",
+      "passed": true
+    },
+    {
+      "evidence": "14",
+      "name": "target_count_14",
+      "passed": true
+    },
+    {
+      "evidence": "disjoint",
+      "name": "disjoint",
+      "passed": true
+    },
+    {
+      "evidence": "PRIMARY_SCOPE + P02C_PLANT_SUMMARY only",
+      "name": "no_outcomes_in_membership",
+      "passed": true
+    }
+  ],
+  "no_outcomes_used": true,
+  "prohibited_field": "tracker_albedo_index",
+  "target": "y_dc_normalized"
+}

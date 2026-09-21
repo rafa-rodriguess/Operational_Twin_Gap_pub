@@ -1,0 +1,953 @@
+plant_id,model_family,fit_scope,candidate_id,hyperparameters,train_row_count,validation_row_count,validation_mae,selected,fit_status
+PS_002,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",10578,3526,0.06520563615401519,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",10578,3526,0.06513994525631411,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",10578,3526,0.06506271144833278,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",10578,3526,0.06509883685084564,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",10578,3526,0.06507407589750068,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",10578,3526,0.06508040984118346,False,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",10578,3526,0.06464999824138148,True,ok
+PS_002,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",10578,3526,0.06471978152614397,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",7230,3526,0.06546363971454733,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",7230,3526,0.06507853049924714,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",7230,3526,0.06434161208021062,True,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",7230,3526,0.06486251029580745,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",7230,3526,0.06460161599601051,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",7230,3526,0.0653388561574096,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",7230,3526,0.06492820713725625,False,ok
+PS_002,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",7230,3526,0.06533512627888223,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",7156,3526,0.06489229462478653,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",7156,3526,0.0647930281711811,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",7156,3526,0.06406676359866105,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",7156,3526,0.06433277240700133,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",7156,3526,0.06473530821370893,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",7156,3526,0.06445040296788004,False,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",7156,3526,0.06392760604786572,True,ok
+PS_002,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",7156,3526,0.06404975345661555,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6770,3526,0.0697386722871934,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6770,3526,0.06984572400589728,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6770,3526,0.06893175050266845,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6770,3526,0.06896563979488572,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6770,3526,0.06996583042147632,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6770,3526,0.07020744588955011,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6770,3526,0.06916126439002507,False,ok
+PS_002,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6770,3526,0.06884194691804676,True,ok
+PS_002,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",10578,3526,0.06285798879528919,True,ok
+PS_002,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",10578,3526,0.062859649333544,False,ok
+PS_002,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",10578,3526,0.06287991055949547,False,ok
+PS_002,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",10578,3526,0.06332898780011986,False,ok
+PS_002,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",10578,3526,0.06332841117918601,False,ok
+PS_002,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",10578,3526,0.06332592717823864,False,ok
+PS_002,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",10578,3526,0.06368855615075193,False,ok
+PS_002,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",10578,3526,0.06368889580047414,False,ok
+PS_002,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",10578,3526,0.06369595855970811,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",7230,3526,0.06330134011677709,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",7230,3526,0.06329587625244874,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",7230,3526,0.06325139147338092,True,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",7230,3526,0.06411390786830876,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",7230,3526,0.06410348977662757,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",7230,3526,0.06401863916242456,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",7230,3526,0.06438109743389388,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",7230,3526,0.06437057996636432,False,ok
+PS_002,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",7230,3526,0.0642816683131659,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",7156,3526,0.06225487554523223,True,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",7156,3526,0.062257855111092476,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",7156,3526,0.06229136759814721,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",7156,3526,0.06277693936309808,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",7156,3526,0.06277471479898811,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",7156,3526,0.06275836540410057,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",7156,3526,0.06315537452502787,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",7156,3526,0.06315675719028103,False,ok
+PS_002,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",7156,3526,0.06317452770575241,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",6770,3526,0.07036423021942996,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",6770,3526,0.07036131680498313,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",6770,3526,0.07031858228068301,True,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",6770,3526,0.07353843479036616,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",6770,3526,0.0734725206576719,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",6770,3526,0.07286392546502642,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",6770,3526,0.07377726304523408,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",6770,3526,0.07373397256717266,False,ok
+PS_002,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",6770,3526,0.07332768317957025,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",10119,3373,0.06112143997245542,True,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",10119,3373,0.061808124468415944,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",10119,3373,0.06238673641154881,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",10119,3373,0.06311070421732873,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",10119,3373,0.06119788211370674,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",10119,3373,0.061240861604406824,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",10119,3373,0.0635132685852308,False,ok
+PS_003,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",10119,3373,0.062413885792288404,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6992,3373,0.06312756064612379,True,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6992,3373,0.06531505038206308,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6992,3373,0.06585794247074238,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6992,3373,0.06574059660530285,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6992,3373,0.06455242038609336,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6992,3373,0.06616326302584309,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6992,3373,0.06784867268041603,False,ok
+PS_003,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6992,3373,0.06585894478316308,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6848,3373,0.06112810947471356,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6848,3373,0.06078811240082844,True,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6848,3373,0.06303878012294183,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6848,3373,0.06252611065455001,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6848,3373,0.06097924097690417,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6848,3373,0.06220843822974974,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6848,3373,0.062006697306428916,False,ok
+PS_003,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6848,3373,0.06322333086805107,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6398,3373,0.06775359239108185,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",6398,3373,0.06807880668113812,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6398,3373,0.06751371545166336,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",6398,3373,0.06736927037806908,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6398,3373,0.06745541736649298,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",6398,3373,0.06760858464640326,False,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6398,3373,0.06655621539322361,True,ok
+PS_003,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",6398,3373,0.06737942856088888,False,ok
+PS_003,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",10119,3373,0.0587335814086932,True,ok
+PS_003,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",10119,3373,0.058740107068153885,False,ok
+PS_003,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",10119,3373,0.05880790104060625,False,ok
+PS_003,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",10119,3373,0.05920312240892744,False,ok
+PS_003,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",10119,3373,0.05920936987654505,False,ok
+PS_003,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",10119,3373,0.05927275461266846,False,ok
+PS_003,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",10119,3373,0.059148384303926514,False,ok
+PS_003,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",10119,3373,0.059155882100736454,False,ok
+PS_003,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",10119,3373,0.0592320039878578,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",6992,3373,0.05851250233296227,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",6992,3373,0.058517459168729434,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",6992,3373,0.058593179644760615,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",6992,3373,0.05859245603876079,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",6992,3373,0.058592151025751264,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",6992,3373,0.05863315574718309,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",6992,3373,0.058484766760979766,True,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",6992,3373,0.058489179261770316,False,ok
+PS_003,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",6992,3373,0.05855585837167609,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",6848,3373,0.059064775621191425,True,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",6848,3373,0.05907319320771711,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",6848,3373,0.05915871460066457,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",6848,3373,0.059456107341975165,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",6848,3373,0.059462539053864574,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",6848,3373,0.059534302929688816,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",6848,3373,0.059557016330332585,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",6848,3373,0.05956485727009803,False,ok
+PS_003,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",6848,3373,0.05964720643602527,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",6398,3373,0.0711435942253495,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",6398,3373,0.07116035586113512,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",6398,3373,0.07126205555415743,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",6398,3373,0.07171104270239032,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",6398,3373,0.07168521816598941,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",6398,3373,0.07144174978330346,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",6398,3373,0.06568022510185578,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",6398,3373,0.06566930376299124,False,ok
+PS_003,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",6398,3373,0.06557706276449414,True,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",4883,1628,0.05024158218617776,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",4883,1628,0.04996066777535205,True,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",4883,1628,0.052302744936625206,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",4883,1628,0.052954329490580924,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",4883,1628,0.05054970613724115,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",4883,1628,0.050326133576554986,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",4883,1628,0.053606481070380865,False,ok
+PS_035,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",4883,1628,0.05350732342759471,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3267,1628,0.05079377664665415,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3267,1628,0.05068187028468693,True,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3267,1628,0.051907742979637427,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3267,1628,0.05106812404133315,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3267,1628,0.05113740092952661,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3267,1628,0.05112562524726817,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3267,1628,0.051782390788688494,False,ok
+PS_035,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3267,1628,0.051490349805758256,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3222,1628,0.05037052822850263,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3222,1628,0.050218587634012116,True,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3222,1628,0.052213733089229955,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3222,1628,0.05182565766242652,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3222,1628,0.050468127024286526,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3222,1628,0.051344733235014,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3222,1628,0.05178319658055123,False,ok
+PS_035,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3222,1628,0.05224347906929275,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3277,1628,0.0531143733166203,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3277,1628,0.052602686616587555,True,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3277,1628,0.05536478356437376,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3277,1628,0.05619336466897403,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3277,1628,0.05480465586558333,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3277,1628,0.05455587624555981,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3277,1628,0.05651061326945075,False,ok
+PS_035,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3277,1628,0.057215013753742196,False,ok
+PS_035,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",4883,1628,0.05576745076752762,True,ok
+PS_035,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",4883,1628,0.055773690857041335,False,ok
+PS_035,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",4883,1628,0.05584558013365983,False,ok
+PS_035,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",4883,1628,0.055818370384705565,False,ok
+PS_035,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",4883,1628,0.05582402323889052,False,ok
+PS_035,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",4883,1628,0.055890632726870684,False,ok
+PS_035,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",4883,1628,0.05596347837234519,False,ok
+PS_035,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",4883,1628,0.05596627641254629,False,ok
+PS_035,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",4883,1628,0.05601556185752434,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",3267,1628,0.05728320245708842,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",3267,1628,0.0572771788750448,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",3267,1628,0.05727495439680232,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",3267,1628,0.057245477370531754,True,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",3267,1628,0.05725199428954598,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",3267,1628,0.05733903555963843,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",3267,1628,0.05750478808453811,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",3267,1628,0.057556360800429404,False,ok
+PS_035,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",3267,1628,0.0576302531557945,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",3222,1628,0.05640210257011889,True,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",3222,1628,0.05640665353768457,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",3222,1628,0.05648823076171883,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",3222,1628,0.05642417872208755,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",3222,1628,0.05642944850612228,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",3222,1628,0.056497427869585046,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",3222,1628,0.05648325369038614,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",3222,1628,0.05650078407557267,False,ok
+PS_035,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",3222,1628,0.05661105188155604,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",3277,1628,0.05817825890216853,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",3277,1628,0.05819834864745637,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",3277,1628,0.05841611969518491,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",3277,1628,0.05800654096799136,True,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",3277,1628,0.058029221149560065,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",3277,1628,0.05826565354797738,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",3277,1628,0.058336422890373205,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",3277,1628,0.05834498062628433,False,ok
+PS_035,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",3277,1628,0.058467714275322345,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3952,1318,0.07774133907074031,True,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",3952,1318,0.07799235078830714,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3952,1318,0.07980033716509895,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",3952,1318,0.07957366010672152,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3952,1318,0.07894652759767948,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",3952,1318,0.07991935626844894,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3952,1318,0.08176962340583593,False,ok
+PS_039,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",3952,1318,0.08190415145090016,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2754,1318,0.06439955592848509,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2754,1318,0.06423094805826682,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2754,1318,0.06422834635386451,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2754,1318,0.06416921509660149,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2754,1318,0.06475008265074099,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2754,1318,0.06300756414842222,True,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2754,1318,0.06512112061102888,False,ok
+PS_039,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2754,1318,0.06480630603355733,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2601,1318,0.08604018519940776,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2601,1318,0.08503709866055155,True,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2601,1318,0.08985343495662174,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2601,1318,0.09051379198453889,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2601,1318,0.08649763624516925,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2601,1318,0.08724280340837647,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2601,1318,0.09260801672526736,False,ok
+PS_039,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2601,1318,0.09112906414746617,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2549,1318,0.09611933511834843,True,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2549,1318,0.09733055280951743,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2549,1318,0.10421201494373777,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2549,1318,0.10492501202002529,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2549,1318,0.10075819719304223,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2549,1318,0.09863689915662326,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2549,1318,0.10669109095601917,False,ok
+PS_039,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2549,1318,0.10917033533270792,False,ok
+PS_039,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",3952,1318,0.0945814229166824,False,ok
+PS_039,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",3952,1318,0.09457894278094132,False,ok
+PS_039,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",3952,1318,0.09456953687818707,True,ok
+PS_039,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",3952,1318,0.09799338864674072,False,ok
+PS_039,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",3952,1318,0.09796081524375869,False,ok
+PS_039,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",3952,1318,0.0976644652474895,False,ok
+PS_039,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",3952,1318,0.09824289443061651,False,ok
+PS_039,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",3952,1318,0.09823207457601071,False,ok
+PS_039,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",3952,1318,0.09813290854167163,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2754,1318,0.08075829912246561,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2754,1318,0.08071389481941488,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2754,1318,0.08037920349608174,True,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2754,1318,0.0819113085933223,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2754,1318,0.08186596732828999,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2754,1318,0.08151121379414153,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2754,1318,0.0837168749977247,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2754,1318,0.08366675907452002,False,ok
+PS_039,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2754,1318,0.08330299573223705,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2601,1318,0.10172874523348369,True,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2601,1318,0.10172895372468126,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2601,1318,0.10173864897256542,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2601,1318,0.10569802109516793,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2601,1318,0.10565957538183281,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2601,1318,0.1053176197358463,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2601,1318,0.10564756833476335,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2601,1318,0.1056337345606857,False,ok
+PS_039,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2601,1318,0.10551207342650679,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2549,1318,0.10776820580652202,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2549,1318,0.10772256763066125,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2549,1318,0.10733726182364992,True,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2549,1318,0.11105502195259677,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2549,1318,0.11099140520559846,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2549,1318,0.11043752272271617,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2549,1318,0.11150640048231343,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2549,1318,0.11147873288395724,False,ok
+PS_039,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2549,1318,0.11123462365372691,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2455,818,0.09276453799980938,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2455,818,0.09064118444165829,True,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2455,818,0.09352999174395858,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2455,818,0.09231260135628477,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2455,818,0.09179432428183185,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2455,818,0.09212445609109457,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2455,818,0.09566930155104364,False,ok
+PS_042,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2455,818,0.09470100227180157,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1587,818,0.09712606253860527,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1587,818,0.0984687549259176,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1587,818,0.09927915502561749,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1587,818,0.09903330416739324,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1587,818,0.0968502146378357,True,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1587,818,0.09797734689406738,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1587,818,0.100322123162625,False,ok
+PS_042,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1587,818,0.09741765359580715,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1662,818,0.09012936943821802,True,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1662,818,0.09050566815786577,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1662,818,0.09284691152064603,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1662,818,0.09147688307828458,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1662,818,0.09196537890536535,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1662,818,0.09120620470916972,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1662,818,0.09196835181233448,False,ok
+PS_042,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1662,818,0.09376798145737997,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1661,818,0.08864472797764537,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1661,818,0.08948006561558476,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1661,818,0.08797497045288136,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1661,818,0.0864990637229501,True,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1661,818,0.08743073108372669,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1661,818,0.08728252736827198,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1661,818,0.08727758909278895,False,ok
+PS_042,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1661,818,0.0884835614353207,False,ok
+PS_042,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2455,818,0.09984857319660059,False,ok
+PS_042,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2455,818,0.09981887610383064,False,ok
+PS_042,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2455,818,0.09961962909589668,False,ok
+PS_042,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2455,818,0.09895581694906262,True,ok
+PS_042,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2455,818,0.09897457053271373,False,ok
+PS_042,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2455,818,0.09904503785854557,False,ok
+PS_042,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2455,818,0.11247957581806818,False,ok
+PS_042,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2455,818,0.10959202077208524,False,ok
+PS_042,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2455,818,0.10329026774695454,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1587,818,0.10960974557098066,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1587,818,0.10933621411800264,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1587,818,0.10743018677034681,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1587,818,0.10751393443399632,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1587,818,0.1074735591449149,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1587,818,0.1071461256383465,True,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1587,818,0.11704541286698732,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1587,818,0.11031089651019894,False,ok
+PS_042,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1587,818,0.11054212259508335,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1662,818,0.09929380383793524,True,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1662,818,0.09929759980372681,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1662,818,0.09939236171165401,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1662,818,0.09973540025887556,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1662,818,0.09975853321695423,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1662,818,0.09989729260970456,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1662,818,0.10138009603185975,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1662,818,0.10137479400590226,False,ok
+PS_042,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1662,818,0.10133112221040647,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1661,818,0.0938702855287208,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1661,818,0.09377822754429466,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1661,818,0.09346882280004766,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1661,818,0.09189797242217278,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1661,818,0.09184467543420875,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1661,818,0.09174908299660121,True,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1661,818,0.10357001740802893,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1661,818,0.09708018051119174,False,ok
+PS_042,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1661,818,0.09580133407926171,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2370,790,0.08231168483138018,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2370,790,0.08257712406612566,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2370,790,0.08230207665593817,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2370,790,0.08329153354442942,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2370,790,0.08223309819294636,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2370,790,0.0818549541888966,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2370,790,0.0833730477920682,False,ok
+PS_043,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2370,790,0.08178010429856236,True,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1577,790,0.0846772387711497,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1577,790,0.08465939200237066,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1577,790,0.08442221802743317,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1577,790,0.08349586346314974,True,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1577,790,0.08519259069062173,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1577,790,0.08540120235689876,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1577,790,0.08487688221727648,False,ok
+PS_043,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1577,790,0.08484093059067722,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1574,790,0.08494218995581052,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1574,790,0.08515892508431425,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1574,790,0.08792853768996599,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1574,790,0.08664528537297007,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1574,790,0.08465553657155404,True,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1574,790,0.08531089295540703,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1574,790,0.08752645494351009,False,ok
+PS_043,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1574,790,0.08852060654191894,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1589,790,0.08097673021300028,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1589,790,0.08279215587163638,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1589,790,0.08096404409038964,True,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1589,790,0.08344335549896108,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1589,790,0.08208503738966305,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1589,790,0.08407090959524023,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1589,790,0.08183040831060351,False,ok
+PS_043,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1589,790,0.08142689130398192,False,ok
+PS_043,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2370,790,0.09457058007616746,False,ok
+PS_043,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2370,790,0.09437181251034893,False,ok
+PS_043,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2370,790,0.09276970712603748,False,ok
+PS_043,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2370,790,0.09613134545116454,False,ok
+PS_043,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2370,790,0.09342052359489021,False,ok
+PS_043,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2370,790,0.09174089854931439,False,ok
+PS_043,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2370,790,0.08900008545967932,False,ok
+PS_043,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2370,790,0.08898288021993075,False,ok
+PS_043,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2370,790,0.08879599535563404,True,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1577,790,0.09051101291093964,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1577,790,0.09017275492025749,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1577,790,0.08769037066825688,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1577,790,0.0934315166892053,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1577,790,0.08615696488978551,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1577,790,0.08537817405851593,True,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1577,790,0.08897398293916771,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1577,790,0.08874127019128569,False,ok
+PS_043,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1577,790,0.08701595841768398,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1574,790,0.09836001219117153,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1574,790,0.09831481056813052,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1574,790,0.09797906264756556,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1574,790,0.0978157058723788,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1574,790,0.0977954098400817,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1574,790,0.09761126508528271,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1574,790,0.09695178994726489,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1574,790,0.09692750818374048,False,ok
+PS_043,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1574,790,0.09675112004609195,True,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1589,790,0.09154888564236316,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1589,790,0.09115807719448146,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1589,790,0.08837833855837153,True,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1589,790,0.09194186612750938,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1589,790,0.09173713030620481,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1589,790,0.09036748157760441,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1589,790,0.09049903028717046,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1589,790,0.09046837904193104,False,ok
+PS_043,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1589,790,0.08989281782711023,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2503,834,0.06617365567677261,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2503,834,0.06654618711619378,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2503,834,0.07094629815896943,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2503,834,0.06981593369200598,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2503,834,0.06708971303566066,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2503,834,0.06552307254102785,True,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2503,834,0.07088272136450097,False,ok
+PS_044,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2503,834,0.07079710490729403,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1647,834,0.06416622920060866,True,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1647,834,0.06515178447174014,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1647,834,0.06773967348707646,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1647,834,0.0676479587198974,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1647,834,0.06685926644897427,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1647,834,0.0657366225775109,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1647,834,0.06926975699159804,False,ok
+PS_044,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1647,834,0.06839738063402229,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1644,834,0.07106987434771705,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1644,834,0.0706204264965003,True,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1644,834,0.07332623916653536,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1644,834,0.07561731963387915,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1644,834,0.07158200313069063,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1644,834,0.07168830049904917,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1644,834,0.07397856299559297,False,ok
+PS_044,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1644,834,0.07568510118810907,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1715,834,0.07427381825873351,True,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1715,834,0.07439347379573168,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1715,834,0.0802771130979908,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1715,834,0.07823785364941697,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1715,834,0.07462616816840666,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1715,834,0.07512885755577624,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1715,834,0.07974943355191828,False,ok
+PS_044,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1715,834,0.0797457979059166,False,ok
+PS_044,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2503,834,0.07412429191069517,False,ok
+PS_044,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2503,834,0.07415967749012371,False,ok
+PS_044,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2503,834,0.07444968091896667,False,ok
+PS_044,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2503,834,0.07320029949924226,False,ok
+PS_044,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2503,834,0.07320393529842491,False,ok
+PS_044,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2503,834,0.07331029135838486,False,ok
+PS_044,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2503,834,0.0731482524439913,False,ok
+PS_044,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2503,834,0.07312443500028419,True,ok
+PS_044,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2503,834,0.07327864079669477,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1647,834,0.0707423491282419,True,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1647,834,0.07080779325677039,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1647,834,0.07129776323137176,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1647,834,0.07224685166351827,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1647,834,0.07234739994246468,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1647,834,0.07295196005293919,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1647,834,0.07197906546452487,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1647,834,0.0715693241679245,False,ok
+PS_044,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1647,834,0.071343718118761,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1644,834,0.07578535413235166,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1644,834,0.07580003146730396,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1644,834,0.0760122645298259,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1644,834,0.07573143363256046,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1644,834,0.07578794609505757,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1644,834,0.07635524958419763,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1644,834,0.07502559514567136,True,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1644,834,0.07508386526462472,False,ok
+PS_044,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1644,834,0.07570942242127668,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1715,834,0.07794711657356158,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1715,834,0.07801200010836126,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1715,834,0.07839787474036881,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1715,834,0.0776228732316486,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1715,834,0.07762923365859416,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1715,834,0.07783886137251514,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1715,834,0.0771911783877512,True,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1715,834,0.07749391536987703,False,ok
+PS_044,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1715,834,0.07830718356807231,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2196,732,0.05012524356586869,True,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2196,732,0.050684001890395694,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2196,732,0.05238096393846762,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2196,732,0.0520310984976834,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2196,732,0.05228206591098024,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2196,732,0.05017350826892403,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2196,732,0.05282940715473631,False,ok
+PS_045,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2196,732,0.05569408337267408,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1296,732,0.05362718333314831,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1296,732,0.05367306029725921,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1296,732,0.05449060469090602,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1296,732,0.054152982983612104,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1296,732,0.05259094924688566,True,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1296,732,0.053655900965376764,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1296,732,0.05507930532232011,False,ok
+PS_045,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1296,732,0.05340912534991315,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1347,732,0.04818145327325112,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1347,732,0.047596143989361496,True,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1347,732,0.049318915239402496,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1347,732,0.04959748735766889,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1347,732,0.04932192512378439,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1347,732,0.048970592222592375,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1347,732,0.04986493592873458,False,ok
+PS_045,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1347,732,0.04970925259591048,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1749,732,0.057230931503835535,True,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1749,732,0.05729410291046501,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1749,732,0.0585513832002688,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1749,732,0.05811830040742632,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1749,732,0.05728094029562215,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1749,732,0.057609725913908554,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1749,732,0.057912942465403246,False,ok
+PS_045,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1749,732,0.05856363017756754,False,ok
+PS_045,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2196,732,0.0581441651957959,False,ok
+PS_045,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2196,732,0.058053601643908825,False,ok
+PS_045,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2196,732,0.057269818456894744,False,ok
+PS_045,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2196,732,0.058116892553817044,False,ok
+PS_045,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2196,732,0.05808415274326486,False,ok
+PS_045,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2196,732,0.05781021947794007,False,ok
+PS_045,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2196,732,0.056987662780717506,False,ok
+PS_045,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2196,732,0.056941546703526275,False,ok
+PS_045,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2196,732,0.05657664303417225,True,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1296,732,0.05960224042493482,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1296,732,0.059448690099193804,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1296,732,0.05826576775736657,True,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1296,732,0.060943566875145946,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1296,732,0.0608410121934255,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1296,732,0.060022889584432144,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1296,732,0.06000443767033534,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1296,732,0.05989120443640317,False,ok
+PS_045,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1296,732,0.0591463344163099,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1347,732,0.055228339563766674,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1347,732,0.055130314499673434,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1347,732,0.05436111655604882,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1347,732,0.05410241970808262,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1347,732,0.0540959056975078,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1347,732,0.05407732145018446,True,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1347,732,0.05506578992800043,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1347,732,0.0549900100904062,False,ok
+PS_045,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1347,732,0.05450983653295883,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1749,732,0.06207145195496179,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1749,732,0.061882810877812805,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1749,732,0.060357322679357735,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1749,732,0.062074321180178534,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1749,732,0.06200877814195688,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1749,732,0.06146240112661427,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1749,732,0.06064012572259721,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1749,732,0.060582226868087403,False,ok
+PS_045,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1749,732,0.06009218124201759,True,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1710,570,0.052850756682304156,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1710,570,0.05334908944770663,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1710,570,0.052881391127726614,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1710,570,0.05278844383862117,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1710,570,0.05246617372972213,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1710,570,0.05160920561461875,True,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1710,570,0.054977154719334474,False,ok
+PS_046,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1710,570,0.05490135409426179,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1107,570,0.0504160458608089,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1107,570,0.049772974571985554,True,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1107,570,0.05339680802349874,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1107,570,0.0520382388160169,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1107,570,0.050402073866015876,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1107,570,0.04996454065589449,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1107,570,0.052976077109298775,False,ok
+PS_046,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1107,570,0.05173908961390758,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1147,570,0.055930124462295255,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1147,570,0.05573105481997401,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1147,570,0.055507115657001276,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1147,570,0.05503453903437143,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1147,570,0.054503539248955894,True,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1147,570,0.05587111299021946,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1147,570,0.05539687548690736,False,ok
+PS_046,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1147,570,0.055917856690161256,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1166,570,0.06020971450010753,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1166,570,0.06060313849260542,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1166,570,0.06007490968094302,True,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1166,570,0.06174556700672158,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1166,570,0.06150629903862131,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1166,570,0.060337398487238986,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1166,570,0.06176288422449206,False,ok
+PS_046,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1166,570,0.062174965883503165,False,ok
+PS_046,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1710,570,0.06361331421058086,False,ok
+PS_046,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1710,570,0.06365031873799559,False,ok
+PS_046,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1710,570,0.06401311806344101,False,ok
+PS_046,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1710,570,0.06353606276380099,False,ok
+PS_046,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1710,570,0.06359440209918688,False,ok
+PS_046,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1710,570,0.06423094377506969,False,ok
+PS_046,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1710,570,0.06316420616596714,True,ok
+PS_046,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1710,570,0.06323155293518573,False,ok
+PS_046,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1710,570,0.0638773449386644,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1107,570,0.0535917262496913,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1107,570,0.05356917808310939,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1107,570,0.05352314816359062,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1107,570,0.05335882298255409,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1107,570,0.053354100462640566,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1107,570,0.053530655116118264,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1107,570,0.052691924164718115,False,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1107,570,0.052677270155754095,True,ok
+PS_046,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1107,570,0.052895950507788086,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1147,570,0.066543806484538,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1147,570,0.06658657660586081,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1147,570,0.06706951763035249,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1147,570,0.06511078618621584,True,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1147,570,0.06524510985897577,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1147,570,0.06651089923815537,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1147,570,0.06574085999832911,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1147,570,0.06585445553310695,False,ok
+PS_046,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1147,570,0.06688935721233259,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1166,570,0.07239702971092993,True,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1166,570,0.07244137758213504,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1166,570,0.07291797031614194,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1166,570,0.07573094708656507,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1166,570,0.07567872265292834,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1166,570,0.07605407020004014,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1166,570,0.08080371592839257,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1166,570,0.08003876665518965,False,ok
+PS_046,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1166,570,0.07843657898225864,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1725,575,0.04709563746136188,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1725,575,0.04658303428157112,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1725,575,0.04652322355408276,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1725,575,0.046698733457933544,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1725,575,0.047088176627220674,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1725,575,0.04617441699111521,True,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1725,575,0.047263343004800645,False,ok
+PS_047,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1725,575,0.04680414462501429,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1138,575,0.049734334346422056,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1138,575,0.049480990762146286,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1138,575,0.04938820234432969,True,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1138,575,0.04960819853785004,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1138,575,0.05059477599630788,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1138,575,0.049590323069265876,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1138,575,0.05017273824200226,False,ok
+PS_047,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1138,575,0.05047379845923868,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1123,575,0.04603001443984058,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1123,575,0.04619494827534431,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1123,575,0.04713585215295416,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1123,575,0.04653909100642664,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1123,575,0.046019126689273944,True,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1123,575,0.046252070429225335,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1123,575,0.04729382771525932,False,ok
+PS_047,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1123,575,0.046661513563827556,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1189,575,0.05976992825097183,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1189,575,0.059685052157231674,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1189,575,0.06251431604801755,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1189,575,0.061017445756053335,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1189,575,0.05947722442977273,True,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1189,575,0.059634994411863235,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1189,575,0.06277037051285629,False,ok
+PS_047,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1189,575,0.061105485882582904,False,ok
+PS_047,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1725,575,0.053502134433162936,False,ok
+PS_047,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1725,575,0.05348601343777825,False,ok
+PS_047,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1725,575,0.053382515567814905,True,ok
+PS_047,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1725,575,0.05376762493427869,False,ok
+PS_047,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1725,575,0.053761402943328304,False,ok
+PS_047,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1725,575,0.05376629495243414,False,ok
+PS_047,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1725,575,0.05376865098338553,False,ok
+PS_047,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1725,575,0.053770272527374895,False,ok
+PS_047,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1725,575,0.053817353100413225,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1138,575,0.05751375188755959,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1138,575,0.05744124433819513,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1138,575,0.05695099607622718,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1138,575,0.05677277996673403,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1138,575,0.05677275822724927,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1138,575,0.0568120295679715,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1138,575,0.05607156009392068,True,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1138,575,0.056073276821905625,False,ok
+PS_047,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1138,575,0.056162954981576446,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1123,575,0.05174530573802215,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1123,575,0.05169662876792805,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1123,575,0.05144976266859361,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1123,575,0.051823322218041326,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1123,575,0.05177674440556615,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1123,575,0.05157678894321992,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1123,575,0.05086766433547933,False,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1123,575,0.050856505965754334,True,ok
+PS_047,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1123,575,0.050902203670882544,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1189,575,0.05542222578827183,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1189,575,0.05538072207535288,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1189,575,0.05513769372330302,True,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1189,575,0.05588472150266508,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1189,575,0.055881219821890794,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1189,575,0.05592777977490488,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1189,575,0.05827670627845508,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1189,575,0.058243521519238124,False,ok
+PS_047,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1189,575,0.05799569512725292,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2215,738,0.04743709919096758,True,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2215,738,0.0497872905539756,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2215,738,0.05348589977475619,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2215,738,0.05473466123280763,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2215,738,0.04964922273429847,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2215,738,0.04894683199257439,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2215,738,0.05317596950190633,False,ok
+PS_048,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2215,738,0.05468068741386467,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1270,738,0.050083214291462404,True,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1270,738,0.0531058401684947,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1270,738,0.05088366050046486,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1270,738,0.05268189795752853,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1270,738,0.052244974018997165,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1270,738,0.051580933826889386,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1270,738,0.051841487970426293,False,ok
+PS_048,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1270,738,0.052949424446139946,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1565,738,0.04532709303801411,True,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1565,738,0.04660683217283494,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1565,738,0.04639774472709207,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1565,738,0.047351772753055354,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1565,738,0.0465200318301466,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1565,738,0.04655454790967567,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1565,738,0.04751648809512807,False,ok
+PS_048,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1565,738,0.04728004975245397,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1595,738,0.05527651731856514,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1595,738,0.05606621565002406,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1595,738,0.06231045353020911,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1595,738,0.06235827720425288,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1595,738,0.05527179378799102,True,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1595,738,0.05587920099232322,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1595,738,0.060533566225771954,False,ok
+PS_048,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1595,738,0.06137673973107089,False,ok
+PS_048,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2215,738,0.05567717947722421,False,ok
+PS_048,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2215,738,0.05566374798724546,False,ok
+PS_048,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2215,738,0.05558793863362225,False,ok
+PS_048,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2215,738,0.05527269047399818,True,ok
+PS_048,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2215,738,0.055282135853001596,False,ok
+PS_048,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2215,738,0.05540375328163549,False,ok
+PS_048,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2215,738,0.055520444549780106,False,ok
+PS_048,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2215,738,0.05549902412322056,False,ok
+PS_048,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2215,738,0.05536808395865823,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1270,738,0.058682879646872174,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1270,738,0.05858082635409267,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1270,738,0.05796295589263162,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1270,738,0.05834631442676953,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1270,738,0.058298042198861505,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1270,738,0.058048693590351794,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1270,738,0.05841560623148812,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1270,738,0.05830446361534965,False,ok
+PS_048,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1270,738,0.05784930275923228,True,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1565,738,0.05761529854942065,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1565,738,0.05760600485367197,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1565,738,0.05760276123272758,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1565,738,0.056902342954306843,True,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1565,738,0.05692555208800189,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1565,738,0.057199760704294354,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1565,738,0.05746298109539721,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1565,738,0.057442209551274964,False,ok
+PS_048,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1565,738,0.05740322218089439,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1595,738,0.05253583405401443,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1595,738,0.05251676108453916,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1595,738,0.052427150930781916,True,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1595,738,0.05244920548490533,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1595,738,0.052464114911776286,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1595,738,0.05265645127034695,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1595,738,0.053931875429057335,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1595,738,0.0538702413241292,False,ok
+PS_048,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1595,738,0.05354469578621316,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2129,710,0.06304447858624784,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2129,710,0.060559880502733233,True,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2129,710,0.06281225870369087,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2129,710,0.062389707430521336,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2129,710,0.06092895252035854,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2129,710,0.06154390894999027,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2129,710,0.060715750129175,False,ok
+PS_049,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2129,710,0.06423610722034817,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1181,710,0.0677934957812022,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1181,710,0.06622940921870357,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1181,710,0.06854030439439741,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1181,710,0.06807545643686985,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1181,710,0.06642813230124248,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1181,710,0.06543050116776605,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1181,710,0.06735501101145304,False,ok
+PS_049,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1181,710,0.06535131002892601,True,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1393,710,0.05483843541160082,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1393,710,0.05480940842116528,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1393,710,0.055979357741848944,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1393,710,0.05610505384279592,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1393,710,0.054333645319182264,True,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1393,710,0.054342882213680894,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1393,710,0.056073137352102856,False,ok
+PS_049,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1393,710,0.0567476460405562,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1684,710,0.09292513311720156,True,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1684,710,0.09536334036625191,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1684,710,0.09463763273123084,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1684,710,0.09599227480014202,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1684,710,0.09463885410122207,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1684,710,0.09836488007591433,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1684,710,0.09427959705757248,False,ok
+PS_049,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1684,710,0.09827503469001973,False,ok
+PS_049,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2129,710,0.07449612731256997,False,ok
+PS_049,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2129,710,0.07443500680263057,False,ok
+PS_049,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2129,710,0.07404213782823522,False,ok
+PS_049,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2129,710,0.07202654784034429,True,ok
+PS_049,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2129,710,0.07206018351580125,False,ok
+PS_049,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2129,710,0.07240764791366673,False,ok
+PS_049,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2129,710,0.07258944604793459,False,ok
+PS_049,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2129,710,0.07261177227176935,False,ok
+PS_049,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2129,710,0.07288170466103858,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1181,710,0.07233210946422902,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1181,710,0.07218312854166567,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1181,710,0.07141628189081829,True,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1181,710,0.07197059318085296,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1181,710,0.07198017686773561,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1181,710,0.07218759158054627,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1181,710,0.07257775370050108,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1181,710,0.07258226111871682,False,ok
+PS_049,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1181,710,0.07271182995457394,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1393,710,0.06367555992533296,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1393,710,0.06357159359621015,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1393,710,0.06294704395325774,True,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1393,710,0.06413430358657088,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1393,710,0.06409962175623336,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1393,710,0.06396735935788993,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1393,710,0.06498482715411573,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1393,710,0.0649552964315509,False,ok
+PS_049,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1393,710,0.06488508397739708,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1684,710,0.09720192689717283,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1684,710,0.09705357863877313,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1684,710,0.09581315678680917,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1684,710,0.09577108431135192,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1684,710,0.09581930740695094,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1684,710,0.09619317204899211,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1684,710,0.09477179910297612,True,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1684,710,0.09484260210786825,False,ok
+PS_049,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1684,710,0.09545495750515108,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2521,841,0.05550819156634262,True,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2521,841,0.05614903890069033,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2521,841,0.05891848590738598,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2521,841,0.058592912725781814,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2521,841,0.05571138002074602,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2521,841,0.05587387596307281,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2521,841,0.059970352932548855,False,ok
+PS_050,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2521,841,0.05724287709933159,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1661,841,0.05702153234484591,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1661,841,0.05691588972675635,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1661,841,0.05936362835588398,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1661,841,0.059661824616531786,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1661,841,0.05647507850561386,True,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1661,841,0.05694361511838507,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1661,841,0.061003209997128854,False,ok
+PS_050,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1661,841,0.0599886200999932,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1667,841,0.05677178403270101,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1667,841,0.05552012199780809,True,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1667,841,0.057907783360620885,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1667,841,0.05652712678004317,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1667,841,0.05588468832629298,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1667,841,0.05594458510498709,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1667,841,0.0577326568593662,False,ok
+PS_050,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1667,841,0.05685122038349429,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1714,841,0.06521252570405131,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1714,841,0.06407986539082534,True,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1714,841,0.06921954483838981,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1714,841,0.06846542824189432,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1714,841,0.06421071502257199,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1714,841,0.06705091530207166,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1714,841,0.07031536712459766,False,ok
+PS_050,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1714,841,0.07020885449601025,False,ok
+PS_050,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2521,841,0.06573968360293211,False,ok
+PS_050,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2521,841,0.06572068241762302,False,ok
+PS_050,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2521,841,0.06561415899699817,True,ok
+PS_050,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2521,841,0.0660513225987713,False,ok
+PS_050,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2521,841,0.06602688362459917,False,ok
+PS_050,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2521,841,0.06586026884840541,False,ok
+PS_050,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2521,841,0.06689302032090236,False,ok
+PS_050,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2521,841,0.06686812625227467,False,ok
+PS_050,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2521,841,0.06664318303068362,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1661,841,0.07215460628753616,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1661,841,0.0720546223783126,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1661,841,0.07124774725471002,True,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1661,841,0.0726615843160762,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1661,841,0.07260115200875011,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1661,841,0.07212055330359747,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1661,841,0.07383869031435225,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1661,841,0.07377100742034493,False,ok
+PS_050,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1661,841,0.07316813065860896,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1667,841,0.06130753610184379,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1667,841,0.06123193294191909,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1667,841,0.060583604376701794,True,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1667,841,0.06354650422805568,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1667,841,0.06338284292874319,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1667,841,0.062568482655655,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1667,841,0.06193776644193354,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1667,841,0.06211619358665265,False,ok
+PS_050,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1667,841,0.06183589329853834,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1714,841,0.07649982412776417,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1714,841,0.07647862577932744,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1714,841,0.07653332532513334,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1714,841,0.07410260767570379,True,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1714,841,0.0741829032208213,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1714,841,0.07494477453363213,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1714,841,0.07545879655719252,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1714,841,0.07544714714291274,False,ok
+PS_050,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1714,841,0.07548961648228195,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2239,747,0.04876470698429515,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",2239,747,0.048862493960701275,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2239,747,0.048809845315992244,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",2239,747,0.04903144936401414,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2239,747,0.04933720566108907,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",2239,747,0.04868527905596834,True,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2239,747,0.050483468479562706,False,ok
+PS_051,HistGradientBoosting,full,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",2239,747,0.04981465086892904,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1472,747,0.04825446196594704,True,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1472,747,0.048756085784017925,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1472,747,0.049733562087763694,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1472,747,0.0494686877088369,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1472,747,0.048625956365287236,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1472,747,0.048424379384675635,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1472,747,0.049692704806288214,False,ok
+PS_051,HistGradientBoosting,restricted_B1,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1472,747,0.049148130855141546,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1473,747,0.049232968648695453,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1473,747,0.04946435734527776,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1473,747,0.04902277969411285,True,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1473,747,0.04921648507338682,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1473,747,0.04983023300233647,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1473,747,0.04991749397675838,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1473,747,0.049932334654781765,False,ok
+PS_051,HistGradientBoosting,restricted_B2,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1473,747,0.049541853583443526,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_00,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1533,747,0.05043201137824134,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_01,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",1533,747,0.05128922245018426,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_02,"{""l2_regularization"": 0, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1533,747,0.05115313963772023,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_03,"{""l2_regularization"": 1, ""learning_rate"": 0.05, ""max_leaf_nodes"": 31}",1533,747,0.05043340447992602,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_04,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1533,747,0.0507611061484635,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_05,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",1533,747,0.05010238584164424,True,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_06,"{""l2_regularization"": 0, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1533,747,0.05136638823134245,False,ok
+PS_051,HistGradientBoosting,restricted_B3,HistGradientBoosting_07,"{""l2_regularization"": 1, ""learning_rate"": 0.1, ""max_leaf_nodes"": 31}",1533,747,0.051672939032650904,False,ok
+PS_051,SplineRidge,full,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",2239,747,0.05534473013142011,False,ok
+PS_051,SplineRidge,full,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",2239,747,0.055336213417079595,False,ok
+PS_051,SplineRidge,full,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",2239,747,0.05534514260815941,False,ok
+PS_051,SplineRidge,full,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",2239,747,0.05268283080554632,True,ok
+PS_051,SplineRidge,full,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",2239,747,0.05270982720379491,False,ok
+PS_051,SplineRidge,full,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",2239,747,0.05302890426240224,False,ok
+PS_051,SplineRidge,full,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",2239,747,0.053322949349061864,False,ok
+PS_051,SplineRidge,full,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",2239,747,0.05334052614317302,False,ok
+PS_051,SplineRidge,full,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",2239,747,0.053602955400979604,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1472,747,0.05722232748465473,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1472,747,0.05721088309483779,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1472,747,0.05719155000252279,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1472,747,0.05634736070860074,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1472,747,0.05636618667934982,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1472,747,0.056688839333110176,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1472,747,0.055266121068211244,True,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1472,747,0.05562498739815512,False,ok
+PS_051,SplineRidge,restricted_B1,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1472,747,0.0563596059652869,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1473,747,0.05235841601197342,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1473,747,0.05235559333172749,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1473,747,0.052569261565108896,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1473,747,0.05098327715858974,True,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1473,747,0.05101432826130136,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1473,747,0.05145368963658738,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1473,747,0.05128522092715045,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1473,747,0.05130379990461979,False,ok
+PS_051,SplineRidge,restricted_B2,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1473,747,0.05191965475018913,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_00,"{""alpha"": 0.1, ""n_knots"": 4}",1533,747,0.06835332192477683,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_01,"{""alpha"": 1, ""n_knots"": 4}",1533,747,0.06777785577731034,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_02,"{""alpha"": 10, ""n_knots"": 4}",1533,747,0.06369841339725722,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_03,"{""alpha"": 0.1, ""n_knots"": 6}",1533,747,0.06083090265940684,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_04,"{""alpha"": 1, ""n_knots"": 6}",1533,747,0.06053523283078851,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_05,"{""alpha"": 10, ""n_knots"": 6}",1533,747,0.058463391259739296,True,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_06,"{""alpha"": 0.1, ""n_knots"": 8}",1533,747,0.06095789290126108,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_07,"{""alpha"": 1, ""n_knots"": 8}",1533,747,0.06069820752872077,False,ok
+PS_051,SplineRidge,restricted_B3,SplineRidge_08,"{""alpha"": 10, ""n_knots"": 8}",1533,747,0.05895577962427663,False,ok

@@ -1,0 +1,92 @@
+{
+  "accepted_science_not_modified": true,
+  "affine_eligibility": "n>=2, finite, nonzero source-pred variance, full rank intercept+slope, finite coefficients",
+  "affine_formula": "OLS y = a + b * p_source on the same VALIDATION support; p2 = a + b * p0; no regularization/clipping/fallback",
+  "canonical_inputs": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet": "345a544012001bc6974f14000b1c248a02158616a8428f636b332d44088fcb27",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff"
+  },
+  "generated_at_utc": "2026-09-21T02:37:23+00:00",
+  "helper_path": "src/lib/s12_p4_recalibration.py",
+  "manuscript_files_not_edited": true,
+  "model_actions": {
+    "PS_002": "reused_p3",
+    "PS_003": "reused_p3",
+    "PS_035": "reused_p3",
+    "PS_039": "reused_p3",
+    "PS_042": "reused_p3",
+    "PS_043": "reused_p3",
+    "PS_044": "reused_p3",
+    "PS_045": "reused_p3",
+    "PS_046": "reused_p3",
+    "PS_047": "reused_p3",
+    "PS_048": "reused_p3",
+    "PS_049": "reused_p3",
+    "PS_050": "reused_p3",
+    "PS_051": "reused_p3"
+  },
+  "model_equivalence": {
+    "max_abs_prediction_difference": 4.393263530744207e-12,
+    "max_local_mae_difference": 1.1492751195163464e-11,
+    "max_otg_difference": 7.931155732165962e-14,
+    "max_transfer_mae_difference": 3.569367024169878e-14,
+    "n_directions_checked": 85,
+    "tolerance": 1e-10
+  },
+  "no_test_calibration": true,
+  "offset_formula": "delta = mean(y_validation - p_source_validation) on source-supported target VALIDATION; p1 = p0 + delta",
+  "outputs": {
+    "artifacts/s12/p4/S12_P4_BIAS_DISPERSION.csv": {
+      "bytes": 25588,
+      "row_count": 85,
+      "sha256": "f8583a42d965855666b80d2a935fd2ebf8222e20e1f05dac28bbb2e82fd0035d"
+    },
+    "artifacts/s12/p4/S12_P4_CALIBRATION_PARAMETERS.csv": {
+      "bytes": 9743,
+      "row_count": 85,
+      "sha256": "958f7684e09d82bed84ca8b0e6089b87e4fea9bca28df01c07e89a417fe7f1d0"
+    },
+    "artifacts/s12/p4/S12_P4_DIRECTIONAL.csv": {
+      "bytes": 38275,
+      "row_count": 85,
+      "sha256": "078cc7f43cc6a79dc8dc5a046c10453ac43718e67aa10b1a4e57fc4869da910d"
+    },
+    "artifacts/s12/p4/S12_P4_RQ2_PAIRS.csv": {
+      "bytes": 9128,
+      "row_count": 76,
+      "sha256": "da6f53d47afee7df41cf38234263791ac182f927047dcad68c03092975aa2e47"
+    },
+    "artifacts/s12/p4/S12_P4_SUMMARY.json": {
+      "bytes": 13472,
+      "row_count": null,
+      "sha256": "a246fffe58ee250467828753af2b07d518d3b69323db9ae00e347485f912f93b"
+    },
+    "artifacts/s12/p4/S12_P4_TEST_ROWS.parquet": {
+      "bytes": 3185064,
+      "row_count": 37165,
+      "sha256": "47ae7f5a3258c8c992a01c325318797d10df96fdbdc3187c78169e3a64284e24"
+    },
+    "artifacts/s12/p4/S12_P4_VALIDATION_ROWS.parquet": {
+      "bytes": 1027998,
+      "row_count": 38460,
+      "sha256": "5ccab50b1e496b3c066af04b1285a8aefea85a8ed8a5362187fbde4c454d65e6"
+    },
+    "reports/scientific/S12_P4_BIAS_RECALIBRATION.md": {
+      "bytes": 2899,
+      "row_count": null,
+      "sha256": "0b186430ede107ff2fc87965ebc582bf47528ea9d8eeaaf18a1eac6c1a20f4df"
+    }
+  },
+  "primary_universe": "SplineRidge + CS4 + computable + primary groups; 85 directions; R9/OTG_half/R7 excluded from main P4",
+  "repository_head": "7565ca90dbd21bba6369f839378af51517f0915b",
+  "residual_sign": "prediction - y_true",
+  "script_path": "src/run/23_s12_p4_recalibration.py",
+  "self_hash_registered_externally": true,
+  "source_support": "primary CS4 k=5 q=0.95 TRAIN median/IQR; degenerate IQR not_computable; no R9 MAD/omission",
+  "test_role": "target TEST never used to estimate recalibration; evaluation only on canonical primary-supported TEST rows",
+  "validation_role": "target VALIDATION outcomes only estimate delta and (a,b)"
+}

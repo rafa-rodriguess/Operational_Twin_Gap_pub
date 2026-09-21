@@ -1,0 +1,330 @@
+{
+  "canonical_inputs": {
+    "members": "artifacts/twins/members.csv",
+    "metadata": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+    "panel": "artifacts/p02c/P02C_PLANT_PANEL.parquet",
+    "panel_columns_include_target": true
+  },
+  "file_hashes": {
+    "artifacts/p02c/P02C_PLANT_PANEL.parquet": "95a9282dab2215566d8f364fae20330ecbbf65a0e247a3efab911426c415dc55",
+    "artifacts/rq3/mapping.csv": "e51400ec841f7b7dba7aa4317803dd77ff108cbbef11d32c499ba021006fcfca",
+    "artifacts/rq3/source_contrasts.csv": "75585a92d68557ebc6827e643baca53d96ea48158cd0f45d8cbf03e126e9a2cd",
+    "artifacts/s04/S04_ANALYTIC_INDEX.parquet": "e030a58eb2db5d04a7961f9b98a8ac8806f2844dba177ff4ed66f43454f8f70c",
+    "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv": "46b5333ea8b75c40b1912a50b452dbeec12fc25fc2c9afaaf658644bd450dbf5",
+    "artifacts/s04/S04_LOCAL_TEST_PREDICTIONS.parquet": "0c5c67a7539fca05f146d9976d6b4f7888100a3f627ea88fbc5bb2b4296dc035",
+    "artifacts/s04/S04_MODEL_MANIFEST.json": "9c21daf74d2ef78ef20ae72cab480d72a073c789e556b16735b5ae3444a4e2e8",
+    "artifacts/s04/S04_MODEL_PROTOCOL.json": "5d1198e45458b6a3ea3f5ead7c53c0e372d2867393ea4ecb32ba7fb61492a274",
+    "artifacts/s04/S04_VALIDATION_PREDICTIONS.parquet": "367642568e364ff791a2b9964a788714d119438107fbf81a12e1d0aee20eda68",
+    "artifacts/s05/S05_SUPPORT_MASKS.parquet": "508aee90fd0b50d162ffeaee764cbcb3471ee25b3c008d37c7e62dcd6a0d044b",
+    "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet": "345a544012001bc6974f14000b1c248a02158616a8428f636b332d44088fcb27",
+    "artifacts/s07/S07_OTG_DIRECTIONAL.csv": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "artifacts/s11/S11_PHASE4_CONSOLIDATION.json": "7d5c56efffe925a99b8dfe32ca53bdcfe0fc4b3e63208a77422b81f6549733aa",
+    "artifacts/twins/members.csv": "b6a75128f4f7d1b96f8fba62a2f75439910318ae806b960b2993eea34ffa1006",
+    "config/protocol.py": "13075e5b849b240bf1ad66079f498ca00c27cb6f7c764c16ce1e5a56d9e541ff",
+    "data/raw/br_pvgen/BR-PVGen_metadata.csv": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c",
+    "paper/main.pdf": "32df35d44a6146560a9a1141ac3cc44f3bf5476d875cd38e483ea8753752352a",
+    "paper/main.tex": "c974a83c82ec6608de38c58fd536d1be4b47740804d130639c965b1a90e0a843",
+    "src/lib/models.py": "8fb6b75aa9270dc7953217ef1fbe47d31331dd4458fdb97bd9e43c2cbafc60f7",
+    "src/lib/robustness_struct.py": "69c84f823b488d1c2e7a59ae417bc1b25dc96e6956df342ea4d75088621cc0d0",
+    "src/lib/split_support.py": "daabfff8eca9df03bc30e78a557d20f4e975cb66c541efd9ea01bd8da2bcab13"
+  },
+  "hyperparameters": {
+    "joblib_plants": 14,
+    "note": "Selected SplineRidge/HGB hyperparameters and TRAIN-only joblib fits for 14 primary plants.",
+    "protocol": "artifacts/s04/S04_MODEL_PROTOCOL.json",
+    "selection_csv": "artifacts/s04/S04_HYPERPARAMETER_SELECTION.csv",
+    "status": "PERSISTED_READY"
+  },
+  "predictions": {
+    "g3_sensitivity": {
+      "note": "G3 directional OTG persisted; no G3 row-level predictions/support parquet (POA_GHI cohort was computed separately).",
+      "path": "artifacts/s11/S11_A1_G3_DIRECTIONAL.csv",
+      "status": "REQUIRES_REFIT"
+    },
+    "primary_local_validation": {
+      "path": "artifacts/s04/S04_VALIDATION_PREDICTIONS.parquet",
+      "status": "PERSISTED_READY"
+    },
+    "primary_rq1_rq2": {
+      "columns": [
+        "group_id",
+        "source_plant_id",
+        "target_plant_id",
+        "model_family",
+        "datetime_raw",
+        "y_true",
+        "y_pred_transfer",
+        "y_pred_local",
+        "residual_transfer",
+        "abs_error_transfer",
+        "residual_local",
+        "abs_error_local",
+        "support_rule",
+        "support_retention"
+      ],
+      "note": "S06 is TEST-only transfer/local predictions under CS4. Not aggregate MAE.",
+      "path": "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet",
+      "split_membership": {
+        "test": 74330
+      },
+      "status": "PERSISTED_READY"
+    },
+    "primary_rq3_pairwise_rows": {
+      "columns": [
+        "target_plant_id",
+        "twin_source_plant_id",
+        "control_source_plant_id",
+        "computable",
+        "n_pairwise",
+        "otg_twin",
+        "otg_control",
+        "delta",
+        "support_alignment"
+      ],
+      "note": "Persists n_pairwise and OTG, not intersection row IDs. Reconstruct from S05 twin masks \u2229 control CS4 (control engines require scoring persisted models or a light refit).",
+      "path": "artifacts/rq3/source_contrasts.csv",
+      "status": "DETERMINISTIC_RECONSTRUCTION_READY"
+    }
+  },
+  "reserved_labels": {
+    "R10": "P6 matched TRAIN duration",
+    "R7": "P2 support-retention robustness",
+    "R8": "S11 all structurally executable same-state controls (do not reuse)",
+    "R9": "P3 MAD/IQR scaling sensitivity"
+  },
+  "row_key_convention": {
+    "fields": [
+      "plant_id",
+      "datetime_raw"
+    ],
+    "index_uniqueness": {
+      "n_rows": 86002,
+      "n_unique_plant_datetime": 86002,
+      "unique": true
+    },
+    "note": "Do not mutate the accepted panel in P0; plant_id+datetime_raw is unique in P02C and S04 index.",
+    "panel_uniqueness": {
+      "n_rows": 1209888,
+      "n_unique_plant_datetime": 1209888,
+      "unique": true
+    }
+  },
+  "s11_inclusion": {
+    "all_include_core": true,
+    "decisions": {
+      "A1": "INCLUDE_CORE",
+      "A2": "INCLUDE_CORE",
+      "A3": "INCLUDE_CORE",
+      "A4": "INCLUDE_CORE"
+    },
+    "inserted_in_main_tex": false
+  },
+  "scalers_support_thresholds": {
+    "note": "Source medians/IQRs are not a standalone artifact; S05 stores per-row distance and tau.",
+    "persisted_in_masks": [
+      "kth_distance",
+      "threshold"
+    ],
+    "reconstruct_from": "source TRAIN features in panel + S04 index + CS4 k,q in config.protocol",
+    "status": "DETERMINISTIC_RECONSTRUCTION_READY"
+  },
+  "schemas": {
+    "future_prediction_record": [
+      "row_key_plant_id",
+      "row_key_datetime_raw",
+      "source_plant_id",
+      "target_plant_id",
+      "model_family",
+      "support_rule",
+      "y_true",
+      "y_pred_source_or_transfer",
+      "y_pred_local",
+      "split"
+    ],
+    "future_support_mask": [
+      "source_plant_id",
+      "target_plant_id",
+      "rule_id",
+      "datetime_raw",
+      "supported",
+      "computable",
+      "kth_distance",
+      "threshold"
+    ],
+    "row_key": [
+      "plant_id",
+      "datetime_raw"
+    ]
+  },
+  "splits": {
+    "artifact": "artifacts/s04/S04_ANALYTIC_INDEX.parquet",
+    "code": "src/lib/split_support.py:assign_post_eligibility_split",
+    "columns": [
+      "plant_id",
+      "datetime_raw",
+      "split",
+      "train_gself_block_id"
+    ],
+    "config": "config/protocol.py SPLIT eligibility_then_chronological_60_20_20",
+    "row_key": [
+      "plant_id",
+      "datetime_raw"
+    ],
+    "status": "PERSISTED_READY"
+  },
+  "support_masks": {
+    "primary_cs4": {
+      "columns": [
+        "group_id",
+        "source_plant_id",
+        "target_plant_id",
+        "rule_id",
+        "datetime_raw",
+        "computable",
+        "reason",
+        "kth_distance",
+        "threshold",
+        "supported"
+      ],
+      "note": "Boolean supported plus datetime_raw per source-target-rule. n_supported in S07 is not the mask.",
+      "path": "artifacts/s05/S05_SUPPORT_MASKS.parquet",
+      "status": "PERSISTED_READY"
+    },
+    "rq3_intersection": {
+      "note": "Pairwise common rows = S05 CS4 (twin source\u2192target) \u2229 control support on target TEST; control support not a stored mask.",
+      "status": "DETERMINISTIC_RECONSTRUCTION_READY"
+    }
+  },
+  "train_histories": {
+    "plants": [
+      {
+        "n_test_index_rows": 3527,
+        "n_train_index_rows": 10578,
+        "n_validation_index_rows": 3526,
+        "plant_id": "PS_002",
+        "train_calendar_days": 266.3645833333333,
+        "train_first_ts": "2024-03-27T09:45:00Z",
+        "train_last_ts": "2024-12-18T18:30:00Z"
+      },
+      {
+        "n_test_index_rows": 3374,
+        "n_train_index_rows": 10119,
+        "n_validation_index_rows": 3373,
+        "plant_id": "PS_003",
+        "train_calendar_days": 267.03125,
+        "train_first_ts": "2024-04-03T09:45:00Z",
+        "train_last_ts": "2024-12-26T10:30:00Z"
+      },
+      {
+        "n_test_index_rows": 1628,
+        "n_train_index_rows": 4883,
+        "n_validation_index_rows": 1628,
+        "plant_id": "PS_035",
+        "train_calendar_days": 108.04166666666667,
+        "train_first_ts": "2024-11-25T15:00:00Z",
+        "train_last_ts": "2025-03-13T16:00:00Z"
+      },
+      {
+        "n_test_index_rows": 1318,
+        "n_train_index_rows": 3952,
+        "n_validation_index_rows": 1318,
+        "plant_id": "PS_039",
+        "train_calendar_days": 108.96875,
+        "train_first_ts": "2024-12-06T20:15:00Z",
+        "train_last_ts": "2025-03-25T19:30:00Z"
+      },
+      {
+        "n_test_index_rows": 819,
+        "n_train_index_rows": 2455,
+        "n_validation_index_rows": 818,
+        "plant_id": "PS_042",
+        "train_calendar_days": 58.114583333333336,
+        "train_first_ts": "2025-02-28T15:00:00Z",
+        "train_last_ts": "2025-04-27T17:45:00Z"
+      },
+      {
+        "n_test_index_rows": 791,
+        "n_train_index_rows": 2370,
+        "n_validation_index_rows": 790,
+        "plant_id": "PS_043",
+        "train_calendar_days": 59.979166666666664,
+        "train_first_ts": "2025-02-28T14:45:00Z",
+        "train_last_ts": "2025-04-29T14:15:00Z"
+      },
+      {
+        "n_test_index_rows": 835,
+        "n_train_index_rows": 2503,
+        "n_validation_index_rows": 834,
+        "plant_id": "PS_044",
+        "train_calendar_days": 58.854166666666664,
+        "train_first_ts": "2025-02-28T15:00:00Z",
+        "train_last_ts": "2025-04-28T11:30:00Z"
+      },
+      {
+        "n_test_index_rows": 732,
+        "n_train_index_rows": 2196,
+        "n_validation_index_rows": 732,
+        "plant_id": "PS_045",
+        "train_calendar_days": 62.927083333333336,
+        "train_first_ts": "2025-02-28T15:30:00Z",
+        "train_last_ts": "2025-05-02T13:45:00Z"
+      },
+      {
+        "n_test_index_rows": 570,
+        "n_train_index_rows": 1710,
+        "n_validation_index_rows": 570,
+        "plant_id": "PS_046",
+        "train_calendar_days": 39.916666666666664,
+        "train_first_ts": "2025-02-28T15:45:00Z",
+        "train_last_ts": "2025-04-09T13:45:00Z"
+      },
+      {
+        "n_test_index_rows": 576,
+        "n_train_index_rows": 1725,
+        "n_validation_index_rows": 575,
+        "plant_id": "PS_047",
+        "train_calendar_days": 43.854166666666664,
+        "train_first_ts": "2025-02-28T16:00:00Z",
+        "train_last_ts": "2025-04-13T12:30:00Z"
+      },
+      {
+        "n_test_index_rows": 739,
+        "n_train_index_rows": 2215,
+        "n_validation_index_rows": 738,
+        "plant_id": "PS_048",
+        "train_calendar_days": 64.84375,
+        "train_first_ts": "2025-02-28T16:00:00Z",
+        "train_last_ts": "2025-05-04T12:15:00Z"
+      },
+      {
+        "n_test_index_rows": 710,
+        "n_train_index_rows": 2129,
+        "n_validation_index_rows": 710,
+        "plant_id": "PS_049",
+        "train_calendar_days": 64.91666666666667,
+        "train_first_ts": "2025-02-28T16:00:00Z",
+        "train_last_ts": "2025-05-04T14:00:00Z"
+      },
+      {
+        "n_test_index_rows": 841,
+        "n_train_index_rows": 2521,
+        "n_validation_index_rows": 841,
+        "plant_id": "PS_050",
+        "train_calendar_days": 59.03125,
+        "train_first_ts": "2025-02-28T16:00:00Z",
+        "train_last_ts": "2025-04-28T16:45:00Z"
+      },
+      {
+        "n_test_index_rows": 747,
+        "n_train_index_rows": 2239,
+        "n_validation_index_rows": 747,
+        "plant_id": "PS_051",
+        "train_calendar_days": 52.947916666666664,
+        "train_first_ts": "2025-03-10T13:45:00Z",
+        "train_last_ts": "2025-05-02T12:30:00Z"
+      }
+    ],
+    "source": "artifacts/s04/S04_ANALYTIC_INDEX.parquet train rows",
+    "status": "PERSISTED_READY"
+  }
+}

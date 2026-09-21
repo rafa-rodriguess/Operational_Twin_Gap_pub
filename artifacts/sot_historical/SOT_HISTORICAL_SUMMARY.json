@@ -1,0 +1,221 @@
+{
+  "manuscript_unchanged": true,
+  "no_model_refit": true,
+  "no_prediction_rescoring": true,
+  "no_scientific_recomputation": true,
+  "primary_support_retention": {
+    "artifact_path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+    "artifact_sha256": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7",
+    "median": 0.5408299866131191,
+    "n_directional_computable": 85,
+    "range_max": 0.9481327800829875,
+    "range_min": 0.08204518430439953,
+    "reported_low_retention_extreme": {
+      "context": "maximum relative OTG among 85 primary CS4 SplineRidge computable directions",
+      "group_id": "TW_4467a039e00b",
+      "local_same_rows_mae": 0.03497406072469024,
+      "otg_abs": 0.08546893876819055,
+      "otg_rel": 2.443780819190178,
+      "source_plant_id": "PS_047",
+      "target_plant_id": "PS_048",
+      "value": 0.17861975642760486
+    }
+  },
+  "primary_uncertainty": {
+    "rq3_fixed_set": {
+      "applies_to": "RQ3 Primary only",
+      "artifact_path": "artifacts/sot_historical/sources/S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json",
+      "artifact_point_estimate": 0.02619971959705819,
+      "artifact_sha256": "621edbe89434d66b454cc0a44548496b2e3857122c28b3fd13d15687cb180dd5",
+      "ci_high": 0.05660406119749926,
+      "ci_level": 0.95,
+      "ci_low": 0.00557761357754308,
+      "estimand": "CONTROL_MINUS_TWIN",
+      "method": "C8_BONFERRONI_SIMULTANEOUS_TARGET_MBB_PROJECTION",
+      "not_applied_to_robustness_arms": true,
+      "point_estimate": 0.0261997195973106,
+      "scope": "FIXED_SET_CONDITIONAL_FLEET_UNCERTAINTY"
+    }
+  },
+  "sources": {
+    "S07_OTG_DIRECTIONAL.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": false,
+      "path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+      "resolved_path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+      "sha256": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+    },
+    "S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json",
+      "resolved_path": "artifacts/sot_historical/sources/S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json",
+      "sha256": "621edbe89434d66b454cc0a44548496b2e3857122c28b3fd13d15687cb180dd5"
+    },
+    "S09_R6_ORIGIN_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+      "sha256": "2a45f18359fce1c32757a8b01d4d64630b08b27a8a6e09b065f3c293b223eae7"
+    },
+    "S09_RQ1_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+      "sha256": "d333c68858da69b054481ae5ec8b0af211739fde38bcd591d3bb294f37e31b4e"
+    },
+    "S09_RQ2_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+      "sha256": "451fe260a7081ec41c877294ab1ee3216e75fbf6df981baf21f570688db9694b"
+    },
+    "S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv",
+      "sha256": "f59cce12aa67478757efc4b3222500d2eb1919bebe2ecc9ae53596f61ef76789"
+    },
+    "S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv",
+      "sha256": "bccc9c7bb9c298e5a51ed3946203e182c28cd06e45313c5587118a90fac275d1"
+    }
+  },
+  "status": "SOT_HISTORICAL_RESULTS_COMPLETED",
+  "table02": [
+    {
+      "analysis": "Primary",
+      "display_label": "Primary",
+      "rq1_otg": 0.009723604857785641,
+      "rq2_abs_asymmetry": 0.026622430133826737,
+      "rq3_control_minus_twin": 0.0261997195973106,
+      "source_note": "results.tables",
+      "source_paths": [
+        "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+        "artifacts/s07/S07_ASYMMETRY.csv",
+        "artifacts/rq3/summary.json"
+      ]
+    },
+    {
+      "analysis": "R1_HGB",
+      "display_label": "R1 HGB",
+      "rq1_otg": 0.007866915208871677,
+      "rq2_abs_asymmetry": 0.02566657973785508,
+      "rq3_control_minus_twin": 0.06752727225056226,
+      "source_note": "S09 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R2_AC",
+      "display_label": "R2 AC",
+      "rq1_otg": 0.009829849417484224,
+      "rq2_abs_asymmetry": 0.026502747659309805,
+      "rq3_control_minus_twin": 0.0278118556881154,
+      "source_note": "S09 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R3_POA20",
+      "display_label": "R3 POA20",
+      "rq1_otg": 0.005624576998380986,
+      "rq2_abs_asymmetry": 0.03259648526076961,
+      "rq3_control_minus_twin": 0.024508199153049946,
+      "source_note": "S09 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R3_POA100",
+      "display_label": "R3 POA100",
+      "rq1_otg": 0.010229308062198171,
+      "rq2_abs_asymmetry": 0.030118099649173523,
+      "rq3_control_minus_twin": 0.03026316607552144,
+      "source_note": "S09 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R4_stricter_support",
+      "display_label": "R4 stricter support",
+      "rq1_otg": 0.0099698681271875,
+      "rq2_abs_asymmetry": 0.025383813715901975,
+      "rq3_control_minus_twin": 0.01517222739266313,
+      "source_note": "S09 snapshots (arm_id R4_CS3)",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R5_keep_all_valid",
+      "display_label": "R5 Keep valid",
+      "rq1_otg": 0.009599479556869543,
+      "rq2_abs_asymmetry": 0.02666456904558651,
+      "rq3_control_minus_twin": 0.026028883715603045,
+      "source_note": "S09 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R6_O1",
+      "display_label": "R6 O1",
+      "rq1_otg": 0.015188552412841503,
+      "rq2_abs_asymmetry": 0.01739329848280581,
+      "rq3_control_minus_twin": 0.0028174327739558334,
+      "source_note": "S09 R6 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R6_O2",
+      "display_label": "R6 O2",
+      "rq1_otg": 0.01069177096157405,
+      "rq2_abs_asymmetry": 0.02623117441691072,
+      "rq3_control_minus_twin": 0.009662557720282215,
+      "source_note": "S09 R6 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv"
+      ]
+    },
+    {
+      "analysis": "R6_O3",
+      "display_label": "R6 O3",
+      "rq1_otg": 0.002140842362927061,
+      "rq2_abs_asymmetry": 0.04199741422743697,
+      "rq3_control_minus_twin": 0.012566943057368333,
+      "source_note": "S09 R6 snapshots",
+      "source_paths": [
+        "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+        "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv"
+      ]
+    }
+  ]
+}

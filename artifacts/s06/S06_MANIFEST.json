@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "S06_CROSS_PLANT_PREDICTIONS.parquet": {
+      "bytes": 3656395,
+      "path": "artifacts/s06/S06_CROSS_PLANT_PREDICTIONS.parquet",
+      "row_count": 74330,
+      "schema_fingerprint": "abad6386bf327c9db2beb1f72ff79dc86721e81f82cb763650eeed95b7b965aa",
+      "sha256": "345a544012001bc6974f14000b1c248a02158616a8428f636b332d44088fcb27"
+    },
+    "S06_CROSS_PLANT_TRANSFER.md": {
+      "bytes": 913,
+      "path": "reports/scientific/S06_CROSS_PLANT_TRANSFER.md",
+      "sha256": "d3be12efb5cd5faa15f5d0fbb07813b1ad2dbd39636da002ef3efb5ed3eeb12b"
+    },
+    "S06_RECONCILIATION.json": {
+      "bytes": 638,
+      "path": "artifacts/s06/S06_RECONCILIATION.json",
+      "sha256": "436d82ed7fcdb3da5a4b6021ce9ec3c30a9673c5396682ef548b6c6babaf2bde"
+    },
+    "S06_TRANSFER_METRICS.csv": {
+      "bytes": 42602,
+      "path": "artifacts/s06/S06_TRANSFER_METRICS.csv",
+      "row_count": 170,
+      "schema_fingerprint": "57db5b38d2bd71e54aca027128b710434bb6ce05a835df93b38fd7883037ecce",
+      "sha256": "f3166eac565d2713f81f35fae489e5c88088ea09e15839f84b6bb5ccceea0204"
+    },
+    "S06_TRANSFER_PROTOCOL.json": {
+      "bytes": 1131,
+      "path": "artifacts/s06/S06_TRANSFER_PROTOCOL.json",
+      "sha256": "76f0b3bf955f5f19bd0d50eeb39189c82812141b4038bae5cf869d205bbe4e67"
+    },
+    "S06_TRANSFER_STATUS.csv": {
+      "bytes": 6703,
+      "path": "artifacts/s06/S06_TRANSFER_STATUS.csv",
+      "row_count": 94,
+      "schema_fingerprint": "a0e824276dc717d5bd9d98848b3ffeca29ccc75b92c682c1f637da93d11194c3",
+      "sha256": "6c3bbd3b90fa16d356391a309bfdc8d9b184d8cf9af71e686167ebe64fd03517"
+    }
+  },
+  "job": "S06_CROSS_PLANT_TRANSFER"
+}

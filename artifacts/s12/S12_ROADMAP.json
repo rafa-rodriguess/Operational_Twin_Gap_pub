@@ -1,0 +1,78 @@
+{
+  "authoritative_until_revised": true,
+  "id": "S12_IMPROVEMENT_ROADMAP",
+  "phases": [
+    {
+      "id": "P0",
+      "readiness": "COMPLETE_THIS_STAGE",
+      "title": "Pipeline audit and readiness"
+    },
+    {
+      "id": "P1",
+      "readiness": "REQUIRES_REFIT",
+      "title": "Within-plant null calibration"
+    },
+    {
+      "id": "P2",
+      "readiness": "PERSISTED_READY",
+      "title": "OTG \u00d7 support retention"
+    },
+    {
+      "id": "P3",
+      "readiness": "REQUIRES_REFIT",
+      "title": "Adaptive scaling sensitivity"
+    },
+    {
+      "id": "P4",
+      "readiness": "REQUIRES_INSTRUMENTATION",
+      "title": "Bias/dispersion + recalibration ladder"
+    },
+    {
+      "id": "P5",
+      "readiness": "PERSISTED_READY",
+      "title": "Concentration/stability diagnostics"
+    },
+    {
+      "id": "P6",
+      "readiness": "REQUIRES_REFIT",
+      "title": "Matched training-history duration"
+    },
+    {
+      "id": "P7",
+      "readiness": "PERSISTED_READY",
+      "title": "RQ3 control-dependence analysis"
+    },
+    {
+      "id": "P8",
+      "readiness": "REQUIRES_REFIT",
+      "title": "Pooled fleet baseline"
+    },
+    {
+      "id": "P9",
+      "readiness": "DETERMINISTIC_RECONSTRUCTION_READY",
+      "title": "Environmental-distribution distance"
+    }
+  ],
+  "post_p9": [
+    "integrate accepted S12 with A1\u2013A4 in one manuscript-editing phase",
+    "compile and assess page count",
+    "only then consider layout compression"
+  ],
+  "reserved_labels": {
+    "R10": "P6 matched TRAIN duration",
+    "R7": "P2 support-retention robustness",
+    "R8": "S11 all structurally executable same-state controls (do not reuse)",
+    "R9": "P3 MAD/IQR scaling sensitivity"
+  },
+  "s11_a1_a4_main_text": {
+    "all_include_core": true,
+    "decisions": {
+      "A1": "INCLUDE_CORE",
+      "A2": "INCLUDE_CORE",
+      "A3": "INCLUDE_CORE",
+      "A4": "INCLUDE_CORE"
+    },
+    "inserted_in_main_tex": false
+  },
+  "version": 1
+}

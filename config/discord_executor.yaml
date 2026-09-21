@@ -1,0 +1,11 @@
+# Discord webhook sender for the executor loop. Put the URL in .env, never here.
+webhook_url_env: DISCORD_WEBHOOK_URL
+username_env: DISCORD_WEBHOOK_USERNAME
+avatar_url_env: DISCORD_WEBHOOK_AVATAR_URL
+username: null
+avatar_url: null
+wait: false
+timeout_sec: 15
+max_content_chars: 2000
+code_block: true
+suppress_mentions: true

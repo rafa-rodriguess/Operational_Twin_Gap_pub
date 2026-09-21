@@ -1,0 +1,71 @@
+{
+  "executor_workspace_head": "1213da7841265136c0dcaea7ea1627f3597b79bd",
+  "fields_added_or_replaced": [
+    "results.tables.table02",
+    "results.primary_uncertainty",
+    "results.primary_support_retention",
+    "results.sot_historical",
+    "scientific_analysis.sot_historical",
+    "results.robustness.materialized_table02"
+  ],
+  "generated_at_utc": "2026-09-21T04:41:24+00:00",
+  "historical_snapshot_dir": "artifacts/sot_historical/sources",
+  "manuscript_unchanged": true,
+  "no_model_refit": true,
+  "no_prediction_rescoring": true,
+  "no_scientific_recomputation": true,
+  "request_input_head": "fad6059da6367f0711e18a9091ab370be3733ab7",
+  "self_hash_registered_externally": true,
+  "sot_sha256_before": "7be48686be0d571a81120ecc74adf47defe38e24f54c541970849aeb5ff4e71d",
+  "sources": {
+    "S07_OTG_DIRECTIONAL.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": false,
+      "path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+      "resolved_path": "artifacts/s07/S07_OTG_DIRECTIONAL.csv",
+      "sha256": "67f6781a7c20095ec03672e11d2ba7ad52cff9046b1fa2e048372dec001203f7"
+    },
+    "S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json",
+      "resolved_path": "artifacts/sot_historical/sources/S08_STATE_FLEET_C8_FIXED_SET_INTERVAL.json",
+      "sha256": "621edbe89434d66b454cc0a44548496b2e3857122c28b3fd13d15687cb180dd5"
+    },
+    "S09_R6_ORIGIN_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_R6_ORIGIN_SUMMARY.csv",
+      "sha256": "2a45f18359fce1c32757a8b01d4d64630b08b27a8a6e09b065f3c293b223eae7"
+    },
+    "S09_RQ1_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_RQ1_SUMMARY.csv",
+      "sha256": "d333c68858da69b054481ae5ec8b0af211739fde38bcd591d3bb294f37e31b4e"
+    },
+    "S09_RQ2_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_RQ2_SUMMARY.csv",
+      "sha256": "451fe260a7081ec41c877294ab1ee3216e75fbf6df981baf21f570688db9694b"
+    },
+    "S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_STATE_RQ3_FLEET_DESCRIPTIVE_SUMMARY.csv",
+      "sha256": "f59cce12aa67478757efc4b3222500d2eb1919bebe2ecc9ae53596f61ef76789"
+    },
+    "S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv": {
+      "in_study_tree": true,
+      "materialized_snapshot": true,
+      "path": "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv",
+      "resolved_path": "artifacts/sot_historical/sources/S09_STATE_RQ3_R6_ORIGIN_SUMMARY.csv",
+      "sha256": "bccc9c7bb9c298e5a51ed3946203e182c28cd06e45313c5587118a90fac275d1"
+    }
+  }
+}

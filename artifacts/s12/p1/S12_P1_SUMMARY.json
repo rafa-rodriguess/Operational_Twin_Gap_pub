@@ -1,0 +1,307 @@
+{
+  "features": [
+    "poa_irradiance_wm2",
+    "ghi_irradiance_wm2",
+    "gri_irradiance_wm2",
+    "panel_temperature_celsius",
+    "ambient_temperature_celsius",
+    "wind_speed_ms"
+  ],
+  "half_split_rule": "chrono_order_by_datetime_raw; A=first floor(n/2); extra odd row assigned to later B",
+  "interleave_meta": {
+    "PS_002": {
+      "anchor_ts": "2024-03-27T09:45:00Z",
+      "dropped_final_block": 38,
+      "n_blocks_a": 19,
+      "n_blocks_b": 19,
+      "n_calendar_blocks_before_drop": 39,
+      "n_occupied_blocks_a": 19,
+      "n_occupied_blocks_b": 19
+    },
+    "PS_003": {
+      "anchor_ts": "2024-04-03T09:45:00Z",
+      "dropped_final_block": 38,
+      "n_blocks_a": 19,
+      "n_blocks_b": 19,
+      "n_calendar_blocks_before_drop": 39,
+      "n_occupied_blocks_a": 19,
+      "n_occupied_blocks_b": 19
+    },
+    "PS_035": {
+      "anchor_ts": "2024-11-25T15:00:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 8,
+      "n_blocks_b": 8,
+      "n_calendar_blocks_before_drop": 16,
+      "n_occupied_blocks_a": 8,
+      "n_occupied_blocks_b": 8
+    },
+    "PS_039": {
+      "anchor_ts": "2024-12-06T20:15:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 8,
+      "n_blocks_b": 8,
+      "n_calendar_blocks_before_drop": 16,
+      "n_occupied_blocks_a": 8,
+      "n_occupied_blocks_b": 8
+    },
+    "PS_042": {
+      "anchor_ts": "2025-02-28T15:00:00Z",
+      "dropped_final_block": 8,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 9,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 4
+    },
+    "PS_043": {
+      "anchor_ts": "2025-02-28T14:45:00Z",
+      "dropped_final_block": 8,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 9,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 4
+    },
+    "PS_044": {
+      "anchor_ts": "2025-02-28T15:00:00Z",
+      "dropped_final_block": 8,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 9,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 4
+    },
+    "PS_045": {
+      "anchor_ts": "2025-02-28T15:30:00Z",
+      "dropped_final_block": 8,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 9,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 3
+    },
+    "PS_046": {
+      "anchor_ts": "2025-02-28T15:45:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 3,
+      "n_blocks_b": 3,
+      "n_calendar_blocks_before_drop": 6,
+      "n_occupied_blocks_a": 3,
+      "n_occupied_blocks_b": 3
+    },
+    "PS_047": {
+      "anchor_ts": "2025-02-28T16:00:00Z",
+      "dropped_final_block": 6,
+      "n_blocks_a": 3,
+      "n_blocks_b": 3,
+      "n_calendar_blocks_before_drop": 7,
+      "n_occupied_blocks_a": 3,
+      "n_occupied_blocks_b": 3
+    },
+    "PS_048": {
+      "anchor_ts": "2025-02-28T16:00:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 5,
+      "n_blocks_b": 5,
+      "n_calendar_blocks_before_drop": 10,
+      "n_occupied_blocks_a": 5,
+      "n_occupied_blocks_b": 5
+    },
+    "PS_049": {
+      "anchor_ts": "2025-02-28T16:00:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 5,
+      "n_blocks_b": 5,
+      "n_calendar_blocks_before_drop": 10,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 5
+    },
+    "PS_050": {
+      "anchor_ts": "2025-02-28T16:00:00Z",
+      "dropped_final_block": 8,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 9,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 4
+    },
+    "PS_051": {
+      "anchor_ts": "2025-03-10T13:45:00Z",
+      "dropped_final_block": null,
+      "n_blocks_a": 4,
+      "n_blocks_b": 4,
+      "n_calendar_blocks_before_drop": 8,
+      "n_occupied_blocks_a": 4,
+      "n_occupied_blocks_b": 4
+    }
+  },
+  "interleave_rule": "7-day blocks from first canonical TRAIN timestamp; even->A odd->B; drop final unmatched block if n_blocks odd",
+  "interpretation_category": "substantial_overlap",
+  "interpretation_note": "OTG_half sits above placebo medians but does not exceed both P95 thresholds; residual-penalty interpretation should be qualified.",
+  "leakage": {
+    "test_in_fit": false
+  },
+  "n_primary_plants": 14,
+  "no_p3_mad_fallback": true,
+  "noncomputable_half": [
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_042"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_043"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_044"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_045"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_046"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_047"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_049"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_050"
+    },
+    {
+      "reason": "degenerate_iqr:wind_speed_ms",
+      "source_plant_id": "PS_048",
+      "target_plant_id": "PS_051"
+    }
+  ],
+  "noncomputable_placebo": [
+    {
+      "plant_id": "PS_048",
+      "reason_chrono": "degenerate_iqr:wind_speed_ms",
+      "reason_interleaved": "degenerate_iqr:wind_speed_ms"
+    }
+  ],
+  "null_exceedance": {
+    "fraction_otg_half_exceeding_p95_chrono": 0.21176470588235294,
+    "fraction_otg_half_exceeding_p95_interleaved": 0.3058823529411765,
+    "n_otg_half_exceeding_p95_chrono": 18,
+    "n_otg_half_exceeding_p95_interleaved": 26,
+    "p95_placebo_chrono": 0.01988578615716107,
+    "p95_placebo_interleaved": 0.012730800624211034,
+    "uses_otg_half_not_full_train_primary": true
+  },
+  "otg_half": {
+    "directional_mean": 0.013318089969005041,
+    "max": 0.1216721297838952,
+    "mean": 0.013318089969005041,
+    "median": 0.006416486637765409,
+    "min": -0.03295536758253015,
+    "n": 85,
+    "n_computable": 85,
+    "n_expected_directional": 94,
+    "n_noncomputable": 9,
+    "n_targets_in_plant_balanced": 14,
+    "p25": -0.0012946074470313734,
+    "p75": 0.017220796436985618,
+    "p95": 0.1000888936708523,
+    "plant_balanced_mean": 0.01088498434655154,
+    "support_retention": {
+      "max": 0.9330171902786011,
+      "mean": 0.4910424060178142,
+      "median": 0.5277777777777778,
+      "min": 0.07966706302021404,
+      "n": 85,
+      "p25": 0.2676056338028169,
+      "p75": 0.7217598097502973,
+      "p95": 0.8630957602339181
+    }
+  },
+  "placebo": {
+    "chrono": {
+      "max": 0.032311976466878375,
+      "mean": 0.0036498044299714577,
+      "median": 0.00229094872427809,
+      "min": -0.015897712552686724,
+      "n": 13,
+      "n_computable": 13,
+      "n_planned": 14,
+      "p25": -0.0011222339876112708,
+      "p75": 0.007514574189506282,
+      "p95": 0.01988578615716107
+    },
+    "chrono_minus_interleaved": {
+      "max": 0.03891083019222569,
+      "mean": 0.004354584689146041,
+      "median": 0.003548613004565458,
+      "min": -0.013167613785415734,
+      "n": 13,
+      "n_paired": 13,
+      "p25": -0.003398047203157499,
+      "p75": 0.008116526902325984,
+      "p95": 0.025712191115235865
+    },
+    "interleaved": {
+      "max": 0.02330629525170346,
+      "mean": -0.0007047802591745839,
+      "median": -0.0012576642802873683,
+      "min": -0.022947509377177516,
+      "n": 13,
+      "n_computable": 13,
+      "n_planned": 14,
+      "p25": -0.0026158969438727087,
+      "p75": 0.0022758132155462282,
+      "p95": 0.012730800624211034
+    }
+  },
+  "primary_otg_not_training_size_matched_to_placebo": true,
+  "primary_otg_unchanged": true,
+  "primary_plants": [
+    "PS_002",
+    "PS_003",
+    "PS_035",
+    "PS_039",
+    "PS_042",
+    "PS_043",
+    "PS_044",
+    "PS_045",
+    "PS_046",
+    "PS_047",
+    "PS_048",
+    "PS_049",
+    "PS_050",
+    "PS_051"
+  ],
+  "reconciliation_max_abs_discrepancy": 0.0,
+  "reconciliation_ok": true,
+  "status": "S12_P1_NULL_CALIBRATION_MATERIALIZED",
+  "support_semantics": "CS4 k=5 q=0.95 source-history median/IQR; LOO d5 threshold; degenerate IQR = not_computable; no P3 MAD fallback",
+  "target": "y_dc_normalized",
+  "target_balanced_sensitivity": {
+    "directional_unweighted_mean": 0.013318089969005041,
+    "mean_per_target_exceedance_frac_p95_chrono": 0.22222222222222224,
+    "mean_per_target_exceedance_frac_p95_interleaved": 0.2926587301587302,
+    "n_targets": 14,
+    "note": "Plant-balanced = equal weight per target (RQ1 synthesis). Unweighted directional mean can be G2-heavy.",
+    "plant_balanced_G2_only": 0.013719831673044542,
+    "plant_balanced_all_computable_targets": 0.01088498434655154,
+    "plant_balanced_iterate_path": 0.01088498434655154,
+    "plant_balanced_non_G2": 0.003797866030319036
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "coverage_threshold_frozen": false,
+  "daylight_candidates_wm2": [
+    20,
+    50,
+    100
+  ],
+  "daylight_primary_frozen": false,
+  "dependency_versions": {
+    "duckdb": "1.5.1",
+    "pyarrow": "23.0.1"
+  },
+  "interpolation_flags": "true/false mapped; empty flags remain unknown/NULL and are not treated as false",
+  "join_rule": "full union of (ps_id, datetime) from inverter aggregate and meteorological records; exact token match; no resample",
+  "no_model_otg_common_support": true,
+  "normalized_target": "p_*_plant_w / (nominal_power_mw * 1e6)",
+  "panel": {
+    "ordering": [
+      "plant_id",
+      "datetime_raw"
+    ],
+    "path": "artifacts/p02c/P02C_PLANT_PANEL.parquet"
+  },
+  "prior_artifacts": {
+    "p02a_manifest": "artifacts/p02a/P02A_MANIFEST.json",
+    "p02b_groups": "artifacts/twins/groups.csv",
+    "p02b_members": "artifacts/twins/members.csv"
+  },
+  "raw_inputs": {
+    "BR-PVGen_inverter.zip": {
+      "path": "data/raw/br_pvgen/BR-PVGen_inverter.zip",
+      "sha256": "58ec09c4da8e8d61659bda5dd9db5fe27ebaea7bc547117464e910b7aaf902c6"
+    },
+    "BR-PVGen_metadata.csv": {
+      "path": "data/raw/br_pvgen/BR-PVGen_metadata.csv",
+      "sha256": "ba45f4dfb557bbfca37c3ee16c8b7d2a5f0aec9fad4e6b6774be760c4852237c"
+    },
+    "BR-PVGen_meteorological.zip": {
+      "path": "data/raw/br_pvgen/BR-PVGen_meteorological.zip",
+      "sha256": "a4b23123c16bf6a97a8d282e6ad18c2e697ac990d0b96602c68c6b2abfce240f"
+    },
+    "Readme.txt": {
+      "path": "data/raw/br_pvgen/Readme.txt",
+      "sha256": "4e8ec256c926b32cea8e8e1f2b9fb334f75cedd391eca570cdd229006add8a20"
+    }
+  },
+  "reference_inverter_count": "max simultaneous distinct observed inverter IDs per plant",
+  "reference_inverter_count_is_installed_count": false,
+  "stage": "stage_04_p02c_panel_feasibility",
+  "timezone": "source ISO-8601 tokens preserved; Readme does not define a conversion; no inferred timezone shift"
+}
