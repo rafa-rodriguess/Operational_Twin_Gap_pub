@@ -1,0 +1,59 @@
+{
+  "status": "success",
+  "summary": "S12_P9_ENVIRONMENTAL_DISTANCE_MATERIALIZED. 85 directions + 38 pairs; no refit/scoring/support rebuild. ED_full vs retention rho=-0.8745, CI [-0.921,-0.795]. ED_supported vs |OTG| rho=0.090, CI spans zero. Partial Spearman ED vs OTG | retention rho=-0.292, CI [-0.544, 0.022] spans zero. Environmental mismatch tracks support loss; residual distance does not clearly add beyond P2 retention. RQ2 A_ED vs A_OTG rho=-0.285, sign concordance 18/38. Science commit db637f4; HEAD 095c834 (mode-only follow-up). Manuscript unchanged.",
+  "files_modified": [
+    "src/lib/s12_p9_environmental_distance.py",
+    "src/run/28_s12_p9_environmental_distance.py",
+    "artifacts/s12/p9/",
+    "reports/scientific/S12_P9_ENVIRONMENTAL_DISTANCE.md",
+    "artifacts/sot.json",
+    "outputs/logs/orchestrator_status.json"
+  ],
+  "shared_artifacts": [
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "reports/scientific/S12_P9_ENVIRONMENTAL_DISTANCE.md", "commit": "db637f441d8a0c5e0f0c8c8c8c8c8c8c8c8c8c8c", "sha256": "b03c546d28414e16237d39b03df9b37c5ce430a0c3215afe80515eff93437a2b"}
+  ],
+  "tests": [
+    {"name": "orchestrator_stage_28", "passed": true, "evidence": "GO; S12_P9_ENVIRONMENTAL_DISTANCE_MATERIALIZED"},
+    {"name": "n_85_n_38", "passed": true, "evidence": "85 directions, 38 pairs, 14 scalers"},
+    {"name": "no_refit_no_predict", "passed": true, "evidence": "lib has no .fit( / .predict( / sklearn"},
+    {"name": "p2_recon", "passed": true, "evidence": "max |Δ| retention=0, OTG=0"},
+    {"name": "independent_reconciliation", "passed": true, "evidence": "max |Δ|=0.0"},
+    {"name": "manuscript_unchanged", "passed": true, "evidence": "paper hashes unchanged"}
+  ],
+  "errors": [],
+  "questions": [],
+  "checkpoint": {"science_commit": "db637f4f168a51381e360812e27ae068b8999acd", "head": "095c8343b0cef60ed91b525193e6a0a3209aeebb", "issue": 19},
+  "recommendation": "aguardar avaliação",
+  "science": {
+    "status": "S12_P9_ENVIRONMENTAL_DISTANCE_MATERIALIZED",
+    "commit": "095c8343b0cef60ed91b525193e6a0a3209aeebb",
+    "science_commit": "db637f4f168a51381e360812e27ae068b8999acd",
+    "ed_full_retention": {"rho": -0.8744576900527653, "ci": [-0.9205475560236458, -0.7953464547840055]},
+    "mmd_full_retention": {"rho": -0.898045729919875, "ci": [-0.9331039677418183, -0.8344504497720814]},
+    "ed_removed_retention": {"rho": 0.37402775063513777},
+    "ed_supported_otg_abs": {"rho": 0.08960328317373462, "p": 0.4147792409661798, "ci": [-0.1941528082715405, 0.36752990765185795]},
+    "ed_supported_otg_rel": {"rho": 0.12468243111197967, "ci": [-0.17572338279369396, 0.4109453575505093]},
+    "mmd_supported_otg_abs": {"rho": 0.10850107484854407, "ci": [-0.16580216435921605, 0.371917462082444]},
+    "mmd_supported_otg_rel": {"rho": 0.14246628884111784, "ci": [-0.15050360021733541, 0.41094603158014864]},
+    "partial_ed_otg_retention": {"rho": -0.29246274566286823, "ci": [-0.5440692693310749, 0.021856325547176248]},
+    "partial_mmd_otg_retention": {"rho": -0.26221709946391486, "ci": [-0.5154716954656756, 0.057810537570841945]},
+    "sampling_2048_vs_1024": {"spearman_ed": 0.9967559116669924, "spearman_mmd": 0.9975962478014462, "median_abs_ed": 0.015999918521719003, "max_abs_ed": 0.05588776045970345},
+    "target_balanced_n14": {"ed_otg": 0.06373626373626373, "ed_retention": -0.5208791208791209},
+    "groups": {"G2_n": 81, "nonG2_n": 4},
+    "rq2": {"spearman_a_ed_a_otg": -0.2846044424991793, "spearman_a_mmd_a_otg": -0.2677535835430572, "spearman_abs_ed_abs_otg": 0.1940037203195098, "sign_concordance_ed": "18/38=0.474"},
+    "scientific_consequence": {
+      "q1": "Mismatch strongly tracks support loss (ED_full vs retention rho=-0.87, CI excludes 0) but residual supported-distance vs OTG is weak (CI includes 0); it does not fully explain nonzero twin OTG.",
+      "q2": "Mostly captured by common-support retention: partial Spearman CI includes 0.",
+      "q3": "RQ2 signed A_ED vs A_OTG rho=-0.28 with concordance 18/38; descriptive only, does not clearly explain RQ2.",
+      "q4": "Environmental distance is insufficient as a standalone source-selection criterion; it complements retention."
+    },
+    "reconciliation_max_abs_discrepancy": 0.0,
+    "no_refit_no_scoring_no_support_rebuild": true,
+    "prior_science_manuscript_unchanged": true,
+    "summary_sha256": "d19ffd5f8d238dd344b932cb7809089dc3871a326307c5b656a4e5f72f2ae294",
+    "directional_sha256": "b3b27dd3b80fe9f3dc9ce5a869728598b2c8ba4dd7feb0a61ef33b4c9daad7f8",
+    "report_sha256": "b03c546d28414e16237d39b03df9b37c5ce430a0c3215afe80515eff93437a2b",
+    "provenance_sha256": "4d0c9622f2354e3c79d48785442953119bf3428b6e1aa05ef57cef5174a2fc58",
+    "git_diff_stat": "13 files, +52939/-145 then mode-only provenance commit"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "success",
+  "summary": "S12_P8_POOLED_FLEET_BASELINE_MATERIALIZED after weighting correction. Plant-balanced SplineRidge now uses the same w_ij=1/n_j vector for scaler__sample_weight and ridge__sample_weight; SplineTransformer remains unweighted uniform knots. Row-pooled numerics unchanged. Corrected plant-balanced PB OTG=-0.0024562969419128456, PB GAIN vs twin=0.012179901799698488, bootstrap CI [0.00801334799751679, 0.015614029868533122]. Commit 7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78. No P9; manuscript unchanged.",
+  "files_modified": [
+    "src/lib/s12_p8_pooled.py",
+    "src/run/27_s12_p8_pooled.py",
+    "artifacts/s12/p8/",
+    "reports/scientific/S12_P8_POOLED_FLEET_BASELINE.md",
+    "artifacts/sot.json",
+    "outputs/logs/orchestrator_status.json"
+  ],
+  "shared_artifacts": [
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "reports/scientific/S12_P8_POOLED_FLEET_BASELINE.md", "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "sha256": "a5345198e9d87924b3da41b143694cf17fccf9b4871e591eb846cf592f3c48cb"},
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "artifacts/s12/p8/S12_P8_SUMMARY.json", "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "sha256": "99402ac0391a8f9a6fe0b53e514075f7d84374a7edba1c5b6ea47386efce25e3"},
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "artifacts/s12/p8/S12_P8_PROVENANCE.json", "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "sha256": "PROV_PLACEHOLDER"},
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "artifacts/s12/p8/S12_P8_DIRECTIONAL.csv", "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "sha256": "cb1f8ca8a79c686db8d34255d6779d4692b9e136c59ecf62f0a8073a73c8ee35"},
+    {"repository": "rafa-rodriguess/Operational_Twin_Gap_prv_02", "path": "artifacts/s12/p8/S12_P8_TEST_ROWS.parquet", "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "sha256": "a835ac315c224d66c51a831c231f716b7c5352999a4ab8f4b0809c988bf823cf"}
+  ],
+  "tests": [
+    {"name": "orchestrator_stage_27", "passed": true, "evidence": "GO; S12_P8_POOLED_FLEET_BASELINE_MATERIALIZED"},
+    {"name": "weighting_ok", "passed": true, "evidence": "14 LOTO; 13 donors; equal sum w_ij; same vector to StandardScaler and Ridge; SplineTransformer unweighted"},
+    {"name": "row_pooled_frozen", "passed": true, "evidence": "PB OTG=-0.00497426794148001; PB GAIN=0.014697872799265651; CI=[0.010391494156256828, 0.0183922243087188]; 70/15"},
+    {"name": "independent_reconciliation", "passed": true, "evidence": "max |Δ|=1.734723475976807e-18"},
+    {"name": "no_p9", "passed": true, "evidence": "no src/run/28_s12*"},
+    {"name": "manuscript_unchanged", "passed": true, "evidence": "paper/main.tex and paper/main.pdf hashes unchanged"}
+  ],
+  "errors": [],
+  "questions": [],
+  "checkpoint": {"commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78", "issue": 18, "attempt": 2},
+  "recommendation": "aguardar avaliação",
+  "science": {
+    "status": "S12_P8_POOLED_FLEET_BASELINE_MATERIALIZED",
+    "commit": "7d26d41c4b3ad068d5bd14f06f9ac115d7b54c78",
+    "weighting": "w_ij=1/n_j; scaler__sample_weight=w and ridge__sample_weight=w (same vector); SplineTransformer uniform knots, no sample_weight",
+    "selected_plant_balanced": {
+      "PS_002": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_003": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_035": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_039": "{\"alpha\": 0.1, \"n_knots\": 8}",
+      "PS_042": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_043": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_044": "{\"alpha\": 0.1, \"n_knots\": 4}",
+      "PS_045": "{\"alpha\": 0.1, \"n_knots\": 8}",
+      "PS_046": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_047": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_048": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_049": "{\"alpha\": 0.1, \"n_knots\": 6}",
+      "PS_050": "{\"alpha\": 0.1, \"n_knots\": 8}",
+      "PS_051": "{\"alpha\": 0.1, \"n_knots\": 8}"
+    },
+    "plant_balanced_pb_otg": -0.0024562969419128456,
+    "pb_gain_bal": 0.012179901799698488,
+    "gain_bal": {"mean": 0.014719912012137178, "median": 0.004649214859298839, "p25": -0.0005597039920530039, "p75": 0.014773624998860951, "p95": 0.10051337341011637, "min": -0.01473636611237511, "max": 0.12427533805293056, "n_pos": 60, "n_neg": 25, "n_zero": 0},
+    "bootstrap_bal_ci": [0.00801334799751679, 0.015614029868533122],
+    "groups": {"G2_pb_gain_bal": 0.015242383236250764, "nonG2_pb_gain_bal": 0.004523698208317793},
+    "vs_row_pooled": {"n_targets_differing_hparams": 9, "pb_otg_abs_diff": 0.0025179709995671647, "pb_gain_abs_diff": 0.002517970999567163},
+    "row_pooled_unchanged": true,
+    "row_pooled_pb_otg": -0.00497426794148001,
+    "row_pooled_pb_gain": 0.014697872799265651,
+    "rq2_policy": "not_redefined_pooled_is_target_specific_not_source_asymmetry",
+    "rq3_status": "P8_RQ3_NOT_RUN_POOLED_BASELINE_SCOPE",
+    "reconciliation_max_abs_discrepancy": 1.734723475976807e-18,
+    "summary_sha256": "99402ac0391a8f9a6fe0b53e514075f7d84374a7edba1c5b6ea47386efce25e3",
+    "report_sha256": "a5345198e9d87924b3da41b143694cf17fccf9b4871e591eb846cf592f3c48cb",
+    "provenance_sha256": "5ba542a83066e3d452e7d8162d688a9dd54e8e5a63a5884e37205646fde9835f",
+    "directional_sha256": "cb1f8ca8a79c686db8d34255d6779d4692b9e136c59ecf62f0a8073a73c8ee35",
+    "test_rows_sha256": "a835ac315c224d66c51a831c231f716b7c5352999a4ab8f4b0809c988bf823cf",
+    "prior_science_manuscript_unchanged": true
+  }
+}

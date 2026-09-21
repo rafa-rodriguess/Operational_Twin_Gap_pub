@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "summary": "Confirmatory RQ4 source-selection executed via orchestrator.py stages 12-14. Frozen spec SHA-256 75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66 unchanged. Results in scientific_analysis.rq4_source_selection with status RQ4_SOURCE_SELECTION_RESULTS_MATERIALIZED. 18 informative decision instances (20 total); k_tau and k_noise null (T3/T4 joint case neither). 51 validations passed. Design not altered.",
+  "commit": "c89826f10ca02cc6ecf07f43a02957a5bae9ba95",
+  "tests": [
+    {"name": "preflight_GO_FOR_CONFIRMATORY_SCORING", "passed": true, "evidence": "artifacts/rq4/RQ4_PREFLIGHT.json"},
+    {"name": "spec_sha256", "passed": true, "evidence": "75ecc2d242a576655cf7e17580f737f570723e9ceb39a203d9a576cbf8304e66"},
+    {"name": "cohorts_frozen_before_scoring", "passed": true, "evidence": "scientific_freeze.rq4_source_selection.cohort_resolution"},
+    {"name": "51_rq4_validations", "passed": true, "evidence": "artifacts/rq4/RQ4_VALIDATION.json all_passed=true"},
+    {"name": "deterministic_rerun", "passed": true, "evidence": "RQ4_VALIDATION.json rerun_identical"},
+    {"name": "sot_analysis_namespace", "passed": true, "evidence": "scientific_analysis.rq4_source_selection"}
+  ],
+  "artifacts": [
+    {"path": "artifacts/sot.json", "role": "source_of_truth"},
+    {"path": "artifacts/rq4/RQ4_SUMMARY.json", "role": "primary_summary"},
+    {"path": "artifacts/rq4/RQ4_MANIFEST.json", "role": "artifact_manifest"},
+    {"path": "artifacts/rq4/RQ4_VALIDATION.json", "role": "validations"},
+    {"path": "artifacts/rq4/RQ4_PRIMARY_FIGURE.png", "role": "primary_figure"},
+    {"path": "artifacts/rq4/RQ4_PRIMARY_TABLE.csv", "role": "primary_table"}
+  ]
+}
